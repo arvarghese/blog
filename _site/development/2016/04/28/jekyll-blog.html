@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Build a blog using Jekyll</title>
+  <meta name="description" content="TL;DRJekyll is awesome static site generator that can be leveraged quite easily for making blogs. Github uses Jekyll and allows for hosting jekyll pages dire...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="avarghese4790.github.io/development/2016/04/28/jekyll-blog.html">
+  <link rel="alternate" type="application/rss+xml" title="< Arun's Blog >" href="avarghese4790.github.io/feed.xml">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script> -->
+  <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-74100141-2', 'auto');
+	ga('send', 'pageview');
+</script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">
+      <i class="fa fa-pencil"></i>
+      &nbsp;< Arun's Blog >
+    </a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">// About Me</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline"> Build a blog using Jekyll</h1>
+    <hr>
+    <p class="post-meta">
+      <i class="fa fa-clock-o"></i>
+      &nbsp;
+    	<time datetime="2016-04-28T12:00:00-05:00" itemprop="datePublished">2016, APRIL 28</time> • Posted in #Development
+    </p>
+    Tags: 
+    
+      <span class="post-tag">Jekyll</span>
+    
+  </header>  
+  <div class="post-content" itemprop="articleBody">
+    <h1 id="tldr">TL;DR</h1>
+<p>Jekyll is awesome static site generator that can be leveraged quite easily for making blogs. Github uses Jekyll and allows for hosting jekyll pages directly! As a blogging platform, Jekyll and Github simplify updating and maintaining your blog, once its up and running.</p>
+
+<h1 id="so-you-want-to-start-a-blog">So you want to start a blog</h1>
+<p>I’ve been checking out different blogging platforms over the past week, trying to determine which one suited my needs the best. My criteria were cheap, light, and easy to deploy changes. I looked at multiple options, like <em>Wordpress</em>, <em>Ghost</em>, <em>Tumblr</em>, <em>Blogger</em>, and even hosting your own. Then I came across <em>Jekyll</em>, a static site generator that plays well with Github, making it easy to update and deploy changes to your blog without having to worry about speed and security. Today we’ll cover how to start your own blog using Jekyll and Github!</p>
+
+<h1 id="what-is-jekyll">What is Jekyll?</h1>
+<p>Jekyll is a static site generator written in Ruby. Its a very simple tool that takes text written in a markup language, and processes it into files that can be hosted on sites (HTML,CSS, etc.). So instead of having to run anything server side, all the code is generated locally, and then can be uploaded for immediate viewing. Using a command line interface, you can build your site, serve it locally for testing, upload, and then you are done!</p>
+
+<h1 id="setup">Setup</h1>
+<p>To get started with Jekyll, first you will need install it. On a Mac, run the following in a terminal</p>
+
+<p><code class="highlighter-rouge">~ $ gem install jekyll</code></p>
+
+<p>Windows is not officially supported yet, but there are ways to install, like using this <a href="http://jekyllrb.com/docs/windows/">» GUIDE «</a></p>
+
+<p>After Jekyll is installed, go to the directory you want to create the site folder in and run the following</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>~ $ jekyll new my-site
+~ $ cd my-site
+~/my-site $ jekyll build
+~/my-site $ jekyll serve
+# =&gt; Now browse to http://localhost:4000
+</code></pre>
+</div>
+
+<p>What this did was create a new folder called <strong>my-site</strong>, generated a few template files, and then started a local server where you can view the generated site. For more information on how to edit/add files to enhance your blog, checkout some of the following resources:</p>
+
+<ul>
+  <li>
+    <blockquote>
+      <p><a href="http://jekyllrb.com/">Jekyll</a></p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p><a href="https://github.com/jekyll/jekyll">Jekyll on Github</a></p>
+    </blockquote>
+  </li>
+</ul>
+
+<h1 id="publishing-the-blog">Publishing the blog</h1>
+<p>Now that you have a site generated, the files will need to be upload somewhere so that the site can be viewed on the internet. Luckily Github plays very well with Jekyll. This step requires you to have a Github account and a working knowledge of Git. Checkout out the link below for quick starter:</p>
+
+<ul>
+  <li>
+    <blockquote>
+      <p><a href="https://try.github.io/">Learn github</a></p>
+    </blockquote>
+  </li>
+</ul>
+
+<p>Once you have your Github account, update the config.yml with your personal details. Make sure to update the URL param with <code class="highlighter-rouge">your_github_username.github.io</code>. If you want to view changes locally, make sure to stop the server and rebuild as changes to the config.yml require a server restart. Afterwards create a repository with the name: <code class="highlighter-rouge">your_github_username.github.io</code>, add the generated files into the repostiory, and push to Github. Now if you navigate to the URL above in the browser, you should be able to see your new blog!</p>
+
+<h1 id="reference">Reference:</h1>
+
+<ul>
+  <li>
+    <blockquote>
+      <p><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown cheatsheet</a></p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p><a href="http://www.sitepoint.com/set-jekyll-blog-5-minutes-poole/">Setup Jekyll with github</a></p>
+    </blockquote>
+  </li>
+</ul>
+
+  </div>
+</article>
+<br>
+<hr>
+<br>
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//avarghese4790githubio.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          
+            <li>
+              <a href="https://github.com/avarghese4790">
+                <i class="fa fa-lg fa-github"></i>
+              </a>
+            </li>
+          
+          
+            <li>
+              <a href="https://www.linkedin.com/in/varghesearun">
+                <i class="fa fa-lg fa-linkedin-square"></i>
+              </a>
+            </li>
+          
+          
+            <li>
+              <a href="https://www.facebook.com/avarghese1">
+                <i class="fa fa-lg fa-facebook-square"></i>
+              </a>
+            </li>
+          
+          
+            <li>
+              <a href="https://www.instagram.com/var_arun">
+                <i class="fa fa-lg fa-instagram"></i>
+              </a>
+            </li>
+          
+          
+            <li>
+              <a href="mailto:arunv4700@gmail.com">
+                <i class="fa fa-lg fa-envelope"></i>
+              </a>
+            </li>
+          
+          <li>
+            <a href="/feed.xml">            
+              <i class="fa fa-lg fa-rss"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-2">
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>Welcome to my blog! This will mainly be used to talk about things I learn day to day as a developer, as well other things like travel, cars, life in general. Feel free to subscribe if any of this content resonates with you!
+</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <a href="#" class="scroll-up-btn scroll">
+	<i class="fa fa-2x fa-angle-double-up"></i>
+</a>
+    <script id="dsq-count-scr" src="//avarghese4790githubio.disqus.com/count.js" async></script>
+  </body>
+
+</html>

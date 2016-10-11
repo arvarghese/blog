@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt; Arun&#39;s Blog &gt;</title>
+    <description>Welcome to my blog! This will mainly be used to talk about things I learn day to day as a developer, as well other things like travel, cars, life in general. Feel free to subscribe if any of this content resonates with you!
+</description>
+    <link>avarghese4790.github.io/</link>
+    <atom:link href="avarghese4790.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 11 Oct 2016 14:27:23 -0500</pubDate>
+    <lastBuildDate>Tue, 11 Oct 2016 14:27:23 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Setting Up a Custom Domain</title>
+        <description>&lt;h3 id=&quot;setting-up-a-custom-domain-using-namecheaphttpswwwnamecheapcom--githubhttpsgithubcom&quot;&gt;Setting Up a Custom Domain Using &lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap&lt;/a&gt; &amp;amp;&amp;amp; &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;As you may or may not know, when you create a github account, you also get one site&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;A record, host=@ value=192.30.252.153&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;A record, host=@ value=192.30.252.153&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME record, host=www value=avarghese4790.github.io&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dig vararun.tech +nostats +nocomments +nocmd&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;dig avarghese4790.github.io +nostats +nocomments +nocmd&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain/#configuring-an-alias-or-aname-record-with-your-dns-provider&quot;&gt;Apex Domain&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-a-www-subdomain/&quot;&gt;Sub Domain&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages&quot;&gt;Namecheap and Github&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/&quot;&gt;Namecheap and Github&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 09 Oct 2016 12:00:00 -0500</pubDate>
+        <link>avarghese4790.github.io/development/2016/10/09/custom-domain.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/development/2016/10/09/custom-domain.html</guid>
+        
+        <category>dns</category>
+        
+        <category>domain</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>2016-10-07 Costa Rica</title>
+        <description>&lt;h4 id=&quot;costa-rica-by-i-classfa-fa-fw-fa-planei&quot;&gt;Costa Rica by &lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-bed&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.thespringscostarica.com/the-springs-room-descriptions.php?gclid=CjwKEAjw-Oy_BRDg4Iqok57a4kcSJADsuDK1zolwJNUo20C6PGf3875YJGAddXqgoD1RHCusf5D6jhoCjU_w_wcB&quot;&gt;Springs Resort&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-calendar&quot;&gt;&lt;/i&gt; October 7th - October 9th&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; San Jose, San Ramon, Zarcero, La Fortuna, Arenal Volcano, Springs Resort&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-credit-card&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.chase.com/card-benefits/sapphirereserve/rewards&quot;&gt;Chase Sapphire Reserve&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This place reminded me alot of Puerto Rico in that there is a lush jungle landscape contrasted with rollings hills/mountains and volcanoes, in addition to the cities and barely paved roads. Overall the trip was pretty fun, from hiking to get a good view of the Arenal to eating termites out of a nest. One of the main highlights are the hot springs of Costa Rica, naturally warm water coming from the surrounding volcanoes. One recommendation is rent your own car instead of doing a tour. Though the tours are great, rental cars are cheap (~13 $/day) and let you explore on your own time, allowing you to cover more and see what Costa Rica has to offer.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://imgur.com/a/Mv4CT&quot;&gt;Gallery&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.instagram.com/p/BLWphDiFic9/?taken-by=var_arun&quot;&gt;Highlights Teaser&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Highlights from the trip!&lt;/p&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/qjAZ5nY.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/qjAZ5nYh.jpg&quot; alt=&quot;costa rica resort view&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/bJxL8sB.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/bJxL8sBh.jpg&quot; alt=&quot;costa rica arenal volcano view&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/bjU3Wk9.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/bjU3Wk9h.jpg&quot; alt=&quot;costa rica zarcero city view&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 07 Oct 2016 12:00:00 -0500</pubDate>
+        <link>avarghese4790.github.io/travel/2016/10/07/costa-rica.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/travel/2016/10/07/costa-rica.html</guid>
+        
+        <category>hiking</category>
+        
+        <category>volcano</category>
+        
+        <category>hotsprings</category>
+        
+        <category>resort</category>
+        
+        <category>infinitypool</category>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>2016-09-23 Big Sur Roadtrip</title>
+        <description>&lt;h4 id=&quot;big-sur-california-by-i-classfa-fa-fw-fa-planei-i-classfa-fa-fw-fa-cari&quot;&gt;Big Sur, California by &lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; &lt;i class=&quot;fa fa-fw fa-car&quot;&gt;&lt;/i&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-bed&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://curiocollection3.hilton.com/en/hotels/california/juniper-hotel-cupertino-curio-collection-by-hilton-SJCCCQQ/index.html&quot;&gt;Juniper Hotel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-calendar&quot;&gt;&lt;/i&gt; July 23th - July 25th&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; Carmel by the Sea, Nepenthe, Highway 101, Bixby Bridge, San Jose&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://imgur.com/a/V3P0z&quot;&gt;Full Gallery&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.instagram.com/p/BKzCqq2ghJi/?taken-by=var_arun&quot;&gt;Highlights Teaser&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/Q0lyf12&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/Q0lyf12h.jpg&quot; alt=&quot;rockhouse sunset&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/syUp4HV&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/syUp4HVh.jpg&quot; alt=&quot;rockhouse sunset&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/VCDXWa5&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/VCDXWa5h.jpg&quot; alt=&quot;rockhouse sunset&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 23 Sep 2016 12:00:00 -0500</pubDate>
+        <link>avarghese4790.github.io/travel/2016/09/23/big-sur-roadtrip.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/travel/2016/09/23/big-sur-roadtrip.html</guid>
+        
+        <category>roadtrip</category>
+        
+        <category>coastal</category>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>My Tesla Model S Delivered!</title>
+        <description>&lt;p&gt;Every morning I check my Tesla account for updates on the status of my car. Two weeks ago when I checked I finally saw the status that I’ve been waiting for for TWO months:&lt;/p&gt;
+
+&lt;h3 id=&quot;your-tesla-model-s-is-delivered&quot;&gt;“Your Tesla Model S is Delivered”&lt;/h3&gt;
+
+&lt;p&gt;I went in on August 29th to pick it up, here’s a &lt;a href=&quot;https://docs.google.com/document/d/1nlZhDYtCinX_Wkb9OST-QBzervVp5yABMVBS266Q3W4/pub&quot;&gt;Good Read&lt;/a&gt; on what to pay attention to when taking delivery of a Tesla. I didn’t really pay attention to any of the walkthrough though as I was too distracted at how amazing it looked and thinking of all the different mods that I wanted to start on.&lt;/p&gt;
+
+&lt;p&gt;I previously modded my Honda Accord coupe, which in my opinion came out very well. You can view all the pictures on &lt;a href=&quot;http://imgur.com/a/a9cnM&quot;&gt;Imgur&lt;/a&gt; or checkout out my &lt;a href=&quot;http://localhost:4000/cars/2016/05/01/my-honda-accord.html&quot;&gt;previous post&lt;/a&gt; on this blog. Since I already gave that Accord to my wife, I was now thinking of doing a similar color scheme to the Tesla, just so we have matching cars! At this point I was still deciding about the colors, but I had started compiling everything I want to do to it, listed as follows in no particular order:&lt;/p&gt;
+
+&lt;h3 id=&quot;original-list-of-mods&quot;&gt;Original List of Mods&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Footwell lighting&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Carbon fiber interior accents&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Carbon fiber exterior trim and logos&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Powdercoated wheels&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Full vinyl car wrap&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Calipers painted&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After a lot of thought and sampling, what I ended up doing was actually quite different in terms of color scheme and extent of modifications, but I am very happy with the results!&lt;/p&gt;
+
+&lt;h3 id=&quot;completed-mods&quot;&gt;Completed Mods&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Anodized Red Accents: handles, lug nuts, emblems, front air dams, rear spoiler lettering&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Satin Black Wrap: window trim, tailgate spoiler, bumper chrome trim, side markers&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Clear Bra: front bumper, side mirrors, headlights, fog lights, partial hood&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Tint: 35% front, 15% rear&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;RGBW LED footwell lighting&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;MyPlates Custom Plate: [VAR TESLA]&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;**NOTE: clear bra and tint done at &lt;a href=&quot;http://www.speedshieldusa.com/&quot;&gt;SpeedShield&lt;/a&gt;. I didn’t want to risk messing up applying expensive material, so I thought I’d leave this to the professionals.&lt;/p&gt;
+
+&lt;p&gt;At the moment I am completely satisfied with this car. Out the door it was already so amazing that I really didn’t have to do much to bring out its uniqueness. At some point in the future I plan to change out the wheels for a set of black/gunmetal/red of the same size (19’’), but for now I’m happy with the silly grin this car leaves on my face every time I take it for a spin.&lt;/p&gt;
+
+&lt;h3 id=&quot;possible-wheels&quot;&gt;Possible Wheels:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.discounttiredirect.com/direct/findWheelDetail.do?bp=5-120&amp;amp;fl=&amp;amp;yr=2016&amp;amp;pc=65826&amp;amp;counter=4&amp;amp;wd=19&amp;amp;rw=8&amp;amp;vid=034122&quot;&gt;TSW Nurburgring&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.discounttiredirect.com/direct/findWheelDetail.do?bp=5-120&amp;amp;fl=&amp;amp;yr=2016&amp;amp;pc=22134&amp;amp;counter=4&amp;amp;wd=19&amp;amp;rw=8.5&amp;amp;vid=034122&quot;&gt;TSW Bathurst&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.stancewheels.com/wheels/sc-series--tailor-made/sc1-gloss-black-with-matte-brush-red&quot;&gt;Stance SC-1&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://rohanawheels.com/rohana-wheel/rf2/&quot;&gt;Rohana RF-2&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;completed-pictures&quot;&gt;Completed Pictures!&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://imgur.com/a/OQU3b&quot;&gt;Full Gallery&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.instagram.com/p/BKTvqazgDsM/?taken-by=var_arun&quot;&gt;Summon Demonstration&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/9RFeM0z&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/9RFeM0zh.jpg&quot; alt=&quot;tesla front&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/FPJiSll&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/FPJiSllh.jpg&quot; alt=&quot;tesla open doors&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/5TSqRdx&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/5TSqRdxh.jpg&quot; alt=&quot;tesla interior dash&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 02 Sep 2016 12:00:00 -0500</pubDate>
+        <link>avarghese4790.github.io/cars/2016/09/02/tesla-delivered.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/cars/2016/09/02/tesla-delivered.html</guid>
+        
+        <category>tesla</category>
+        
+        <category>models</category>
+        
+        <category>mods</category>
+        
+        
+        <category>cars</category>
+        
+      </item>
+    
+      <item>
+        <title>2016-08-26 Negril</title>
+        <description>&lt;h4 id=&quot;negril-jamaica-by-i-classfa-fa-fw-fa-planei&quot;&gt;Negril, Jamaica by &lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-bed&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.rockhouse.com/escape/&quot;&gt;Rockhouse Hotel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-calendar&quot;&gt;&lt;/i&gt; July 8th - July 10th&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; Push Cart, Rick’s Cafe, Sweetspice&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We had booked this trip a while back, got a great deal through Spirit Airlines. Following our current trend, this is also just a weekend trip, spanning Friday to Sunday. My wife discovered the hotel and instantly fell in love with it. It reminded us of the Maldives, specifically the over-water villas and crystal clear water. It is about an hour and half drive out from the Montego Bay airport, and well worth the drive too! From the moment we stepped on the resort to the last few minutes before we regretfully said goodbye to the unbelievable nice staff, it was an amazing experience. The views, food very similar to our native cuisine, and activities were all top notch. I highly recommend this place to any one looking for a luxury resort getaway while in Jamaica.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://imgur.com/a/go1Dc&quot;&gt;Gallery&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.instagram.com/p/BKG86mFgM10/?taken-by=var_arun&quot;&gt;Highlights Teaser&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.instagram.com/p/BJn-G4hA7jn/?taken-by=var_arun&quot;&gt;GoPro Bridge Jump&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Highlights from the trip!&lt;/p&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/pawE6y2.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/pawE6y2h.jpg&quot; alt=&quot;rockhouse sunset&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/tDDGRQo.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/tDDGRQoh.jpg&quot; alt=&quot;cliffside villas view&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/h4Yuo3z.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/h4Yuo3zh.jpg&quot; alt=&quot;ricks cafe&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 26 Aug 2016 12:00:00 -0500</pubDate>
+        <link>avarghese4790.github.io/travel/2016/08/26/negril.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/travel/2016/08/26/negril.html</guid>
+        
+        <category>jamaica</category>
+        
+        <category>cliffside</category>
+        
+        <category>bungalows</category>
+        
+        <category>bridgejump</category>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>2016-08-20 Puerto Vallarta</title>
+        <description>&lt;h4 id=&quot;puerto-vallarta-mexico-by-i-classfa-fa-fw-fa-planei&quot;&gt;Puerto Vallarta, Mexico by &lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-bed&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.garzablancaresort.com/&quot;&gt;Garza Blanca Resort&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-calendar&quot;&gt;&lt;/i&gt; August 20th - August 21st&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; Just stayed at the resort this time!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This was probably the most spontaneous trip we have taken so far, we literally decided less than twelve hours before the flight that we were going to do it. And not just that, also fly standby! Flying standby is always risky, especially to popular destinations like Puerto Vallarta.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://imgur.com/a/t4kRN&quot;&gt;Gallery&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Highlights from the trip!&lt;/p&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/FQOpjBu.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/FQOpjBuh.jpg&quot; alt=&quot;puerto vallarta balcony view&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/QNxLYSC.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/QNxLYSCh.jpg&quot; alt=&quot;puerto vallarta infinity pool view&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/tI4r2nN.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/tI4r2nNh.jpg&quot; alt=&quot;puerto vallarta restore view&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Sat, 20 Aug 2016 12:00:00 -0500</pubDate>
+        <link>avarghese4790.github.io/travel/2016/08/20/puerto-vallarta.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/travel/2016/08/20/puerto-vallarta.html</guid>
+        
+        <category>mexico</category>
+        
+        <category>resort</category>
+        
+        <category>infinitypool</category>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>My Tesla Model S</title>
+        <description>&lt;p&gt;A couple of months ago I got into a wreck that almost resulted in total loss for my car. During the period where damage was being assessed by my insurance, I started to let my mind wander and began researching cars again. With so many options avaiable, I spent more time refining my search based on criteria that satisfied both my wife and I’s requirements, listed as follows:&lt;/p&gt;
+
+&lt;p&gt;Wants:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Under 65k starting&lt;br /&gt;
+4 Door Coupe style&lt;br /&gt;
+300+ hp&lt;br /&gt;
+Cruise control with stop/go&lt;br /&gt;
+Red seats&lt;br /&gt;
+Ventilated/massaged seats&lt;br /&gt;
+Ambient lighting&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Really Wants:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Panoramic roof&lt;br /&gt;
+Frameless Doors&lt;br /&gt;
+Remote start capabilities&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Keeping these factors in mind, I came up with a list options:&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-fw fa-car&quot;&gt;&lt;/i&gt;  Mercedes C63 - &lt;strong&gt;$70k&lt;/strong&gt;&lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-car&quot;&gt;&lt;/i&gt;  Corvette Stingray - &lt;strong&gt;$65k&lt;/strong&gt;&lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-car&quot;&gt;&lt;/i&gt;  Audi A7 - &lt;strong&gt;$72k&lt;/strong&gt;&lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-car&quot;&gt;&lt;/i&gt;  BMW M3  - &lt;strong&gt;$72k&lt;/strong&gt;&lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-car&quot;&gt;&lt;/i&gt;  Tesla Model S - &lt;strong&gt;$71k&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;After lengthy discussions with family and friends, as well as a few test drives, I finally decided on the &lt;a href=&quot;https://www.teslamotors.com/&quot;&gt;Tesla&lt;/a&gt;.
+By far it was the most unique out of the bunch, and matched more of my &lt;strong&gt;wants&lt;/strong&gt; than the other cars. What sold me was the fact that it was a completely electric car, no gas needed whatsoever! Sure, the other cars on the list had their advantages, mainly with power or flashy looks. But the overall package for a daily driver pointed me towards the Tesla.&lt;/p&gt;
+
+&lt;p&gt;Another interesting tidbit, Tesla does not have dealerships, you actually just go on their site, configure your model, and place your order, just like you would on any other online product site. This removes haggling, drawn out discussions over financing, add-ons, etc. I’ve already placed the deposit and am currently waiting delivery of a new &lt;strong&gt;2016 Tesla Model S 60&lt;/strong&gt;! Modding post to come..&lt;/p&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/OMJPm0O.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/OMJPm0Oh.jpg&quot; alt=&quot;puerto rico&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/oFRmAdd.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/oFRmAddh.jpg&quot; alt=&quot;mofungo at el jibaritos&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Mon, 11 Jul 2016 12:00:00 -0500</pubDate>
+        <link>avarghese4790.github.io/cars/2016/07/11/tesla-model-s.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/cars/2016/07/11/tesla-model-s.html</guid>
+        
+        <category>tesla</category>
+        
+        <category>models</category>
+        
+        
+        <category>cars</category>
+        
+      </item>
+    
+      <item>
+        <title>2016-07-08 Bucket List and TODOs</title>
+        <description>&lt;p&gt;Just a list of places to see and things to do that I would like to accomplish at some point in my life. Expect this list to be constantly updated :)&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Chicago: Six flags &lt;i class=&quot;fa fa-fw fa-check&quot;&gt;&lt;/i&gt; &lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Hawaii: Volcanoes/sharks&lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Utah: Moab canyon lands&lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; New Mexico: Taos bungee jump&lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; UK: Zap cat power boarding&lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Washington:  Kayak over waterfall&lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Turkey:  Hot air balloons&lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Sun city, Africa:  Highest zip&lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Chattanooga, TN: Hang glide&lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Kentucky: Noah’s Ark&lt;/p&gt;
+
+&lt;p&gt;&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; Fly a jet&lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; Dinner in the sky&lt;br /&gt;
+&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; Zorbing&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 08 Jul 2016 12:00:00 -0500</pubDate>
+        <link>avarghese4790.github.io/travel/2016/07/08/bucket-list.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/travel/2016/07/08/bucket-list.html</guid>
+        
+        <category>bucket-list</category>
+        
+        <category>todo</category>
+        
+        <category>places</category>
+        
+        <category>activities</category>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>2016-07-08 Puerto Rico</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://imgur.com/a/CWr4t&quot;&gt;Gallery&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This was our third attempt at flying standby, the first two being to San Francisco and Orlando. Overall flight availability did not hinder us to much, and we were able to make it to Puerto Rico and back with a manageble delay. My wife has gone twice separately already, so this was the first time we went together, she was kind of like my tour guide. Considering we were only in Puerto Rico for one day, we got saw more than enough sights to say that I have seen Puerto Rico to my content. From charming old towns to amazing cave networks, to the rare bio lumenescent water in Bio Bay, Puerto Rico is definitely a place worth visiting once in your life.&lt;/p&gt;
+
+&lt;h4 id=&quot;puerto-rico-by-i-classfa-fa-fw-fa-planei&quot;&gt;Puerto Rico by &lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt;&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-bed&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://acaciaboutiquehotel.com/&quot;&gt;Acacia Boutique Hotel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-calendar&quot;&gt;&lt;/i&gt; July 8th - July 10th&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; Cueva Indio, Old San Juan, Fajardo, Bio Bay, Laguna Grande&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Highlights from the trip!&lt;/p&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/R1KRe85.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/R1KRe85h.jpg&quot; alt=&quot;puerto rico&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/HXRkTej.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/HXRkTejh.jpg&quot; alt=&quot;mofungo at el jibaritos&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/nXpu77o.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/nXpu77oh.jpg&quot; alt=&quot;acacia boutique hotel&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/4XeJnyk.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/4XeJnyk.jpg&quot; alt=&quot;makeshift gym at the beach&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/T6PhmXy.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/T6PhmXyh.jpg&quot; alt=&quot;old san juan charm&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 08 Jul 2016 12:00:00 -0500</pubDate>
+        <link>avarghese4790.github.io/travel/2016/07/08/puerto-rico-trip.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/travel/2016/07/08/puerto-rico-trip.html</guid>
+        
+        <category>puertorico</category>
+        
+        <category>sanjuan</category>
+        
+        <category>fajardo</category>
+        
+        <category>biobay</category>
+        
+        <category>caves</category>
+        
+        <category>mofungo</category>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>Project Ideas</title>
+        <description>&lt;h2 id=&quot;my-project-ideas&quot;&gt;My Project Ideas&lt;/h2&gt;
+
+&lt;h3 id=&quot;i-classfa-fa-fw-fa-codei-travel-gallery&quot;&gt;&lt;i class=&quot;fa fa-fw fa-code&quot;&gt;&lt;/i&gt; Travel Gallery&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;: Meteor, HTML5, CSS3, Mongo, Heroku&lt;br /&gt;
+&lt;strong&gt;Integrations&lt;/strong&gt;: Imgur API, Instagram API, Social logins?&lt;br /&gt;
+&lt;strong&gt;Focus&lt;/strong&gt;: Gallery to display places I have visited&lt;br /&gt;
+&lt;strong&gt;Audience&lt;/strong&gt;: Travel oriented individuals&lt;/p&gt;
+
+&lt;h3 id=&quot;i-classfa-fa-fw-fa-codei-resume-builder&quot;&gt;&lt;i class=&quot;fa fa-fw fa-code&quot;&gt;&lt;/i&gt; Resume Builder&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;: MEAN, Travis, Github, Heroku&lt;br /&gt;
+&lt;strong&gt;Integrations&lt;/strong&gt;: Slack&lt;br /&gt;
+&lt;strong&gt;Focus&lt;/strong&gt;: Tool for resume edit/proofread/format/styles/guidelines&lt;br /&gt;
+&lt;strong&gt;Audience&lt;/strong&gt;: IT Professionals&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 06 Jul 2016 12:00:00 -0500</pubDate>
+        <link>avarghese4790.github.io/development/2016/07/06/project-ideas.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/development/2016/07/06/project-ideas.html</guid>
+        
+        <category>apps</category>
+        
+        <category>projects</category>
+        
+        <category>ideas</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+  </channel>
+</rss>

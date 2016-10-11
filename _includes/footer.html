@@ -1,0 +1,55 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          {% if site.github_username %}
+            <li>
+              <a href="https://github.com/{{ site.github_username }}">
+                <i class="fa fa-lg fa-github"></i>
+              </a>
+            </li>
+          {% endif %}
+          {% if site.linkedin_username %}
+            <li>
+              <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                <i class="fa fa-lg fa-linkedin-square"></i>
+              </a>
+            </li>
+          {% endif %}
+          {% if site.facebook_username %}
+            <li>
+              <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                <i class="fa fa-lg fa-facebook-square"></i>
+              </a>
+            </li>
+          {% endif %}
+          {% if site.instagram_username %}
+            <li>
+              <a href="https://www.instagram.com/{{ site.instagram_username }}">
+                <i class="fa fa-lg fa-instagram"></i>
+              </a>
+            </li>
+          {% endif %}
+          {% if site.email %}
+            <li>
+              <a href="mailto:{{ site.email }}">
+                <i class="fa fa-lg fa-envelope"></i>
+              </a>
+            </li>
+          {% endif %}
+          <li>
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">            
+              <i class="fa fa-lg fa-rss"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-2">
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,182 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Monda);
+
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$text-color-2:     #f8f8ff;
+$text-shadow:      2px 2px rgba(0,0,0,.2);
+$background-color: #fdfdfd;
+$background-color-2: #607D8B;
+$box-shadow:       0 3px 10px rgba(0, 0, 0, 0.2);
+$box-shadow-hover: 0 5px 10px rgba(0, 0, 0, 0.5); 
+$brand-color:      #111;
+$link-color:       #0288D1;
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+a,li {
+	text-decoration: none !important;
+	list-style-type: none !important;
+	&:hover {
+
+	}
+}
+
+* {
+	transition: .2s;
+}
+
+#about-img-profile {
+	width: 100px;
+    height: 100px;
+    background-size: cover !important;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.contact-list {
+	li {
+		width: 40px;
+		display: inline;
+	}
+}
+
+.text-author {
+	span {
+		opacity: .5;
+	}
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Monda', sans-serif !important;
+    font-weight: 200;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    /*overflow-x: hidden;*/
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 0;
+    img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+img {
+    background: rgba(0,0,0,0.3);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 5px 5px;
+    &:hover {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        transform: scale(1.02);        
+    }
+}
+blockquote a {
+    &:hover {
+        border-left: 2px solid red;
+        border-right: 2px solid red;
+        border-radius: 6px;
+        padding-right: 10px;
+        padding-left: 5px;
+    }
+}
+
+.post-tag {
+    background: $background-color-2;
+    color: $text-color-2;
+    border-radius: 5px;
+    box-shadow: $box-shadow;
+    padding: 0 5px;
+    &:hover {
+        box-shadow: $box-shadow-hover;
+        transform: scale(1.05);  
+    }
+}
+
+.site-header {
+    &:hover {
+        box-shadow: $box-shadow-hover;
+    }
+}
+
+.scroll-up-btn {
+    width: 35px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    border-radius: 50px;
+    i {
+        font-size: 35px;
+        color: $brand-color;
+        text-shadow: $text-shadow; 
+    }
+}
+
+.text-search {
+    text-align: right;
+    a {
+        color: $brand-color;
+    }
+    .text-search-input {
+        border: none;
+        border-bottom: 2px solid $background-color-2;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 1px 5px;
+        &:focus {
+            outline: none;
+        }
+    }
+}

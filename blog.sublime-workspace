@@ -1,0 +1,1050 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"br",
+				"brand-color"
+			],
+			[
+				"li",
+				"link-color"
+			],
+			[
+				"box",
+				"box-shadow-hover"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"tex",
+				"text-shadow"
+			],
+			[
+				"bac",
+				"background-color-2"
+			],
+			[
+				"text-ol",
+				"text-color-2"
+			],
+			[
+				"text",
+				"text-color"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"padin",
+				"padding-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"CO",
+				"contact-field"
+			],
+			[
+				"widget",
+				"widget-title"
+			],
+			[
+				"m-co",
+				"m-color-1"
+			],
+			[
+				"tran",
+				"translateY"
+			],
+			[
+				"conta",
+				"contact-field"
+			],
+			[
+				"port",
+				"portfolio"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"tl-p",
+				"tl-points-container"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"c",
+				"color-primary"
+			],
+			[
+				"color",
+				"color-variable"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"collab",
+				"collaborate"
+			],
+			[
+				"exper",
+				"experience"
+			],
+			[
+				"coll",
+				"collaborating"
+			],
+			[
+				"exam",
+				"exampleText"
+			],
+			[
+				"Jav",
+				"JavaScript"
+			],
+			[
+				"devel",
+				"developed"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"portfo",
+				"portfolio-item"
+			],
+			[
+				"modal",
+				"modal-dialog"
+			],
+			[
+				"colo",
+				"color-secondary"
+			],
+			[
+				"del",
+				"delete-all-messages-btn"
+			],
+			[
+				"mix",
+				"mix-container"
+			],
+			[
+				"portf",
+				"portfolio-items"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"high",
+				"highlights"
+			],
+			[
+				"wid",
+				"widgets"
+			],
+			[
+				"pr",
+				"projects"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"section",
+				"section-footer"
+			],
+			[
+				"submit",
+				"submit-msg-btn"
+			],
+			[
+				"remov",
+				"removeClass"
+			],
+			[
+				"pro",
+				"professional"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"l",
+				"label	Tag"
+			],
+			[
+				"log",
+				"logout-btn"
+			],
+			[
+				"to",
+				"toggleClass"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"navbar",
+				"navbar-toggle"
+			],
+			[
+				"valida",
+				"validated"
+			],
+			[
+				"scr",
+				"scrollTop"
+			],
+			[
+				"navb",
+				"navbar-toggle"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bak",
+				"background"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"searr",
+				"loc-search-term"
+			],
+			[
+				"impor",
+				"important"
+			],
+			[
+				"new",
+				"newTask"
+			],
+			[
+				"Tasks",
+				"TasksCtrl"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_posts/2016-08-20-puerto-vallarta.markdown",
+			"settings":
+			{
+				"buffer_size": 1361,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2016-07-11-tesla-model-s.markdown",
+			"settings":
+			{
+				"buffer_size": 2382,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2016-07-08-puerto-rico-trip.markdown",
+			"settings":
+			{
+				"buffer_size": 2021,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2016-09-23-big-sur-roadtrip.markdown",
+			"settings":
+			{
+				"buffer_size": 1201,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2016-08-26-negril.markdown",
+			"settings":
+			{
+				"buffer_size": 1959,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_includes",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_layouts",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts"
+	],
+	"file_history":
+	[
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-08-26-negril.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-09-02-tesla-delivered.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-04-28-jekyll-blog.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-07-11-tesla-model-s.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-09-23-big-sur-roadtrip.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-08-20-puerto-vallarta.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-07-12-bucket-list.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-07-12-tesla-mods.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-07-13-tesla-mods.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-07-11-tesla-mods.markdown",
+		"/Users/avarghese/Sandbox/GitWrecked/resume-builder/resume-builder.sublime-project",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-07-11-tesla-mods",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-07-08-puerto-rico-trip.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-05-13-barcelona-spain-trip.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-07-06-project-ideas.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-07-05-questions-for-interviewer.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-05-02-better-blog-posts.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-06-01-first-mean-project.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-05-24-create-free-project-framework.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-05-01-life-with-wife.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-05-16-italy-trip.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-01-01-meteor-website.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-05-01-my-honda-accord.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/css/main.scss",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/README.md",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2015-04-27-post-list.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_includes/header.html",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_site/about/index.html",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_config.yml",
+		"/Users/avarghese/Sandbox/GitWrecked/resume-builder/package.json",
+		"/Users/avarghese/Sandbox/GitWrecked/resume-builder/public/index.html",
+		"/Users/avarghese/Sandbox/GitWrecked/resume-builder/.gitignore",
+		"/Users/avarghese/Sandbox/GitWrecked/resume-builder/notes.txt",
+		"/Users/avarghese/Sandbox/GitWrecked/resume-builder/README.md",
+		"/Users/avarghese/Sandbox/GitWrecked/resume-builder/index.js",
+		"/Users/avarghese/Sandbox/GitWrecked/resume-builder/Procfile",
+		"/Users/avarghese/Sandbox/Angular/ResumeEditor/README.md",
+		"/Users/avarghese/Sandbox/Electron/ResumeBuilder/.gitignore",
+		"/Users/avarghese/Sandbox/Electron/electron-quick-start/main.js",
+		"/Users/avarghese/Sandbox/Electron/electron-quick-start/main.css",
+		"/Users/avarghese/Sandbox/Electron/electron-quick-start/js/script.js",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-05-16-barcelona-trip.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_sass/_layout.scss",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/about.md",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_includes/footer.html",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/index.html",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-05-02-life-with-wife.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_includes/search.html",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_assets/js/main.js",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_includes/scrollup.html",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_layouts/post.html",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_layouts/default.html",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_includes/head.html",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_plugins/font_awesome.rb",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_includes/comments.html",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_includes/analytics.html",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-05-02-meteor-website.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_site/index.html",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-05-01-my-honda-accord-copy.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_sass/_base.scss",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-05-01-rose.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-04-27-post-list.markdown",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_site/css/main.css",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/.gitignore",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_site/untitled.sublime-project",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-04-27-first-post.md",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_posts/2016-04-28-meteor.md",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_layouts/page.html",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_site/jekyll/update/2016/04/27/meteor.html",
+		"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io/_site/jekyll/update/2016/04/27/welcome-to-jekyll.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/server/seed/resume-seed.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/server/seed/places-seed.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/avargheseHome/portfolio.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/styles/avarghese.scss",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/README.md",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/lib/routes.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/scripts/helpers.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/server/seed/user-seed.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/scripts/login.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/server/bootstrap.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/server/seed/roles-seed.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/shared/notAuthorized.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/styles/mobile-styles.scss",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/scripts/checklist.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/accounts/login.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/lib/methods.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/scripts/avargheseHome.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/avargheseHome/main.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/scripts/backgroundMenu.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/scripts/avargheseHomeNav.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/avargheseAdmin/nav.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/shared/nav.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/index.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/avargheseHome/about.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/avargheseHome/nav.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/avargheseHome/backgroundMenu.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/avargheseHome/resumeInteractive.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/blocks/main.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/blocks/blocksControl.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/styles/blocks.scss",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/blocks/blocksOverlay.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/server/seed/portfolio-seed.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/styles/travel-gallery.scss",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/careerRecharge/main.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/styles/career-recharge.scss",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/widgets/checklist.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/widgets/messages.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/shared/footer.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/styles/avarghese.css",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/scripts/messages.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/scripts/contact.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/avargheseAdmin/widgets.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/avargheseHome/footer.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/styles/mobile-styles.css",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/accounts/user.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/shared/loader.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/avargheseHome/contact.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/avargheseHome/resume.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/monopolySimulator/main.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/scripts/avargheseNav.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/avargheseAdmin/notAuthorized.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/travelGallery/gallery.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/travelGallery/intro.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/styles/travel-gallery.css",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/avargheseHome/avargheseNav.html",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/lib/collections.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/scripts/coverNav.js",
+		"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client/templates/avargheseHome/coverNav.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/avarghese/Sandbox/Jekyll/avarghese4790.github.io",
+			"/Users/avarghese/Sandbox/Meteor/avarghese_meteor/client",
+			"/Users/avarghese/Sandbox/Meteor/avarghese_meteor"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"",
+			"Keeping",
+			"fa-check",
+			"\"",
+			"####",
+			"###",
+			"####",
+			"**",
+			"\"",
+			"alt=\" ",
+			".jpg",
+			"http",
+			"<i class=\"fa fa",
+			"#### Places:",
+			"#### Hotel:",
+			"+ <i class=\"fa fa-map-marker\"></i> ",
+			"+ Hot",
+			"<i class=\"fa fa-bed\"></i> ",
+			"img-car",
+			"ng",
+			"3000",
+			"-",
+			"*",
+			"- []",
+			"*",
+			"messages",
+			"footer",
+			"veu",
+			"envelope",
+			"{% icon",
+			"icon",
+			"post",
+			"fa-2x <!-- fa-",
+			"da",
+			"fa",
+			"fa-2x <!-- fa-lin",
+			"fa",
+			"{% icon",
+			"fa",
+			"br",
+			"left",
+			"#607D8B",
+			"done",
+			"text-de",
+			"a {",
+			"ma",
+			"made",
+			"mad",
+			"blockquote",
+			"ul, ol",
+			"blockquote",
+			"ul",
+			"year",
+			"post-year",
+			"box",
+			"post-t",
+			".post-meta",
+			"site-nav",
+			"contact-list",
+			"footer-col-3",
+			"li ",
+			"li",
+			"contact",
+			"header",
+			"radius",
+			"back",
+			"weigh",
+			"weight",
+			"font-wei",
+			"page-c",
+			"hover",
+			"$text-color",
+			"hover",
+			"font-size: ",
+			"postlist-title",
+			"post-title",
+			"post-l",
+			"date_to_xmlschema",
+			"site",
+			"spacing",
+			".post-list",
+			"for ",
+			"post-list",
+			"post",
+			"About Me",
+			"via RSS",
+			"a",
+			"site.title",
+			"Your awesome title",
+			"Write an awesome description",
+			"page-c",
+			"site-header",
+			"icon-github.htm",
+			"arunv4700@gmail.com",
+			"Write an awesome description for your ne",
+			"You can find the source code for Jekyll",
+			"ARUN",
+			"The Personal Blog of Arun Varghese",
+			"your-email@domain.com",
+			"'",
+			"portfolio",
+			"authorized",
+			"widget-t",
+			"err",
+			"login-btn",
+			"login-submit-btn",
+			"login-subm",
+			"login",
+			"background",
+			"nav-text",
+			"z-index",
+			"bg-menu",
+			"bg-men",
+			"navbar-r",
+			"#nav",
+			"fadeINdow",
+			"fadeInD",
+			"ul",
+			"cover",
+			"tl-point",
+			"left",
+			"hover",
+			"1px ",
+			"login-submit-btn",
+			"hover",
+			"tl-point-details",
+			"tg-front",
+			"button"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"fa-hand-o-right",
+			"'",
+			"#### <i class=\"fa fa-fw fa-question-circle\"></i>",
+			"#### <i class=\"fa fa-fw fa-question-circle\"></i> ",
+			"####",
+			"###",
+			"",
+			"'",
+			"alt=\"",
+			".jpg\"><img class=\"img-travel\" src=\"\" alt=\"",
+			"<a href=\"http",
+			"<i class=\"fa fa-fw fa",
+			"img-<i class=\"fa fa-fw fa",
+			"#### <i class=\"fa fa-map-marker\"></i>",
+			"#### <i class=\"fa fa-bed\"></i>",
+			"+ > ",
+			"+ >",
+			"#### Hot",
+			"Hotel: ",
+			"",
+			"+",
+			"- [ ]",
+			"- []",
+			"\"",
+			"",
+			"tg-bg-dark",
+			"",
+			"#",
+			"href=\"javascript:void(0)\"",
+			"/Users/avarghese/Sandbox/Meteor/",
+			"Resume.",
+			"Resume",
+			"tl-point-arrow",
+			"',",
+			"'",
+			"",
+			"',",
+			"'",
+			"',",
+			"'",
+			"',",
+			"",
+			"color-primary",
+			"b-color-primary",
+			"tg-bg-translucent",
+			"badge bg-translucent bg-shadow-inverse color-variable color-primary",
+			"badge bg-translucent bg-shadow color-variable color-primary",
+			"fa-exclamation",
+			"fa-cog fa-spin",
+			"color-variable",
+			"\"av-color-primary ",
+			"\"av-color-variable ",
+			" av-color-variable ",
+			"tg-color-secondary",
+			"tg-color-primary",
+			"item",
+			"<i class=\"icon fa fa-file-text-o\"></i>",
+			"badge bg-translucent bg-shadow ",
+			"bg-translucent bg-shadow ",
+			"bg-translucent bg-shadow",
+			" portfolio-item bg-rounded ",
+			"portfolio-item bg-rounded",
+			"bg-translucent bg-rounded",
+			"color-primary",
+			"color-variable color-primary",
+			" <h2 class=\"color-primary wow fadeInUp resume-item-header\"",
+			" <h2 class=\"color-primary wow fadeInDown resume-item-header\"",
+			"badge color-primary",
+			"<li class=\"color-primary\">",
+			"resume-item color-primary",
+			"\"technical-skill color-primary\"",
+			"#f8f8ff",
+			"color-primary",
+			"#",
+			"#f8f8ff",
+			"whitesmoke",
+			"#337ab7",
+			" bg-translucent pad-all\" class=\"collapse\"",
+			"bg-translucent pad-all\" class=\"collapse\"",
+			"",
+			"\"a description\"",
+			"\"imgUrl\"",
+			"\"description\"",
+			"\"date\"",
+			"\"name\"",
+			"",
+			"travel-gallery",
+			"src=\"/images/",
+			"src=\"/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_posts/2016-08-20-puerto-vallarta.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1206,
+								1206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_posts/2016-07-11-tesla-model-s.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2238,
+								2238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 178.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_posts/2016-07-08-puerto-rico-trip.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1878,
+								1878
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_posts/2016-09-23-big-sur-roadtrip.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1051,
+								1067
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_posts/2016-08-26-negril.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1822,
+								1822
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 94.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/avarghese/Sandbox/Meteor/av_meteor/av_meteor.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 410.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

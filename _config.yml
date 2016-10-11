@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: < Arun's Blog >
+email: arunv4700@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to my blog! This will mainly be used to talk about things I learn day to day as a developer, as well other things like travel, cars, life in general. Feel free to subscribe if any of this content resonates with you!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: avarghese4790.github.io # the base hostname & protocol for your site
+website: http://av.meteorapp.com
+github_username:  avarghese4790
+linkedin_username: varghesearun
+facebook_username: avarghese1
+instagram_username: var_arun
+date_format: "%Y, %B %-d"
+# Build settings
+markdown: kramdown
