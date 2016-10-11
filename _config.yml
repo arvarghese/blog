@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Welcome to my blog! This will mainly be used to talk about things I learn day to day as a developer, as well other things like travel, cars, life in general. Feel free to subscribe if any of this content resonates with you!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: avarghese4790.github.io # the base hostname & protocol for your site
-website: http://av.meteorapp.com
+website: http://avarghese.me
 github_username:  avarghese4790
 linkedin_username: varghesearun
 facebook_username: avarghese1

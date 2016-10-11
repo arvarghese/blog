@@ -1,2 +1,3 @@
 *sublime*
-*DS*
+.DS_Store
+.sass-cache
