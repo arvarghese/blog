@@ -7,7 +7,7 @@ category: development
 tags: [meteor,node,front-end]
 ---
 
-+ > [My Website](http://av.meteorapp.com)
++ > http://av.meteorapp.com - currently down for maintenance
 
 I started my career as a core java  and backend developer, and for the most part of my career that was where my focus lay. Over time though I started to expanded my horizons during my free time, dabbling in various front end technologies and languages. Web development is an ever changing landscape, and there is always something new and exciting to learn, whether it be implementing new plugins or developing using a newly adopted framework. While researching different web technologies, I came across [Meteor](https://www.meteor.com/), a Node based JavaScript platform. What enticed me to try it out was how simple it was get a local instance up and running.
 

@@ -12,5 +12,5 @@ I'm a full stack developer located in Dallas, TX with a passion for design, codi
 
 Checkout my website for more info! 
 
-+ ><strong>[av.meteorapp.com](http://avarghese.me/)</strong>
++ ><strong>[avarghese.me](http://avarghese.me/)</strong>
 
