@@ -1,27 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&lt;/blog&gt;</title>
+    <title>&lt; Arun&#39;s Blog &gt;</title>
     <description>Welcome to my blog! This will mainly be used to talk about things I learn day to day as a developer, as well other things like travel, cars, life in general. Feel free to subscribe if any of this content resonates with you!
 </description>
     <link>avarghese4790.github.io/</link>
     <atom:link href="avarghese4790.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Oct 2016 00:37:59 -0500</pubDate>
-    <lastBuildDate>Mon, 24 Oct 2016 00:37:59 -0500</lastBuildDate>
+    <pubDate>Mon, 24 Oct 2016 12:51:17 -0500</pubDate>
+    <lastBuildDate>Mon, 24 Oct 2016 12:51:17 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Setting Up a Custom Domain</title>
         <description>&lt;h3 id=&quot;setting-up-a-custom-domain-using-namecheaphttpswwwnamecheapcom--githubhttpsgithubcom&quot;&gt;Setting Up a Custom Domain Using &lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap&lt;/a&gt; &amp;amp;&amp;amp; &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;As you may or may not know, when you create a github account, you also get one site&lt;/p&gt;
+&lt;p&gt;As you may or may not know, when you create a github account, you also get one site for your user/organization, and unlimited repository pages. Its as simple as adding an &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; to the master branch of each repository and allowing it to use Github Pages (&lt;em&gt;Settings&amp;gt;GitHub Pages&amp;gt;Source&amp;gt;Master&amp;gt;Save&lt;/em&gt;).&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;A record, host=@ value=192.30.252.153&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;For this example I will use my current domain, &lt;a href=&quot;http://avarghese.me/&quot;&gt;avarghese.me&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;github-config&quot;&gt;Github Config:&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Settings&amp;gt;Custom Domain&amp;gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;avarghese.me&lt;/code&gt;&amp;gt;Save&lt;/em&gt;
+&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/10Wjauk.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/10Wjaukh.jpg&quot; alt=&quot;github config&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;namecheap-config&quot;&gt;Namecheap Config:&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Dashboard&amp;gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;avarghese.me&lt;/code&gt;&amp;gt;Manage&amp;gt;Advanced DNS&lt;/em&gt;&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;A record, host=@ value=192.30.252.153&lt;/code&gt;&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME record, host=www value=avarghese4790.github.io&lt;/code&gt;&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;A record, host=@ value=192.30.252.153&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME record, host=www value=avarghese4790.github.io&lt;/code&gt;&lt;br /&gt;
+&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/3MlT0ou.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/3MlT0ouh.jpg&quot; alt=&quot;namecheap config&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+The following can help debug to see if the configurations are done correctly. Both calls from the domain and your repository url should have the same A record IP.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dig vararun.tech +nostats +nocomments +nocmd&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;Command:&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;dig avarghese.me +nostats +nocomments +nocmd&lt;/code&gt;&lt;br /&gt;
+Output:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;; &amp;lt;&amp;lt;&amp;gt;&amp;gt; DiG 9.8.3-P1 &amp;lt;&amp;lt;&amp;gt;&amp;gt; avarghese.me +nostats +nocomments +nocmd
+;; global options: +cmd
+;avarghese.me.			IN	A
+avarghese.me.		1458	IN	A	192.30.252.154
+avarghese.me.		1458	IN	A	192.30.252.153
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Command:&lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;dig avarghese4790.github.io +nostats +nocomments +nocmd&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Ouput:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;; &amp;lt;&amp;lt;&amp;gt;&amp;gt; DiG 9.8.3-P1 &amp;lt;&amp;lt;&amp;gt;&amp;gt; avarghese4790.github.io +nostats +nocomments +nocmd
+;; global options: +cmd
+;avarghese4790.github.io.	IN	A
+avarghese4790.github.io. 3574	IN	CNAME	github.map.fastly.net.
+github.map.fastly.net.	2040	IN	CNAME	prod.github.map.fastlylb.net.
+prod.github.map.fastlylb.net. 12 IN	A	151.101.44.133
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;my-pages&quot;&gt;My Pages&lt;/h4&gt;
+&lt;p&gt;Organization: &lt;em&gt;arvarghese&lt;/em&gt;&lt;br /&gt;
+Landing page: &lt;em&gt;arvarghese/arvarghese.github.io&lt;/em&gt; = &lt;a href=&quot;http://avarghese.me/&quot;&gt;avarghese.me&lt;/a&gt;&lt;br /&gt;
+Resume page: &lt;em&gt;arvarghese/resume&lt;/em&gt; = &lt;a href=&quot;http://avarghese.me/resume&quot;&gt;avarghese.me/resume&lt;/a&gt;&lt;br /&gt;
+This Blog: &lt;em&gt;arvarghese/blog&lt;/em&gt; = &lt;a href=&quot;http://avarghese.me/blog&quot;&gt;avarghese.me/blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/tHvkrGWh.jpg&quot; alt=&quot;resume site&quot; /&gt;&lt;/a&gt;  
+	&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/resume&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/PF5imjLh.jpg&quot; alt=&quot;landing page site&quot; /&gt;&lt;/a&gt;  
+	&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/blog&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/jwpYs2zh.jpg&quot; alt=&quot;blog site&quot; /&gt;&lt;/a&gt;  
+&lt;/div&gt;
 
 &lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
 
@@ -44,11 +89,6 @@
   &lt;li&gt;
     &lt;blockquote&gt;
       &lt;p&gt;&lt;a href=&quot;https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages&quot;&gt;Namecheap and Github&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/&quot;&gt;Namecheap and Github&lt;/a&gt;&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
