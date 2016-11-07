@@ -8,8 +8,10 @@ tags: [roadtrip,coastal]
 ---
 
 #### Big Sur, California by <i class="fa fa-fw fa-plane"></i> <i class="fa fa-fw fa-car"></i> 
-+ <i class="fa fa-fw fa-bed"></i> [Juniper Hotel](http://curiocollection3.hilton.com/en/hotels/california/juniper-hotel-cupertino-curio-collection-by-hilton-SJCCCQQ/index.html)
 + <i class="fa fa-fw fa-calendar"></i> July 23th - July 25th
++ <i class="fa fa-fw fa-bed"></i> [Juniper Hotel](http://curiocollection3.hilton.com/en/hotels/california/juniper-hotel-cupertino-curio-collection-by-hilton-SJCCCQQ/index.html)
++ <i class="fa fa-fw fa-credit-card"></i> [Chase Sapphire Reserve](https://www.chase.com/card-benefits/sapphirereserve/rewards)
++ <i class="fa fa-fw fa-camera"></i> [iPhone 6s](http://www.apple.com/shop/buy-iphone/iphone6s)
 + <i class="fa fa-fw fa-map-marker"></i> Carmel by the Sea, Nepenthe, Highway 101, Bixby Bridge, San Jose  
 
 + > [Full Gallery](http://imgur.com/a/V3P0z)  
