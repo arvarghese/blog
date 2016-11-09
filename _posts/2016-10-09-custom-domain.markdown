@@ -57,13 +57,17 @@ prod.github.map.fastlylb.net. 12 IN	A	151.101.44.133
 Organization: *arvarghese*  
 Landing page: *arvarghese/arvarghese.github.io* = [avarghese.me](http://avarghese.me/)  
 Resume page: *arvarghese/resume* = [avarghese.me/resume](http://avarghese.me/resume)  
-This Blog: *arvarghese/blog* = [avarghese.me/blog](http://avarghese.me/blog)  
+Travel page: *arvarghese/travel* = [avarghese.me/travel](http://avarghese.me/travel)  
+This Blog: *arvarghese/blog* = [avarghese.me/blog](http://avarghese.me/blog)
+
 
 <div class="img-container">
 	<a target="_blank" href="http://avarghese.me/"><img class="img-travel" src="http://i.imgur.com/tHvkrGWh.jpg" alt
 	="resume site"/></a>  
 	<a target="_blank" href="http://avarghese.me/resume"><img class="img-travel" src="http://i.imgur.com/PF5imjLh.jpg" alt
 	="landing page site"/></a>  
+	<a target="_blank" href="http://avarghese.me/travel"><img class="img-travel" src="http://i.imgur.com/dwloXIXh.jpg" alt
+	="travel site"/></a>  
 	<a target="_blank" href="http://avarghese.me/blog"><img class="img-travel" src="http://i.imgur.com/jwpYs2zh.jpg" alt
 	="blog site"/></a>  
 </div>

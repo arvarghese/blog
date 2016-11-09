@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Setting Up a Custom Domain</title>
-  <meta name="description" content="Setting Up a Custom Domain Using Namecheap &amp;&amp; Github">
+  <title>Creating a Travel Gallery</title>
+  <meta name="description" content="Setting Up a Custom Domain Using Github &amp;&amp; Imgur">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="avarghese4790.github.io/development/2016/10/09/custom-domain.html">
+  <link rel="canonical" href="avarghese4790.github.io/development/2016/11/09/travel-gallery.html">
   <link rel="alternate" type="application/rss+xml" title="< Arun's Blog >" href="avarghese4790.github.io/feed.xml">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- <link href="favicon.ico" rel="icon" type="image/png"> -->
@@ -70,77 +70,29 @@
       <div class="wrapper">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline"> Setting Up a Custom Domain</h1>
+    <h1 class="post-title" itemprop="name headline"> Creating a Travel Gallery</h1>
     <hr>
     <p class="post-meta">
       <i class="fa fa-clock-o"></i>
       &nbsp;
-    	<time datetime="2016-10-09T12:00:00-05:00" itemprop="datePublished">2016, OCTOBER 9</time> • Posted in #Development
+    	<time datetime="2016-11-09T11:00:00-06:00" itemprop="datePublished">2016, NOVEMBER 9</time> • Posted in #Development
     </p>
     Tags: 
     
-      <span class="post-tag">Dns</span>
+      <span class="post-tag">Imgur</span>
     
-      <span class="post-tag">Domain</span>
+      <span class="post-tag">Github</span>
+    
+      <span class="post-tag">Travel</span>
     
   </header>  
   <div class="post-content" itemprop="articleBody">
-    <h3 id="setting-up-a-custom-domain-using-namecheaphttpswwwnamecheapcom--githubhttpsgithubcom">Setting Up a Custom Domain Using <a href="https://www.namecheap.com/">Namecheap</a> &amp;&amp; <a href="https://github.com/">Github</a></h3>
+    <h3 id="setting-up-a-custom-domain-using-githubhttpsgithubcom--imgurhttpimgurcom">Setting Up a Custom Domain Using <a href="https://github.com/">Github</a> &amp;&amp; <a href="http://imgur.com/">Imgur</a></h3>
 
-<p>As you may or may not know, when you create a github account, you also get one site for your user/organization, and unlimited repository pages. Its as simple as adding an <code class="highlighter-rouge">index.html</code> to the master branch of each repository and allowing it to use Github Pages (<em>Settings&gt;GitHub Pages&gt;Source&gt;Master&gt;Save</em>).</p>
-
-<p>For this example I will use my current domain, <a href="http://avarghese.me/">avarghese.me</a></p>
-
-<h4 id="github-config">Github Config:</h4>
-<p><em>Settings&gt;Custom Domain&gt;<code class="highlighter-rouge">avarghese.me</code>&gt;Save</em>
-<a target="_blank" href="http://i.imgur.com/10Wjauk.jpg"><img class="img-travel" src="http://i.imgur.com/10Wjaukh.jpg" alt="github config" /></a></p>
-
-<h4 id="namecheap-config">Namecheap Config:</h4>
-<p><em>Dashboard&gt;<code class="highlighter-rouge">avarghese.me</code>&gt;Manage&gt;Advanced DNS</em><br />
-<code class="highlighter-rouge">A record, host=@ value=192.30.252.153</code><br />
-<code class="highlighter-rouge">A record, host=@ value=192.30.252.153</code><br />
-<code class="highlighter-rouge">CNAME record, host=www value=avarghese4790.github.io</code><br />
-<a target="_blank" href="http://i.imgur.com/3MlT0ou.jpg"><img class="img-travel" src="http://i.imgur.com/3MlT0ouh.jpg" alt="namecheap config" /></a><br />
-The following can help debug to see if the configurations are done correctly. Both calls from the domain and your repository url should have the same A record IP.</p>
-
-<p>Command:<br />
-<code class="highlighter-rouge">dig avarghese.me +nostats +nocomments +nocmd</code><br />
-Output:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>; &lt;&lt;&gt;&gt; DiG 9.8.3-P1 &lt;&lt;&gt;&gt; avarghese.me +nostats +nocomments +nocmd
-;; global options: +cmd
-;avarghese.me.			IN	A
-avarghese.me.		1458	IN	A	192.30.252.154
-avarghese.me.		1458	IN	A	192.30.252.153
-</code></pre>
-</div>
-
-<p>Command:<br />
-<code class="highlighter-rouge">dig avarghese4790.github.io +nostats +nocomments +nocmd</code></p>
-
-<p>Ouput:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>; &lt;&lt;&gt;&gt; DiG 9.8.3-P1 &lt;&lt;&gt;&gt; avarghese4790.github.io +nostats +nocomments +nocmd
-;; global options: +cmd
-;avarghese4790.github.io.	IN	A
-avarghese4790.github.io. 3574	IN	CNAME	github.map.fastly.net.
-github.map.fastly.net.	2040	IN	CNAME	prod.github.map.fastlylb.net.
-prod.github.map.fastlylb.net. 12 IN	A	151.101.44.133
-</code></pre>
-</div>
-
-<h4 id="my-pages">My Pages</h4>
-<p>Organization: <em>arvarghese</em><br />
-Landing page: <em>arvarghese/arvarghese.github.io</em> = <a href="http://avarghese.me/">avarghese.me</a><br />
-Resume page: <em>arvarghese/resume</em> = <a href="http://avarghese.me/resume">avarghese.me/resume</a><br />
-Travel page: <em>arvarghese/travel</em> = <a href="http://avarghese.me/travel">avarghese.me/travel</a><br />
-This Blog: <em>arvarghese/blog</em> = <a href="http://avarghese.me/blog">avarghese.me/blog</a></p>
+<p>IN PROGRESS</p>
 
 <div class="img-container">
-	<a target="_blank" href="http://avarghese.me/"><img class="img-travel" src="http://i.imgur.com/tHvkrGWh.jpg" alt="resume site" /></a>  
-	<a target="_blank" href="http://avarghese.me/resume"><img class="img-travel" src="http://i.imgur.com/PF5imjLh.jpg" alt="landing page site" /></a>  
 	<a target="_blank" href="http://avarghese.me/travel"><img class="img-travel" src="http://i.imgur.com/dwloXIXh.jpg" alt="travel site" /></a>  
-	<a target="_blank" href="http://avarghese.me/blog"><img class="img-travel" src="http://i.imgur.com/jwpYs2zh.jpg" alt="blog site" /></a>  
 </div>
 
 <h1 id="reference">Reference:</h1>
@@ -148,22 +100,7 @@ This Blog: <em>arvarghese/blog</em> = <a href="http://avarghese.me/blog">avarghe
 <ul>
   <li>
     <blockquote>
-      <p><a href="https://www.namecheap.com/">Namecheap</a></p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-      <p><a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-an-alias-or-aname-record-with-your-dns-provider">Apex Domain</a></p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-      <p><a href="https://help.github.com/articles/setting-up-a-www-subdomain/">Sub Domain</a></p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-      <p><a href="https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages">Namecheap and Github</a></p>
+      <p><a href="https://api.imgur.com/">Imgur API</a></p>
     </blockquote>
   </li>
 </ul>

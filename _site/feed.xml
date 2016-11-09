@@ -6,9 +6,44 @@
 </description>
     <link>avarghese4790.github.io/</link>
     <atom:link href="avarghese4790.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Nov 2016 10:08:44 -0600</pubDate>
-    <lastBuildDate>Mon, 07 Nov 2016 10:08:44 -0600</lastBuildDate>
+    <pubDate>Wed, 09 Nov 2016 13:29:28 -0600</pubDate>
+    <lastBuildDate>Wed, 09 Nov 2016 13:29:28 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Creating a Travel Gallery</title>
+        <description>&lt;h3 id=&quot;setting-up-a-custom-domain-using-githubhttpsgithubcom--imgurhttpimgurcom&quot;&gt;Setting Up a Custom Domain Using &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt; &amp;amp;&amp;amp; &lt;a href=&quot;http://imgur.com/&quot;&gt;Imgur&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;IN PROGRESS&lt;/p&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/travel&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/dwloXIXh.jpg&quot; alt=&quot;travel site&quot; /&gt;&lt;/a&gt;  
+&lt;/div&gt;
+
+&lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://api.imgur.com/&quot;&gt;Imgur API&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 09 Nov 2016 11:00:00 -0600</pubDate>
+        <link>avarghese4790.github.io/development/2016/11/09/travel-gallery.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/development/2016/11/09/travel-gallery.html</guid>
+        
+        <category>imgur</category>
+        
+        <category>github</category>
+        
+        <category>travel</category>
+        
+        
+        <category>development</category>
+        
+      </item>
     
       <item>
         <title>Setting Up a Custom Domain</title>
@@ -60,11 +95,13 @@ prod.github.map.fastlylb.net. 12 IN	A	151.101.44.133
 &lt;p&gt;Organization: &lt;em&gt;arvarghese&lt;/em&gt;&lt;br /&gt;
 Landing page: &lt;em&gt;arvarghese/arvarghese.github.io&lt;/em&gt; = &lt;a href=&quot;http://avarghese.me/&quot;&gt;avarghese.me&lt;/a&gt;&lt;br /&gt;
 Resume page: &lt;em&gt;arvarghese/resume&lt;/em&gt; = &lt;a href=&quot;http://avarghese.me/resume&quot;&gt;avarghese.me/resume&lt;/a&gt;&lt;br /&gt;
+Travel page: &lt;em&gt;arvarghese/travel&lt;/em&gt; = &lt;a href=&quot;http://avarghese.me/travel&quot;&gt;avarghese.me/travel&lt;/a&gt;&lt;br /&gt;
 This Blog: &lt;em&gt;arvarghese/blog&lt;/em&gt; = &lt;a href=&quot;http://avarghese.me/blog&quot;&gt;avarghese.me/blog&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;img-container&quot;&gt;
 	&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/tHvkrGWh.jpg&quot; alt=&quot;resume site&quot; /&gt;&lt;/a&gt;  
 	&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/resume&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/PF5imjLh.jpg&quot; alt=&quot;landing page site&quot; /&gt;&lt;/a&gt;  
+	&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/travel&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/dwloXIXh.jpg&quot; alt=&quot;travel site&quot; /&gt;&lt;/a&gt;  
 	&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/blog&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/jwpYs2zh.jpg&quot; alt=&quot;blog site&quot; /&gt;&lt;/a&gt;  
 &lt;/div&gt;
 
@@ -368,8 +405,6 @@ This Blog: &lt;em&gt;arvarghese/blog&lt;/em&gt; = &lt;a href=&quot;http://avargh
 &lt;ul&gt;
   &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-calendar&quot;&gt;&lt;/i&gt; July 8th - July 10th&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-bed&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.rockhouse.com/escape/&quot;&gt;Rockhouse Hotel&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-credit-card&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.chase.com/card-benefits/sapphirereserve/rewards&quot;&gt;Chase Sapphire Reserve&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-camera&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.apple.com/shop/buy-iphone/iphone6s&quot;&gt;iPhone 6s&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; Push Cart, Rick’s Cafe, Sweetspice&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -560,57 +595,6 @@ By far it was the most unique out of the bunch, and matched more of my &lt;stron
         <category>places</category>
         
         <category>activities</category>
-        
-        
-        <category>travel</category>
-        
-      </item>
-    
-      <item>
-        <title>2016-07-08 Puerto Rico</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;http://imgur.com/a/CWr4t&quot;&gt;Gallery&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This was our third attempt at flying standby, the first two being to San Francisco and Orlando. Overall flight availability did not hinder us to much, and we were able to make it to Puerto Rico and back with a manageble delay. My wife has gone twice separately already, so this was the first time we went together, she was kind of like my tour guide. Considering we were only in Puerto Rico for one day, we got saw more than enough sights to say that I have seen Puerto Rico to my content. From charming old towns to amazing cave networks, to the rare bio lumenescent water in Bio Bay, Puerto Rico is definitely a place worth visiting once in your life.&lt;/p&gt;
-
-&lt;h4 id=&quot;puerto-rico-by-i-classfa-fa-fw-fa-planei&quot;&gt;Puerto Rico by &lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt;&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-bed&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://acaciaboutiquehotel.com/&quot;&gt;Acacia Boutique Hotel&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-calendar&quot;&gt;&lt;/i&gt; July 8th - July 10th&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; Cueva Indio, Old San Juan, Fajardo, Bio Bay, Laguna Grande&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Highlights from the trip!&lt;/p&gt;
-
-&lt;div class=&quot;img-container&quot;&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/R1KRe85.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/R1KRe85h.jpg&quot; alt=&quot;puerto rico&quot; /&gt;&lt;/a&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/HXRkTej.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/HXRkTejh.jpg&quot; alt=&quot;mofungo at el jibaritos&quot; /&gt;&lt;/a&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/nXpu77o.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/nXpu77oh.jpg&quot; alt=&quot;acacia boutique hotel&quot; /&gt;&lt;/a&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/4XeJnyk.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/4XeJnyk.jpg&quot; alt=&quot;makeshift gym at the beach&quot; /&gt;&lt;/a&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/T6PhmXy.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/T6PhmXyh.jpg&quot; alt=&quot;old san juan charm&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-</description>
-        <pubDate>Fri, 08 Jul 2016 12:00:00 -0500</pubDate>
-        <link>avarghese4790.github.io/travel/2016/07/08/puerto-rico-trip.html</link>
-        <guid isPermaLink="true">avarghese4790.github.io/travel/2016/07/08/puerto-rico-trip.html</guid>
-        
-        <category>puertorico</category>
-        
-        <category>sanjuan</category>
-        
-        <category>fajardo</category>
-        
-        <category>biobay</category>
-        
-        <category>caves</category>
-        
-        <category>mofungo</category>
         
         
         <category>travel</category>
