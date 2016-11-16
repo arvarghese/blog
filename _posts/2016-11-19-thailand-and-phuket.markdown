@@ -1,30 +1,29 @@
 ---
 layout: post
-title:  "2016-11-19 Costa Rica"
+title:  "2016-11-19 Thailand and Phuket"
 date:   2016-11-19 12:00:00 -0500
 author: "Arun Varghese"
 category: travel
-tags: [resorts,ladyboys]
+tags: [resorts,travel]
 ---
 
 #### Thailand and Phuket by <i class="fa fa-fw fa-plane"></i> 
-+ <i class="fa fa-fw fa-calendar"></i> October 7th - October 9th
-+ <i class="fa fa-fw fa-bed"></i> [Springs Resort](http://www.thespringscostarica.com/the-springs-room-descriptions.php?gclid=CjwKEAjw-Oy_BRDg4Iqok57a4kcSJADsuDK1zolwJNUo20C6PGf3875YJGAddXqgoD1RHCusf5D6jhoCjU_w_wcB)
++ <i class="fa fa-fw fa-calendar"></i> November 19th - November 28th
++ <i class="fa fa-fw fa-bed"></i> [Santhiya Koh Yao Yai](http://www.santhiya.com/kohyaoyai/?gclid=CjwKEAiApLDBBRC8oICb9NvKsg0SJAD9yOHsQCW36BYxSWyksAnJtbrtAZ_-KYqR5syfL7rxd8R7qhoCwk3w_wcB)
 + <i class="fa fa-fw fa-credit-card"></i> [Chase Sapphire Reserve](https://www.chase.com/card-benefits/sapphirereserve/rewards)
 + <i class="fa fa-fw fa-camera"></i> [iPhone 6s](http://www.apple.com/shop/buy-iphone/iphone6s)
-+ <i class="fa fa-fw fa-map-marker"></i> San Jose, San Ramon, Zarcero, La Fortuna, Arenal Volcano, Springs Resort
++ <i class="fa fa-fw fa-map-marker"></i> Phi Phi Islands, Phang Na Bay
 
-TBD  
+Description coming soon!
 
-+ > [Gallery]()
-+ > [Highlights Teaser]()  
++ > [Gallery](http://imgur.com/a/4OJ0x)
 
-Highlights from the trip!
+Highlights from the trip coming soon!
 
-<div class="img-container">
+<!-- <div class="img-container">
 	<a target="_blank" href=""><img class="img-travel" src="" alt
 	="thailand view"/></a>
-</div>
+</div> -->
 
 
 
