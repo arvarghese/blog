@@ -73,9 +73,8 @@ To go directly to the URL, enter
 ```  
 heroku open  
 ```  
-And thats it! The new app should be viewable at [https://gw-car-dashboard.herokuapp.com/](https://gw-car-dashboard.herokuapp.com/)  
 
-Now all that's left is to focus on building out your new app!
+And thats it! The new app should be viewable at [https://gw-car-dashboard.herokuapp.com/](https://gw-car-dashboard.herokuapp.com/). Now all that's left is to focus on building out your new app!
 
 # Reference:
 
