@@ -7,14 +7,16 @@ category: development
 tags: [imgur,github,travel]
 ---
 
-### Setting Up a Custom Domain Using [Github](https://github.com/) && [Imgur](http://imgur.com/)
+### Setting Up a Travel Gallery Demo Using [Github](https://github.com/) && [Imgur](http://imgur.com/)
 
 IN PROGRESS
 
-<div class="img-container">
-	<a target="_blank" href="http://avarghese.me/travel"><img class="img-travel" src="http://i.imgur.com/dwloXIXh.jpg" alt
+
+<a target="_blank" href="http://avarghese.me/travel"><img class="img-travel" src="http://i.imgur.com/8ICKifkh.jpg" alt
+	="imgur api"/></a> 
+
+<a target="_blank" href="http://avarghese.me/travel"><img class="img-travel" src="http://i.imgur.com/dwloXIXh.jpg" alt
 	="travel site"/></a>  
-</div>
 
 # Reference:
 

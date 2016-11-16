@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Creating a Travel Gallery</title>
-  <meta name="description" content="Setting Up a Travel Gallery Demo Using Github &amp;&amp; Imgur">
+  <title>Hosting Angular 2 on Heroku</title>
+  <meta name="description" content="Hosting an Angular 2 on Heroku!">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="avarghese4790.github.io/development/2016/11/09/travel-gallery.html">
+  <link rel="canonical" href="avarghese4790.github.io/development/2016/11/16/ng2-and-heroku.html">
   <link rel="alternate" type="application/rss+xml" title="< Arun's Blog >" href="avarghese4790.github.io/feed.xml">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- <link href="favicon.ico" rel="icon" type="image/png"> -->
@@ -70,40 +70,121 @@
       <div class="wrapper">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline"> Creating a Travel Gallery</h1>
+    <h1 class="post-title" itemprop="name headline"> Hosting Angular 2 on Heroku</h1>
     <hr>
     <p class="post-meta">
       <i class="fa fa-clock-o"></i>
       &nbsp;
-    	<time datetime="2016-11-09T11:00:00-06:00" itemprop="datePublished">2016, NOVEMBER 9</time> • Posted in #Development
+    	<time datetime="2016-11-16T11:00:00-06:00" itemprop="datePublished">2016, NOVEMBER 16</time> • Posted in #Development
     </p>
     Tags: 
     
-      <span class="post-tag">Imgur</span>
+      <span class="post-tag">Angular2</span>
     
-      <span class="post-tag">Github</span>
-    
-      <span class="post-tag">Travel</span>
+      <span class="post-tag">Heroku</span>
     
   </header>  
   <div class="post-content" itemprop="articleBody">
-    <h3 id="setting-up-a-travel-gallery-demo-using-githubhttpsgithubcom--imgurhttpimgurcom">Setting Up a Travel Gallery Demo Using <a href="https://github.com/">Github</a> &amp;&amp; <a href="http://imgur.com/">Imgur</a></h3>
+    <h3 id="hosting-an-angular-2httpsangulario-on-herokuhttpsherokucom">Hosting an <a href="https://angular.io/">Angular 2</a> on <a href="https://heroku.com/">Heroku</a>!</h3>
 
-<p>IN PROGRESS</p>
+<ul>
+  <li>
+    <blockquote>
+      <p><a href="https://github.com/gitwrecked/car-dashboard-ng2CLI">Source Code</a></p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p><a href="https://gw-car-dashboard.herokuapp.com/">Website</a></p>
+    </blockquote>
+  </li>
+</ul>
 
-<p><a target="_blank" href="http://avarghese.me/travel"><img class="img-travel" src="http://i.imgur.com/8ICKifkh.jpg" alt="imgur api" /></a></p>
+<p>Since I started getting into Angular 2 development, I have been looking for easy ways to hosts simple projects. Although there are plenty options available, I decided to go with Heroku, for ease of use and cheap dev options.</p>
 
-<p><a target="_blank" href="http://avarghese.me/travel"><img class="img-travel" src="http://i.imgur.com/dwloXIXh.jpg" alt="travel site" /></a></p>
+<p>In addition to hosting I discovered a pretty neat tool that takes care of scaffolding and boilerplate code for angular projects. To create and deploy a project from scratch I just had to a couple of commands! The project I am using for the examples below is <strong>car-dashboard-ng2CLI</strong>.</p>
+
+<h4 id="prerequisites">Prerequisites</h4>
+<p>-Angular CLI installed<br />
+-Heroku Toolbelt installed<br />
+-Heroku Account created<br />
+-Github account setup</p>
+
+<p>Steps are follows:</p>
+
+<h4 id="create-angular-2-project">Create Angular 2 project</h4>
+<div class="highlighter-rouge"><pre class="highlight"><code>ng new car-dashboard-ng2CLI
+cd car-dashboard-ng2CLI
+ng build
+ng serve
+</code></pre>
+</div>
+
+<h4 id="create-heroku-app">Create Heroku App</h4>
+<p>Login into heroku<br />
+<code class="highlighter-rouge">
+heroku login  
+</code><br />
+If you already went into Heroku and created an app there, just link the two with the following:<br />
+<code class="highlighter-rouge">
+heroku apps:info --app car-dashboard-ng2CLI 
+</code><br />
+Otherwise just create a brand new one:<br />
+<code class="highlighter-rouge">
+heroku create
+</code></p>
+
+<h4 id="connect-project-to-heroku">Connect Project to Heroku</h4>
+<p>Initialize a git repo <br />
+<code class="highlighter-rouge"> 
+git init  
+</code><br />
+Add heroku as a remote repo<br />
+<code class="highlighter-rouge"> 
+git remote add heroku https://git.heroku.com/car-dashboard-ng2CLI.git
+</code><br />
+Validate remote exists<br />
+<code class="highlighter-rouge"> 
+git remote -v  
+</code><br />
+Push the project to heroku<br />
+<code class="highlighter-rouge"> 
+git push heroku master
+</code></p>
+
+<h4 id="view-app">View App</h4>
+<p>After its pushed, you can visit Heroku to check on your app’s deployment, or you can view the logs using<br />
+<code class="highlighter-rouge">
+heroku logs  
+</code><br />
+To go directly to the URL, enter<br />
+<code class="highlighter-rouge"> 
+heroku open  
+</code><br />
+And thats it! The new app should be viewable at <a href="https://gw-car-dashboard.herokuapp.com/">https://gw-car-dashboard.herokuapp.com/</a></p>
+
+<p>Now all that’s left is to focus on building out your new app!</p>
 
 <h1 id="reference">Reference:</h1>
 
 <ul>
   <li>
     <blockquote>
-      <p><a href="https://api.imgur.com/">Imgur API</a></p>
+      <p><a href="https://github.com/angular/angular-cli">Angular 2 CLI</a></p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p><a href="http://ruten.ca/2012/02/15/heroku-cheatsheet-useful-heroku-commands-reference/">Heroku Cheatsheet</a></p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p><a href="https://www.angularonrails.com/deploy-angular-cli-webpack-project-heroku/">Angular 2/Heroku</a></p>
     </blockquote>
   </li>
 </ul>
+
 
   </div>
 </article>

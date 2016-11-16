@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>First Angular 2 App!</title>
+  <meta name="description" content="            Source Code                  Website      ">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="avarghese4790.github.io/development/2016/11/01/first-ng2-project.html">
+  <link rel="alternate" type="application/rss+xml" title="< Arun's Blog >" href="avarghese4790.github.io/feed.xml">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- <link href="favicon.ico" rel="icon" type="image/png"> -->
+  <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-74100141-2', 'auto');
+	ga('send', 'pageview');
+</script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">
+      <i class="fa fa-pencil"></i>
+      &nbsp;< Arun's Blog >
+    </a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">// About Me</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline"> First Angular 2 App!</h1>
+    <hr>
+    <p class="post-meta">
+      <i class="fa fa-clock-o"></i>
+      &nbsp;
+    	<time datetime="2016-11-01T12:00:00-05:00" itemprop="datePublished">2016, NOVEMBER 1</time> • Posted in #Development
+    </p>
+    Tags: 
+    
+      <span class="post-tag">Angular2</span>
+    
+  </header>  
+  <div class="post-content" itemprop="articleBody">
+    <ul>
+  <li>
+    <blockquote>
+      <p><a href="https://github.com/avarghese4790/ng2-testApp">Source Code</a></p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p><a href="https://resume-builder5.herokuapp.com/">Website</a></p>
+    </blockquote>
+  </li>
+</ul>
+
+<p>I’ve finally gotten around to Angular 2 development,</p>
+
+<h3 id="barebones-app">Barebones App</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>MyApp
+├── app
+│   ├── app.component.ts
+│   ├── app.module.ts
+│   └── main.ts
+├──node_modules ...
+├──index.html
+├──package.json
+├──style.css --optional
+├──systemjs.config.js
+└──tsconfig.json
+</code></pre>
+</div>
+
+<h3 id="packagejson">package.json</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"angular-quickstart"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1.0.0"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"start"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tsc &amp;&amp; concurrently \"tsc -w\" \"lite-server\" "</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"lite"</span><span class="p">:</span><span class="w"> </span><span class="s2">"lite-server"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"tsc"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tsc"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"tsc:w"</span><span class="p">:</span><span class="w"> </span><span class="s2">"tsc -w"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nt">"licenses"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MIT"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://github.com/angular/angular.io/blob/master/LICENSE"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nt">"dependencies"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"@angular/common"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~2.1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"@angular/compiler"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~2.1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"@angular/core"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~2.1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"@angular/forms"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~2.1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"@angular/http"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~2.1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"@angular/platform-browser"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~2.1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"@angular/platform-browser-dynamic"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~2.1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"@angular/router"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~3.1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"@angular/upgrade"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~2.1.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"angular-in-memory-web-api"</span><span class="p">:</span><span class="w"> </span><span class="s2">"~0.1.13"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"core-js"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^2.4.1"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"reflect-metadata"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^0.1.8"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"rxjs"</span><span class="p">:</span><span class="w"> </span><span class="s2">"5.0.0-beta.12"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"systemjs"</span><span class="p">:</span><span class="w"> </span><span class="s2">"0.19.39"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"zone.js"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^0.6.25"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nt">"devDependencies"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"@types/core-js"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^0.9.34"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"@types/node"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^6.0.45"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"concurrently"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^3.0.0"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"lite-server"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^2.2.2"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"typescript"</span><span class="p">:</span><span class="w"> </span><span class="s2">"^2.0.3"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
+
+<h3 id="tsconfigjson">tsconfig.json</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"compilerOptions"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"target"</span><span class="p">:</span><span class="w"> </span><span class="s2">"es5"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"module"</span><span class="p">:</span><span class="w"> </span><span class="s2">"commonjs"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"moduleResolution"</span><span class="p">:</span><span class="w"> </span><span class="s2">"node"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"sourceMap"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"emitDecoratorMetadata"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"experimentalDecorators"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"removeComments"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"noImplicitAny"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
+
+<h3 id="systemsjsconfigjs">systemsjs.config.js</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>(function (global) {
+  System.config({
+    paths: {
+      'npm:': 'node_modules/'
+    },
+    map: {
+      app: 'app',
+      '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
+      '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
+      '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',
+      '@angular/platform-browser': 'npm:@angular/platform-browser/bundles/platform-browser.umd.js',
+      '@angular/platform-browser-dynamic': 'npm:@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js',
+      '@angular/http': 'npm:@angular/http/bundles/http.umd.js',
+      '@angular/router': 'npm:@angular/router/bundles/router.umd.js',
+      '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
+      '@angular/upgrade': 'npm:@angular/upgrade/bundles/upgrade.umd.js',
+      'rxjs': 'npm:rxjs',
+      'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js'
+    },
+    packages: {
+      app: {
+        main: './main.js',
+        defaultExtension: 'js'
+      },
+      rxjs: {
+        defaultExtension: 'js'
+      }
+    }
+  });
+})(this);
+</code></pre>
+</div>
+
+<h1 id="reference">Reference:</h1>
+
+<ul>
+  <li>
+    <blockquote>
+      <p><a href="https://angular.io/docs/ts/latest/quickstart.html">Angular 2 Quickstart</a></p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p><a href="https://github.com/angular/quickstart/blob/master/README.md">Angular 2 Quickstart Source Code</a></p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p><a href="https://angular.io/docs/ts/latest/tutorial/">Angular 2 Tutorial</a></p>
+    </blockquote>
+  </li>
+</ul>
+
+
+  </div>
+</article>
+<br>
+<hr>
+<br>
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//avarghese4790githubio.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          
+            <li>
+              <a href="https://github.com/avarghese4790">
+                <i class="fa fa-lg fa-github"></i>
+              </a>
+            </li>
+          
+          
+            <li>
+              <a href="https://www.linkedin.com/in/varghesearun">
+                <i class="fa fa-lg fa-linkedin-square"></i>
+              </a>
+            </li>
+          
+          
+            <li>
+              <a href="https://www.facebook.com/avarghese1">
+                <i class="fa fa-lg fa-facebook-square"></i>
+              </a>
+            </li>
+          
+          
+            <li>
+              <a href="https://www.instagram.com/var_arun">
+                <i class="fa fa-lg fa-instagram"></i>
+              </a>
+            </li>
+          
+          
+            <li>
+              <a href="mailto:arunv4700@gmail.com">
+                <i class="fa fa-lg fa-envelope"></i>
+              </a>
+            </li>
+          
+          <li>
+            <a href="/feed.xml">            
+              <i class="fa fa-lg fa-rss"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-2">
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>Welcome to my blog! This will mainly be used to talk about things I learn day to day as a developer, as well other things like travel, cars, life in general. Feel free to subscribe if any of this content resonates with you!
+</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <a href="#" class="scroll-up-btn scroll">
+	<i class="fa fa-2x fa-angle-double-up"></i>
+</a>
+    <script id="dsq-count-scr" src="//avarghese4790githubio.disqus.com/count.js" async></script>
+  </body>
+
+</html>

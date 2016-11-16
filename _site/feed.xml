@@ -6,19 +6,135 @@
 </description>
     <link>avarghese4790.github.io/</link>
     <atom:link href="avarghese4790.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 Nov 2016 13:29:28 -0600</pubDate>
-    <lastBuildDate>Wed, 09 Nov 2016 13:29:28 -0600</lastBuildDate>
+    <pubDate>Wed, 16 Nov 2016 16:40:13 -0600</pubDate>
+    <lastBuildDate>Wed, 16 Nov 2016 16:40:13 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
+        <title>Hosting Angular 2 on Heroku</title>
+        <description>&lt;h3 id=&quot;hosting-an-angular-2httpsangulario-on-herokuhttpsherokucom&quot;&gt;Hosting an &lt;a href=&quot;https://angular.io/&quot;&gt;Angular 2&lt;/a&gt; on &lt;a href=&quot;https://heroku.com/&quot;&gt;Heroku&lt;/a&gt;!&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/gitwrecked/car-dashboard-ng2CLI&quot;&gt;Source Code&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://gw-car-dashboard.herokuapp.com/&quot;&gt;Website&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Since I started getting into Angular 2 development, I have been looking for easy ways to hosts simple projects. Although there are plenty options available, I decided to go with Heroku, for ease of use and cheap dev options.&lt;/p&gt;
+
+&lt;p&gt;In addition to hosting I discovered a pretty neat tool that takes care of scaffolding and boilerplate code for angular projects. To create and deploy a project from scratch I just had to a couple of commands! The project I am using for the examples below is &lt;strong&gt;car-dashboard-ng2CLI&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h4&gt;
+&lt;p&gt;-Angular CLI installed&lt;br /&gt;
+-Heroku Toolbelt installed&lt;br /&gt;
+-Heroku Account created&lt;br /&gt;
+-Github account setup&lt;/p&gt;
+
+&lt;p&gt;Steps are follows:&lt;/p&gt;
+
+&lt;h4 id=&quot;create-angular-2-project&quot;&gt;Create Angular 2 project&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ng new car-dashboard-ng2CLI
+cd car-dashboard-ng2CLI
+ng build
+ng serve
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;create-heroku-app&quot;&gt;Create Heroku App&lt;/h4&gt;
+&lt;p&gt;Login into heroku&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+heroku login  
+&lt;/code&gt;&lt;br /&gt;
+If you already went into Heroku and created an app there, just link the two with the following:&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+heroku apps:info --app car-dashboard-ng2CLI 
+&lt;/code&gt;&lt;br /&gt;
+Otherwise just create a brand new one:&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+heroku create
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;connect-project-to-heroku&quot;&gt;Connect Project to Heroku&lt;/h4&gt;
+&lt;p&gt;Initialize a git repo &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt; 
+git init  
+&lt;/code&gt;&lt;br /&gt;
+Add heroku as a remote repo&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt; 
+git remote add heroku https://git.heroku.com/car-dashboard-ng2CLI.git
+&lt;/code&gt;&lt;br /&gt;
+Validate remote exists&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt; 
+git remote -v  
+&lt;/code&gt;&lt;br /&gt;
+Push the project to heroku&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt; 
+git push heroku master
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;view-app&quot;&gt;View App&lt;/h4&gt;
+&lt;p&gt;After its pushed, you can visit Heroku to check on your app’s deployment, or you can view the logs using&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+heroku logs  
+&lt;/code&gt;&lt;br /&gt;
+To go directly to the URL, enter&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt; 
+heroku open  
+&lt;/code&gt;&lt;br /&gt;
+And thats it! The new app should be viewable at &lt;a href=&quot;https://gw-car-dashboard.herokuapp.com/&quot;&gt;https://gw-car-dashboard.herokuapp.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now all that’s left is to focus on building out your new app!&lt;/p&gt;
+
+&lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/angular/angular-cli&quot;&gt;Angular 2 CLI&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://ruten.ca/2012/02/15/heroku-cheatsheet-useful-heroku-commands-reference/&quot;&gt;Heroku Cheatsheet&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.angularonrails.com/deploy-angular-cli-webpack-project-heroku/&quot;&gt;Angular 2/Heroku&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 16 Nov 2016 11:00:00 -0600</pubDate>
+        <link>avarghese4790.github.io/development/2016/11/16/ng2-and-heroku.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/development/2016/11/16/ng2-and-heroku.html</guid>
+        
+        <category>angular2</category>
+        
+        <category>heroku</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
         <title>Creating a Travel Gallery</title>
-        <description>&lt;h3 id=&quot;setting-up-a-custom-domain-using-githubhttpsgithubcom--imgurhttpimgurcom&quot;&gt;Setting Up a Custom Domain Using &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt; &amp;amp;&amp;amp; &lt;a href=&quot;http://imgur.com/&quot;&gt;Imgur&lt;/a&gt;&lt;/h3&gt;
+        <description>&lt;h3 id=&quot;setting-up-a-travel-gallery-demo-using-githubhttpsgithubcom--imgurhttpimgurcom&quot;&gt;Setting Up a Travel Gallery Demo Using &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt; &amp;amp;&amp;amp; &lt;a href=&quot;http://imgur.com/&quot;&gt;Imgur&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;IN PROGRESS&lt;/p&gt;
 
-&lt;div class=&quot;img-container&quot;&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/travel&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/dwloXIXh.jpg&quot; alt=&quot;travel site&quot; /&gt;&lt;/a&gt;  
-&lt;/div&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/travel&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/8ICKifkh.jpg&quot; alt=&quot;imgur api&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/travel&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/dwloXIXh.jpg&quot; alt=&quot;travel site&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
 
@@ -39,6 +155,164 @@
         <category>github</category>
         
         <category>travel</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>First Angular 2 App!</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/avarghese4790/ng2-testApp&quot;&gt;Source Code&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://resume-builder5.herokuapp.com/&quot;&gt;Website&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’ve finally gotten around to Angular 2 development,&lt;/p&gt;
+
+&lt;h3 id=&quot;barebones-app&quot;&gt;Barebones App&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;MyApp
+├── app
+│   ├── app.component.ts
+│   ├── app.module.ts
+│   └── main.ts
+├──node_modules ...
+├──index.html
+├──package.json
+├──style.css --optional
+├──systemjs.config.js
+└──tsconfig.json
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;packagejson&quot;&gt;package.json&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;angular-quickstart&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;1.0.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;start&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tsc &amp;amp;&amp;amp; concurrently \&quot;tsc -w\&quot; \&quot;lite-server\&quot; &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;lite&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;lite-server&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;tsc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tsc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;tsc:w&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tsc -w&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;licenses&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;MIT&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;url&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://github.com/angular/angular.io/blob/master/LICENSE&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/common&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/compiler&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/core&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/forms&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/http&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/platform-browser&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/platform-browser-dynamic&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/router&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~3.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/upgrade&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;angular-in-memory-web-api&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~0.1.13&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;core-js&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^2.4.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;reflect-metadata&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^0.1.8&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;rxjs&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;5.0.0-beta.12&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;systemjs&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;0.19.39&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;zone.js&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^0.6.25&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;devDependencies&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@types/core-js&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^0.9.34&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@types/node&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^6.0.45&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;concurrently&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^3.0.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;lite-server&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^2.2.2&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;typescript&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^2.0.3&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;tsconfigjson&quot;&gt;tsconfig.json&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;compilerOptions&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;target&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;es5&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;module&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;commonjs&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;moduleResolution&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;node&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;sourceMap&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;emitDecoratorMetadata&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;experimentalDecorators&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;removeComments&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;noImplicitAny&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;systemsjsconfigjs&quot;&gt;systemsjs.config.js&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(function (global) {
+  System.config({
+    paths: {
+      &#39;npm:&#39;: &#39;node_modules/&#39;
+    },
+    map: {
+      app: &#39;app&#39;,
+      &#39;@angular/core&#39;: &#39;npm:@angular/core/bundles/core.umd.js&#39;,
+      &#39;@angular/common&#39;: &#39;npm:@angular/common/bundles/common.umd.js&#39;,
+      &#39;@angular/compiler&#39;: &#39;npm:@angular/compiler/bundles/compiler.umd.js&#39;,
+      &#39;@angular/platform-browser&#39;: &#39;npm:@angular/platform-browser/bundles/platform-browser.umd.js&#39;,
+      &#39;@angular/platform-browser-dynamic&#39;: &#39;npm:@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js&#39;,
+      &#39;@angular/http&#39;: &#39;npm:@angular/http/bundles/http.umd.js&#39;,
+      &#39;@angular/router&#39;: &#39;npm:@angular/router/bundles/router.umd.js&#39;,
+      &#39;@angular/forms&#39;: &#39;npm:@angular/forms/bundles/forms.umd.js&#39;,
+      &#39;@angular/upgrade&#39;: &#39;npm:@angular/upgrade/bundles/upgrade.umd.js&#39;,
+      &#39;rxjs&#39;: &#39;npm:rxjs&#39;,
+      &#39;angular-in-memory-web-api&#39;: &#39;npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js&#39;
+    },
+    packages: {
+      app: {
+        main: &#39;./main.js&#39;,
+        defaultExtension: &#39;js&#39;
+      },
+      rxjs: {
+        defaultExtension: &#39;js&#39;
+      }
+    }
+  });
+})(this);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://angular.io/docs/ts/latest/quickstart.html&quot;&gt;Angular 2 Quickstart&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/angular/quickstart/blob/master/README.md&quot;&gt;Angular 2 Quickstart Source Code&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://angular.io/docs/ts/latest/tutorial/&quot;&gt;Angular 2 Tutorial&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 01 Nov 2016 12:00:00 -0500</pubDate>
+        <link>avarghese4790.github.io/development/2016/11/01/first-ng2-project.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/development/2016/11/01/first-ng2-project.html</guid>
+        
+        <category>angular2</category>
         
         
         <category>development</category>
@@ -493,108 +767,6 @@ This Blog: &lt;em&gt;arvarghese/blog&lt;/em&gt; = &lt;a href=&quot;http://avargh
         <category>resort</category>
         
         <category>infinitypool</category>
-        
-        
-        <category>travel</category>
-        
-      </item>
-    
-      <item>
-        <title>My Tesla Model S</title>
-        <description>&lt;p&gt;A couple of months ago I got into a wreck that almost resulted in total loss for my car. During the period where damage was being assessed by my insurance, I started to let my mind wander and began researching cars again. With so many options avaiable, I spent more time refining my search based on criteria that satisfied both my wife and I’s requirements, listed as follows:&lt;/p&gt;
-
-&lt;p&gt;Wants:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Under 65k starting&lt;br /&gt;
-4 Door Coupe style&lt;br /&gt;
-300+ hp&lt;br /&gt;
-Cruise control with stop/go&lt;br /&gt;
-Red seats&lt;br /&gt;
-Ventilated/massaged seats&lt;br /&gt;
-Ambient lighting&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Really Wants:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Panoramic roof&lt;br /&gt;
-Frameless Doors&lt;br /&gt;
-Remote start capabilities&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Keeping these factors in mind, I came up with a list options:&lt;/p&gt;
-
-&lt;p&gt;&lt;i class=&quot;fa fa-fw fa-car&quot;&gt;&lt;/i&gt;  Mercedes C63 - &lt;strong&gt;$70k&lt;/strong&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-car&quot;&gt;&lt;/i&gt;  Corvette Stingray - &lt;strong&gt;$65k&lt;/strong&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-car&quot;&gt;&lt;/i&gt;  Audi A7 - &lt;strong&gt;$72k&lt;/strong&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-car&quot;&gt;&lt;/i&gt;  BMW M3  - &lt;strong&gt;$72k&lt;/strong&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-car&quot;&gt;&lt;/i&gt;  Tesla Model S - &lt;strong&gt;$71k&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;After lengthy discussions with family and friends, as well as a few test drives, I finally decided on the &lt;a href=&quot;https://www.teslamotors.com/&quot;&gt;Tesla&lt;/a&gt;.
-By far it was the most unique out of the bunch, and matched more of my &lt;strong&gt;wants&lt;/strong&gt; than the other cars. What sold me was the fact that it was a completely electric car, no gas needed whatsoever! Sure, the other cars on the list had their advantages, mainly with power or flashy looks. But the overall package for a daily driver pointed me towards the Tesla.&lt;/p&gt;
-
-&lt;p&gt;Another interesting tidbit, Tesla does not have dealerships, you actually just go on their site, configure your model, and place your order, just like you would on any other online product site. This removes haggling, drawn out discussions over financing, add-ons, etc. I’ve already placed the deposit and am currently waiting delivery of a new &lt;strong&gt;2016 Tesla Model S 60&lt;/strong&gt;! Modding post to come..&lt;/p&gt;
-
-&lt;div class=&quot;img-container&quot;&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/OMJPm0O.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/OMJPm0Oh.jpg&quot; alt=&quot;puerto rico&quot; /&gt;&lt;/a&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/oFRmAdd.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/oFRmAddh.jpg&quot; alt=&quot;mofungo at el jibaritos&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-</description>
-        <pubDate>Mon, 11 Jul 2016 12:00:00 -0500</pubDate>
-        <link>avarghese4790.github.io/cars/2016/07/11/tesla-model-s.html</link>
-        <guid isPermaLink="true">avarghese4790.github.io/cars/2016/07/11/tesla-model-s.html</guid>
-        
-        <category>tesla</category>
-        
-        <category>models</category>
-        
-        
-        <category>cars</category>
-        
-      </item>
-    
-      <item>
-        <title>2016-07-08 Bucket List and TODOs</title>
-        <description>&lt;p&gt;Just a list of places to see and things to do that I would like to accomplish at some point in my life. Expect this list to be constantly updated :)&lt;/p&gt;
-
-&lt;p&gt;&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Chicago: Six flags &lt;i class=&quot;fa fa-fw fa-check&quot;&gt;&lt;/i&gt; &lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Hawaii: Volcanoes/sharks&lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Utah: Moab canyon lands&lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; New Mexico: Taos bungee jump&lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; UK: Zap cat power boarding&lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Washington:  Kayak over waterfall&lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Turkey:  Hot air balloons&lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Sun city, Africa:  Highest zip&lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Chattanooga, TN: Hang glide&lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; Kentucky: Noah’s Ark&lt;/p&gt;
-
-&lt;p&gt;&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; Fly a jet&lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; Dinner in the sky&lt;br /&gt;
-&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; Zorbing&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 08 Jul 2016 12:00:00 -0500</pubDate>
-        <link>avarghese4790.github.io/travel/2016/07/08/bucket-list.html</link>
-        <guid isPermaLink="true">avarghese4790.github.io/travel/2016/07/08/bucket-list.html</guid>
-        
-        <category>bucket-list</category>
-        
-        <category>todo</category>
-        
-        <category>places</category>
-        
-        <category>activities</category>
         
         
         <category>travel</category>
