@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2016-08-20 Puerto Vallarta"
+title:  "Puerto Vallarta 2016"
 date:   2016-08-20 12:00:00 -0500
 author: "Arun Varghese"
 category: travel

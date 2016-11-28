@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2016-07-08 Puerto Rico"
+title:  "Puerto Rico 2016"
 date:   2016-07-08 12:00:00 -0500
 author: "Arun Varghese"
 category: travel

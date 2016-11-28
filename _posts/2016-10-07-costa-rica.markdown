@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2016-10-07 Costa Rica"
+title:  "Costa Rica 2016"
 date:   2016-10-07 12:00:00 -0500
 author: "Arun Varghese"
 category: travel

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2016-05-04 Italy"
+title:  "Italy 2016"
 date:   2016-05-15 12:00:00 -0500
 author: "Arun Varghese"
 category: travel

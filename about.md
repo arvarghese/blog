@@ -12,7 +12,8 @@ I'm a full stack developer located in Dallas, TX with a passion for design, codi
 
 Checkout my sites for more info! 
 
-+ ><strong>[Home](http://avarghese.me/)</strong>
-+ ><strong>[Resume](http://avarghese.me/resume)</strong>
-+ ><strong>[Portfolio](http://avarghese.me/portfolio)</strong>
++ >[Home](http://avarghese.me/)
++ >[Resume](http://avarghese.me/resume)
++ >[Portfolio](http://avarghese.me/portfolio) 
++ >[Travel](http://avarghese.me/travel)
 

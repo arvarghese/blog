@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2016-05-13 Barcelona, Spain"
+title:  "Barcelona 2016"
 date:   2016-05-16 12:00:00 -0500
 author: "Arun Varghese"
 category: travel

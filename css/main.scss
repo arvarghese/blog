@@ -2,38 +2,34 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import url(https://fonts.googleapis.com/css?family=Monda);
-
+/*@import url(https://fonts.googleapis.com/css?family=Monda);*/
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+$base-font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 $base-font-size:   .9em;
-$base-font-weight: 400;
+$base-font-weight: 100;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
-
 $spacing-unit:     30px;
-
-$text-color:       #111;
-$text-color-2:     #f8f8ff;
-$text-shadow:      2px 2px rgba(0,0,0,.2);
+$text-color:       #089ee5;
+$text-color-2:     #333;
+$text-shadow:      0 0 rgba(0,0,0,.2);
 $background-color: #fdfdfd;
-$background-color-2: #607D8B;
+$background-color-2: white;
 $box-shadow:       0 3px 10px rgba(0, 0, 0, 0.2);
 $box-shadow-hover: 0 5px 10px rgba(0, 0, 0, 0.5); 
-$brand-color:      #111;
+$brand-color:      #089ee5;
 $link-color:       #0288D1;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
-
 // Width of the content area
 $content-width:    800px;
-
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+// blue accent #089ee5
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -60,6 +56,7 @@ $on-laptop:        800px;
 a,li {
 	text-decoration: none !important;
 	list-style-type: none !important;
+    color: $text-color;
 	&:hover {
 
 	}

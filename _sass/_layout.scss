@@ -5,7 +5,7 @@
     /*border-top: 5px solid $grey-color-dark;*/
     background: rgba(0,0,0,.1);
     min-height: 56px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);*/
     // Positioning context for the mobile navigation icon
     position: relative;
     background: $background-color-2;    
@@ -115,7 +115,7 @@
     list-style: none;
     margin-left: 0;
     li a {
-        color: $text-color-2;
+        color: $text-color;
         text-shadow: $text-shadow;
         padding: 0 10px;
         i {
@@ -196,30 +196,35 @@
     margin-left: 0;
     list-style: none;    
     /*max-width: 350px;*/
+    .post-year {
+        color: $text-color-2;
+    }
     .post-info  {
         margin-bottom: $spacing-unit / 2;
         padding: 5px 10px;
-        background: $background-color-2;
+        /*background: $background-color-2;*/
         color: $text-color-2;
         opacity: .9;
-        box-shadow: $box-shadow;
-        border-radius: 5px;
+        /*box-shadow: $box-shadow;*/
+        /*border-radius: 5px;*/
         .postlist-title {
             font-size: 25px;
             color: $text-color-2;
             text-shadow: $text-shadow;
+            &:hover {
+                color: $text-color;
+            }
         }
         .postlist-readmore {
             font-size: 15px;
             color: $text-color-2;
             opacity: .3;
-            margin: 0;
-            text-align: right;
+            margin: 0;            
         }
-        &:hover {
+       /* &:hover {
             box-shadow: $box-shadow-hover;
             transform: scale(1.05);
-        }
+        }*/
     }
 }
 
