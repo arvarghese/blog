@@ -9,24 +9,40 @@ tags: [resorts,travel]
 
 #### Thailand and Phuket by <i class="fa fa-fw fa-plane"></i> 
 + <i class="fa fa-fw fa-calendar"></i> November 19th - November 27th
-+ <i class="fa fa-fw fa-bed"></i> [Santhiya Koh Yao Yai](http://www.santhiya.com/kohyaoyai/?gclid=CjwKEAiApLDBBRC8oICb9NvKsg0SJAD9yOHsQCW36BYxSWyksAnJtbrtAZ_-KYqR5syfL7rxd8R7qhoCwk3w_wcB)
++ <i class="fa fa-fw fa-bed"></i> [Chatrium](http://www.chatrium.com/chatrium_hotel/default-en.html),
+[Santhiya Koh Yao Yai](http://www.santhiya.com/kohyaoyai/?gclid=CjwKEAiApLDBBRC8oICb9NvKsg0SJAD9yOHsQCW36BYxSWyksAnJtbrtAZ_-KYqR5syfL7rxd8R7qhoCwk3w_wcB),
+[Paresa](http://www.paresaresorts.com/)  
 + <i class="fa fa-fw fa-credit-card"></i> [Chase Sapphire Reserve](https://www.chase.com/card-benefits/sapphirereserve/rewards)
 + <i class="fa fa-fw fa-camera"></i> [iPhone 6s](http://www.apple.com/shop/buy-iphone/iphone6s)
-+ <i class="fa fa-fw fa-map-marker"></i> Bangkok, Phuket, Koh Yao Yai, Phi Phi Islands, Phang Na Bay, Monkey Beach, Losama Bay, Maya Bay, Bamboo Island, Santhiya, Paresa
++ <i class="fa fa-fw fa-map-marker"></i> Bangkok, Phuket, Koh Yao Yai, Phi Phi Islands, Phang Na Bay, Monkey Beach, Losama Bay, Maya Bay, Bamboo Island, Kammala, Santhiya, Paresa
 
-Description coming soon!
+We really didn't know what to expect from Thailand as we've heard many mixed reviews about both Bangkok and Phuket. After seeing both in person though I can freely say that this experiene was incredible and we will definitely be coming back.  
+
+### Bangkok  
+In Progress..
+<!-- Our stay in Bangkok was relatively short, but we were able to cover quite a bit including three temples, the floating markets of 
+ -->  
+ 
+### Phuket  
+In Progress..
 
 + > [Bangkok Gallery](http://imgur.com/a/4OJ0x)  
 + > [Bangkok Highlights](https://www.instagram.com/p/BNPNONZleQq/?taken-by=var_arun)   
 + > [Phuket Gallery](http://imgur.com/a/cvkkT)  
-+ > [Phuket Highlights](https://www.instagram.com/p/BNVcKK4Fq_K/?taken-by=var_arun) 
++ > [Phuket Highlights](https://www.instagram.com/p/BNVcKK4Fq_K/?taken-by=var_arun)  
++ > [Paresa Resort Room Tour](https://www.youtube.com/watch?v=lxmZtfcB9x8)  
 
-<!-- <div class="img-container">
-	<a target="_blank" href=""><img class="img-travel" src="" alt
-	="thailand view"/></a>
-</div> -->
+Highlights from the trip!  
 
-
-
+<div class="img-container">
+	<a target="_blank" href="http://i.imgur.com/DZJB5Gl.jpg"><img class="img-travel" src="http://i.imgur.com/DZJB5Glh.jpg" alt
+	="bangkok city view"/></a>
+	<a target="_blank" href="http://i.imgur.com/DhK7X31.jpg"><img class="img-travel" src="http://i.imgur.com/DhK7X31h.jpg" alt
+	="bangkok temple view"/></a>
+	<a target="_blank" href="http://i.imgur.com/3ToI0jJ.jpg"><img class="img-travel" src="http://i.imgur.com/3ToI0jJh.jpg" alt
+	="phuket island view"/></a>
+	<a target="_blank" href="http://i.imgur.com/fvvhL0l.jpg"><img class="img-travel" src="http://i.imgur.com/fvvhL0lh.jpg" alt
+	="phuket resort view"/></a>
+</div>
 
 
