@@ -5,6 +5,7 @@ date:   2016-05-02 12:00:00 -0500
 author: "Arun Varghese"
 category: development
 tags: [post,writing]
+clipping: I'm really just keeping this post here to just list all the tips an tricks that I have learned from writing this blog, I guarantee that I will be updating this list quite often as writing a blog is more of a process that a creative outlet. I say that because there really is just a basic structure to writing these and any refinement in the process does make for a more engaging read...
 ---
 
 

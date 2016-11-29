@@ -5,7 +5,7 @@ date:   2016-07-08 12:00:00 -0500
 author: "Arun Varghese"
 category: travel
 tags: [bucket-list,todo,places,activities]
-clipping: 
+clipping: Just a list of places to see and things to do that I would like to accomplish at some point in my life. Expect this list to be constantly updated...
 ---
 
 Just a list of places to see and things to do that I would like to accomplish at some point in my life. Expect this list to be constantly updated :)

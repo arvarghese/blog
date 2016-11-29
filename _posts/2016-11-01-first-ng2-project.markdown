@@ -5,7 +5,7 @@ date:   2016-11-01 12:00:00 -0500
 author: "Arun Varghese"
 category: development
 tags: [angular2]
-clipping: 
+clipping: I've finally gotten around to Angular 2 development...
 ---
 
 + > [Source Code](https://github.com/avarghese4790/ng2-testApp)

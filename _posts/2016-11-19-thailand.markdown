@@ -8,7 +8,7 @@ tags: [resorts,travel]
 thumbnail: http://i.imgur.com/DZJB5Glh.jpg
 ---
 
-#### Thailand and Phuket by <i class="fa fa-fw fa-plane"></i> 
+### Thailand and Phuket by <i class="fa fa-fw fa-plane"></i> 
 + <i class="fa fa-fw fa-calendar"></i> November 19th - November 27th
 + <i class="fa fa-fw fa-bed"></i> [Chatrium](http://www.chatrium.com/chatrium_hotel/default-en.html),
 [Santhiya Koh Yao Yai](http://www.santhiya.com/kohyaoyai/?gclid=CjwKEAiApLDBBRC8oICb9NvKsg0SJAD9yOHsQCW36BYxSWyksAnJtbrtAZ_-KYqR5syfL7rxd8R7qhoCwk3w_wcB),

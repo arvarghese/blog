@@ -5,7 +5,7 @@ date:   2016-10-09 12:00:00 -0500
 author: "Arun Varghese"
 category: development
 tags: [dns,domain]
-clipping: 
+clipping: As you may or may not know, when you create a github account, you also get one site for your user/organization, and unlimited repository pages. Its as simple as adding an `index.html` to the master branch of each repository and allowing it to use Github Pages...
 ---
 
 ### Setting Up a Custom Domain Using [Namecheap](https://www.namecheap.com/) && [Github](https://github.com/)

@@ -5,7 +5,7 @@ date:   2016-05-24 12:00:00 -0500
 author: "Arun Varghese"
 category: development
 tags: [taiga,slack,heroku,git]
-clipping: 
+clipping: I'll preface this post by saying there are many ways to start a develpment project, I would just like to share the specific tools and integrations that worked for my team...
 ---
 
 ### Our Setup:

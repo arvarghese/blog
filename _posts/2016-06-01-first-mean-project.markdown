@@ -5,7 +5,7 @@ date:   2016-06-01 12:00:00 -0500
 author: "Arun Varghese"
 category: development
 tags: [mean,mongodb,angular,express,node]
-clipping: 
+clipping: My first MEAN stack application...
 ---
 
 + > [Source Code](https://github.com/gitwrecked/resume-builder)

@@ -5,7 +5,7 @@ date:   2016-01-01 12:00:00 -0500
 author: "Arun Varghese"
 category: development
 tags: [meteor,node,front-end]
-clipping: 
+clipping: I started my career as a core java  and backend developer, and for the most part of my career that was where my focus lay. Over time though I started to expanded my horizons during my free time, dabbling in various front end technologies and languages...
 ---
 
 + > http://av.meteorapp.com - currently down for maintenance

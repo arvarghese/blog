@@ -18,18 +18,20 @@ layout: default
                 {{ post.title }}     
             </span>
             <div class="post-meta">
-              By {{ post.author }} • {{ post.date | date_to_string }} • {{ post.category | capitalize }}
+              <i class="fa fa-fw fa-user"></i> Arun Varghese
+              <i class="fa fa-fw fa-clock-o"></i> {{ post.date | date_to_string }}
+              <i class="fa fa-fw fa-tags"></i> {{ post.category | capitalize }}
             </div>
             {% if post.thumbnail %}
               <div class="post-bg" style="background:url({{ post.thumbnail }})"></div>
             {% endif %}
             {% if post.clipping %}
               <p>
-                {{ post.clipping }}..
+                {{ post.clipping }}
               </p>
             {% endif %}
             <div class="postlist-readmore">
-              Continue Reading
+              Continue Reading <i class="fa fa-fw fa-share"></i>
             </div>
           </div>
         </li>

@@ -5,7 +5,7 @@ date:   2016-05-01 12:00:00 -0500
 author: "Arun Varghese"
 category: cars
 tags: [honda,accord,mods]
-clipping: 
+clipping: After I started my first job, my first goal was to get a car so I could actually commute easily. After test driving many cars and looking at many different models, I finally settled on the **2013 Honda Accord Coupe**. I went with the highest trim, which is the EX-L V6...
 ---
 
 After I started my first job, my first goal was to get a car so I could actually commute easily. After test driving many cars and looking at many different models, I finally settled on the **2013 Honda Accord Coupe**. I went with the highest trim, which is the **EX-L V6**.

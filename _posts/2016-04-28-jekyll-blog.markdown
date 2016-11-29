@@ -5,7 +5,7 @@ date:   2016-04-28 12:00:00 -0500
 author: "Arun Varghese"
 category: development
 tags: [jekyll]
-clipping: 
+clipping: Jekyll is awesome static site generator that can be leveraged quite easily for making blogs. Github uses Jekyll and allows for hosting jekyll pages directly! As a blogging platform, Jekyll and Github simplify updating and maintaining your blog, once its up and running...
 ---
 
 # TL;DR 
