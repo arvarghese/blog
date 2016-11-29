@@ -5,16 +5,9 @@ comments: true
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline"> {{ page.title }}</h1>
-    <hr>
-    <p class="post-meta">
-      <i class="fa fa-clock-o"></i>
-      &nbsp;
-    	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y, %B %-d" | upcase}}</time> • Posted in #{{page.category | capitalize}}
-    </p>
-    Tags: 
-    {% for tag in page.tags %}
-      <span class="post-tag">{{tag | capitalize }}</span>
-    {% endfor %}
+    <div class="post-meta">
+    	By {{ page.author }} • {{ page.date | date_to_string }} • {{ page.category | capitalize }}
+    </div>
   </header>  
   <div class="post-content" itemprop="articleBody">
     {{ content }}

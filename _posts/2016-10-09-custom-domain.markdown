@@ -5,6 +5,7 @@ date:   2016-10-09 12:00:00 -0500
 author: "Arun Varghese"
 category: development
 tags: [dns,domain]
+clipping: 
 ---
 
 ### Setting Up a Custom Domain Using [Namecheap](https://www.namecheap.com/) && [Github](https://github.com/)

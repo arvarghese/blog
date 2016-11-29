@@ -5,6 +5,8 @@ date:   2016-10-07 12:00:00 -0500
 author: "Arun Varghese"
 category: travel
 tags: [hiking,volcano,hotsprings,resort,infinitypool]
+thumbnail: http://i.imgur.com/qjAZ5nYh.jpg
+clipping: 
 ---
 
 #### Costa Rica by <i class="fa fa-fw fa-plane"></i> 

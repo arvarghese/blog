@@ -5,6 +5,8 @@ date:   2016-08-20 12:00:00 -0500
 author: "Arun Varghese"
 category: travel
 tags: [mexico,resort,infinitypool]
+thumbnail: http://i.imgur.com/FQOpjBuh.jpg
+clipping: 
 ---
 
 #### Puerto Vallarta, Mexico by <i class="fa fa-fw fa-plane"></i> 
@@ -26,7 +28,7 @@ Highlights from the trip!
 	<a target="_blank" href="http://i.imgur.com/QNxLYSC.jpg"><img class="img-travel" src="http://i.imgur.com/QNxLYSCh.jpg" alt
 	="puerto vallarta infinity pool view"/></a>
 	<a target="_blank" href="http://i.imgur.com/tI4r2nN.jpg"><img class="img-travel" src="http://i.imgur.com/tI4r2nNh.jpg" alt
-	="puerto vallarta restore view"/></a>
+	="puerto vallarta resort view"/></a>
 </div>
 
 

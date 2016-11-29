@@ -5,6 +5,8 @@ date:   2016-05-16 12:00:00 -0500
 author: "Arun Varghese"
 category: travel
 tags: [barcelona, montserrat, tour]
+thumbnail: http://i.imgur.com/qt3niolh.jpg
+clipping: 
 ---
 
 + > [Gallery](http://imgur.com/a/73UAT)
@@ -26,8 +28,6 @@ Highlights from the trip!
 	<a href="http://i.imgur.com/qt3niol.jpg"><img class="img-travel" src="http://i.imgur.com/qt3niolh.jpg" alt="parc guell"/></a>
 	<a href="http://i.imgur.com/CSowEoK.jpg"><img class="img-travel" src="http://i.imgur.com/CSowEoKh.jpg" alt="montjuic"/></a>
 	<a href="http://i.imgur.com/cLZ9pHf.jpg"><img class="img-travel" src="http://imgur.com/cLZ9pHfh.jpg" alt="montserrat"/></a>
-	<a href="http://i.imgur.com/jJZrk2A.jpg"><img class="img-travel" src="http://i.imgur.com/jJZrk2Ah.jpg" alt="sagrada familia interior"/></a>
-	<a href="http://i.imgur.com/lq3ItBD.jpg"><img class="img-travel" src="http://i.imgur.com/lq3ItBDh.jpg" alt="sagrada familia exterior"/></a>
 	<a href="http://i.imgur.com/L3Eid24.jpg"><img class="img-travel" src="http://i.imgur.com/L3Eid24h.jpg" alt="poble espanyol paella"/></a>
 	<a href="http://i.imgur.com/RLSRJv0.jpg"><img class="img-travel" src="http://i.imgur.com/RLSRJv0h.jpg" alt="magic fountain"/></a>
 </div>

@@ -11,26 +11,26 @@ layout: default
   {% endfor %} -->
   <ul class="post-list">
     {% for post in site.posts %}
-      {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
-      {% if currentyear != year %}
-        <li class="post-year"><h2>&lt;{{ currentyear }}&gt;</h2></li>
-        <hr>
-        <br>
-        {% capture year %}{{currentyear}}{% endcapture %} 
-      {% endif %}
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-        <li class="post-info">
-          <div class="post-meta">
-            <i class="fa fa-clock-o"></i>
-            {{ post.date | date: "%B %-d" | upcase }} in 
-            #{{ post.category | capitalize }}
-          </div>
-          <span class="postlist-title">
-              {{ post.title }}     
-          </span>
-          <div class="postlist-readmore">
-            // Read On
-            <i class="fa fa-chevron-circle-right"></i>
+        <li class="post-info">          
+          <div class="post-summary">
+            <span class="postlist-title">
+                {{ post.title }}     
+            </span>
+            <div class="post-meta">
+              By {{ post.author }} • {{ post.date | date_to_string }} • {{ post.category | capitalize }}
+            </div>
+            {% if post.thumbnail %}
+              <div class="post-bg" style="background:url({{ post.thumbnail }})"></div>
+            {% endif %}
+            {% if post.clipping %}
+              <p>
+                {{ post.clipping }}..
+              </p>
+            {% endif %}
+            <div class="postlist-readmore">
+              Continue Reading
+            </div>
           </div>
         </li>
       </a>

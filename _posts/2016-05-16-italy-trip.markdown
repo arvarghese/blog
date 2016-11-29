@@ -5,6 +5,8 @@ date:   2016-05-15 12:00:00 -0500
 author: "Arun Varghese"
 category: travel
 tags: [italy, day tour, island, coastal]
+thumbnail: http://i.imgur.com/qmg9QcOh.jpg
+clipping: 
 ---
 
 + > [Gallery](http://imgur.com/a/z7iaO)

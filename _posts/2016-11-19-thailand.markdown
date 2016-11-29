@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Thailand 2016"
+title:  Thailand 2016
 date:   2016-11-19 12:00:00 -0500
-author: "Arun Varghese"
+author: Arun Varghese
 category: travel
 tags: [resorts,travel]
+thumbnail: http://i.imgur.com/DZJB5Glh.jpg
 ---
 
 #### Thailand and Phuket by <i class="fa fa-fw fa-plane"></i> 

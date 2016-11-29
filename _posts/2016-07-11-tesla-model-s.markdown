@@ -5,6 +5,7 @@ date:   2016-07-11 12:00:00 -0500
 author: "Arun Varghese"
 category: cars
 tags: [tesla,models]
+clipping: 
 ---
 
 A couple of months ago I got into a wreck that almost resulted in total loss for my car. During the period where damage was being assessed by my insurance, I started to let my mind wander and began researching cars again. With so many options avaiable, I spent more time refining my search based on criteria that satisfied both my wife and I's requirements, listed as follows:

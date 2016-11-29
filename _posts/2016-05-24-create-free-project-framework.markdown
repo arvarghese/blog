@@ -5,6 +5,7 @@ date:   2016-05-24 12:00:00 -0500
 author: "Arun Varghese"
 category: development
 tags: [taiga,slack,heroku,git]
+clipping: 
 ---
 
 ### Our Setup:

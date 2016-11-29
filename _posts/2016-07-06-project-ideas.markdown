@@ -5,6 +5,7 @@ date:   2016-07-06 12:00:00 -0500
 author: "Arun Varghese"
 category: development
 tags: [apps, projects, ideas]
+clipping: 
 ---
 
 ## My Project Ideas

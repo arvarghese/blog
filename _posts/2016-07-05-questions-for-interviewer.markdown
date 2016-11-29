@@ -5,6 +5,7 @@ date:   2016-07-05 12:00:00 -0500
 author: "Arun Varghese"
 category: career
 tags: [interview]
+clipping: 
 ---
 
 #### <i class="fa fa-fw fa-question-circle"></i> (To Interviewer) How long have your worked here?  

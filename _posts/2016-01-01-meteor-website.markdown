@@ -5,6 +5,7 @@ date:   2016-01-01 12:00:00 -0500
 author: "Arun Varghese"
 category: development
 tags: [meteor,node,front-end]
+clipping: 
 ---
 
 + > http://av.meteorapp.com - currently down for maintenance

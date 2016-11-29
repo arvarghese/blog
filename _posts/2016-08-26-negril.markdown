@@ -5,6 +5,8 @@ date:   2016-08-26 12:00:00 -0500
 author: "Arun Varghese"
 category: travel
 tags: [jamaica,cliffside,bungalows,bridgejump]
+thumbnail: http://i.imgur.com/tDDGRQoh.jpg
+clipping: 
 ---
 
 #### Negril, Jamaica by <i class="fa fa-fw fa-plane"></i> 

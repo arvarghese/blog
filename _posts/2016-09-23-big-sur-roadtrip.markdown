@@ -5,6 +5,8 @@ date:   2016-09-23 12:00:00 -0500
 author: "Arun Varghese"
 category: travel
 tags: [roadtrip,coastal]
+thumbnail: http://i.imgur.com/Q0lyf12h.jpg
+clipping: 
 ---
 
 #### Big Sur, California by <i class="fa fa-fw fa-plane"></i> <i class="fa fa-fw fa-car"></i> 
@@ -19,9 +21,9 @@ tags: [roadtrip,coastal]
 
 <div class="img-container">
 	<a target="_blank" href="http://i.imgur.com/Q0lyf12"><img class="img-travel" src="http://i.imgur.com/Q0lyf12h.jpg" alt
-	="rockhouse sunset"/></a>
+	="bixby bridge"/></a>
 	<a target="_blank" href="http://i.imgur.com/syUp4HV"><img class="img-travel" src="http://i.imgur.com/syUp4HVh.jpg" alt
-	="rockhouse sunset"/></a>
+	="pebble beach"/></a>
 	<a target="_blank" href="http://i.imgur.com/VCDXWa5"><img class="img-travel" src="http://i.imgur.com/VCDXWa5h.jpg" alt
-	="rockhouse sunset"/></a>
+	="church"/></a>
 </div>

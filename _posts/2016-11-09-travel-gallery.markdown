@@ -5,6 +5,7 @@ date:   2016-11-09 12:00:00 -0500
 author: "Arun Varghese"
 category: development
 tags: [imgur,github,travel]
+clipping: IN PROGRESS
 ---
 
 ### Setting Up a Travel Gallery Demo Using [Github](https://github.com/) && [Imgur](http://imgur.com/)

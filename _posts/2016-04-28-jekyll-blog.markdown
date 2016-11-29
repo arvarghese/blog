@@ -5,6 +5,7 @@ date:   2016-04-28 12:00:00 -0500
 author: "Arun Varghese"
 category: development
 tags: [jekyll]
+clipping: 
 ---
 
 # TL;DR 
