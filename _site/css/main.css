@@ -276,10 +276,8 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0;
-  /*    background: url(http://i.imgur.com/pCNQya7.jpg);
-      background-size: cover !important;
-      color: #f8f8ff;*/ }
+  padding-top: 0;
+  padding-bottom: 30px; }
 
 .page-heading {
   font-size: 20px; }
@@ -342,12 +340,15 @@ pre {
     width: 95%;
     margin: auto;
     transition: 0.3s ease-in-out; }
+  .post-link:first-child:before {
+    width: 0 !important; }
 
 /**
  * Posts
  */
 .post-header {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  margin-top: 30px; }
 
 .post-title {
   font-size: 2.5em;

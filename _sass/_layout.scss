@@ -176,16 +176,12 @@
     }
 }
 
-
-
 /**
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
-/*    background: url(http://i.imgur.com/pCNQya7.jpg);
-    background-size: cover !important;
-    color: #f8f8ff;*/
+    padding-top: 0;
+    padding-bottom: $spacing-unit; 
 }
 
 .page-heading {
@@ -260,6 +256,11 @@
         margin: auto;
         transition: .3s ease-in-out
     }
+    &:first-child {
+        &:before {            
+            width: 0 !important;
+        }
+    }
 }
 
 
@@ -269,6 +270,7 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    margin-top: $spacing-unit;
 }
 
 .post-title {
