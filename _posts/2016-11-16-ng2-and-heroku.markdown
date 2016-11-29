@@ -5,7 +5,7 @@ date:   2016-11-16 12:00:00 -0500
 author: "Arun Varghese"
 category: development
 tags: [angular2,heroku]
-clipping: Since I started getting into Angular 2 development, I have been looking for easy ways to hosts simple projects. Although there are plenty options available, I decided to go with Heroku, for ease of use and cheap dev options... 
+clipping: Since I started getting into Angular 2 development, I have been looking for easy ways to hosts simple projects. Although there are plenty options available, I decided to go with Heroku, for ease of use and cheap dev options. In addition to hosting I discovered a pretty neat tool that takes care of scaffolding and boilerplate code for angular projects. To create and deploy a project from scratch I just had to a couple of commands! The project I am using for the examples below is car-dashboard-ng2CLI... 
 ---
 
 ### Hosting an [Angular 2](https://angular.io/) on [Heroku](https://heroku.com/)!

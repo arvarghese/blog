@@ -5,7 +5,7 @@ date:   2016-09-02 12:00:00 -0500
 author: "Arun Varghese"
 category: cars
 tags: [tesla,models,mods]
-clipping: Every morning I check my Tesla account for updates on the status of my car. Two weeks ago when I checked I finally saw the status that I've been waiting for for TWO months...
+clipping: Every morning I check my Tesla account for updates on the status of my car. Two weeks ago when I checked I finally saw the status that I've been waiting for for TWO months. I went in on August 29th to pick it up. I didn't really pay attention to any of the walkthrough though as I was too distracted at how amazing it looked and thinking of all the different mods that I wanted to start on...
 ---
 
 Every morning I check my Tesla account for updates on the status of my car. Two weeks ago when I checked I finally saw the status that I've been waiting for for TWO months: 
