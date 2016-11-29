@@ -5,7 +5,7 @@ date:   2016-07-08 12:00:00 -0500
 author: "Arun Varghese"
 category: travel
 tags: [puertorico,sanjuan,fajardo,biobay,caves,mofungo]
-thumbnail: http://i.imgur.com/T6PhmXyh.jpg
+thumbnail: http://i.imgur.com/R1KRe85h.jpg
 clipping: 
 ---
 

@@ -237,6 +237,7 @@
         background-repeat: no-repeat !important;
         background-position: center center !important;
         transition: .3s ease-in-out;
+        border: 3px solid black;
     }
 }
 
@@ -255,8 +256,8 @@
         display: block;
         background: rgba(0, 0, 0, 0.1);
         height: 1px;
-        width: 100%;
-        margin-left: auto;
+        width: 95%;
+        margin: auto;
         transition: .3s ease-in-out
     }
 }

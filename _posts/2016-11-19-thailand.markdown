@@ -5,7 +5,7 @@ date:   2016-11-19 12:00:00 -0500
 author: Arun Varghese
 category: travel
 tags: [resorts,travel]
-thumbnail: http://i.imgur.com/DZJB5Glh.jpg
+thumbnail: http://i.imgur.com/DhK7X31h.jpg
 ---
 
 ### Thailand and Phuket by <i class="fa fa-fw fa-plane"></i> 
