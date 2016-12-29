@@ -145,6 +145,10 @@ git remote -v
 Push the project to heroku<br />
 <code class="highlighter-rouge"> 
 git push heroku master
+</code><br />
+If you are pushing from a branch besides master:<br />
+<code class="highlighter-rouge"> 
+git push heroku your-branch:master --force
 </code></p>
 
 <h4 id="view-app">View App</h4>
@@ -166,8 +170,15 @@ heroku addons:create deployhooks:http --url https://hooks.slack.com/services/**/
 Mine is at <a href="https://gw-car-dashboard.herokuapp.com/">https://gw-car-dashboard.herokuapp.com/</a><br />
 Now all that’s left is to focus on building out your new app!</p>
 
-<h1 id="reference">Reference:</h1>
+<h4 id="extra---if-you-want-to-remove-all-commits-on-your-master-branch">EXTRA - If you want to remove all commits on your master branch:</h4>
+<p>Checkout: <code class="highlighter-rouge">git checkout --orphan master2</code><br />
+Add all the files: <code class="highlighter-rouge">git add -A</code><br />
+Commit the changes: <code class="highlighter-rouge">git commit -am "commit message"</code><br />
+Delete the branch: <code class="highlighter-rouge">git branch -D master</code><br />
+Rename the current branch to master: <code class="highlighter-rouge">git branch -m master</code><br />
+Finally, force update your repository: <code class="highlighter-rouge">git push -f origin master</code></p>
 
+<h1 id="reference">Reference:</h1>
 <ul>
   <li>
     <blockquote>

@@ -10,7 +10,7 @@
 $base-font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
 /*$base-font-family: 'Open Sans', sans-serif;*/
 $base-font-size:   1em;
-$base-font-weight: 100;
+$base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 $spacing-unit:     30px;
@@ -45,8 +45,6 @@ $on-laptop:        800px;
         @content;
     }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -185,3 +183,4 @@ span.post-tag:after {
 span.post-tag:last-child:after {
     content: "";
 }
+

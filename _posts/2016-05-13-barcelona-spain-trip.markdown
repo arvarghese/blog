@@ -20,7 +20,7 @@ As part of our one year anniversary trip to Italy, my wife and I also decided to
 + <i class="fa fa-map-marker"></i> Montserrat, Barcelona, Montjuic, Parc Guell, Sagrada Familia, Poble Espanyol, Magic Fountain
 
 + Tours I recommend:
-+ [Barcelona Day Tours](www.BarcelonaDayTours.com)
++ [Barcelona Day Tours](http://www.BarcelonaDayTours.com)
 
 Highlights from the trip!
 
