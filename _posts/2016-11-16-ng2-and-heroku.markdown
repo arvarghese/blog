@@ -74,8 +74,15 @@ To go directly to the URL, enter
 ```  
 heroku open  
 ```  
+  
+If you want to be notified of deployment activity, you can setup a deploy hook to push notifications. Once you have an endpoint, whether it be [slack](https://slack.com/) or some other service, just include the endpoint specified by the service as the deploy hook url. For example:  
+```
+heroku addons:create deployhooks:http --url https://hooks.slack.com/services/**/**/*** --app heroku-app-name-here
+```  
 
-And thats it! The new app should be viewable at [https://gw-car-dashboard.herokuapp.com/](https://gw-car-dashboard.herokuapp.com/). Now all that's left is to focus on building out your new app!
+And thats it! The new app can now be viewed at **https://your-app-name.herokuapp.com/**   
+Mine is at [https://gw-car-dashboard.herokuapp.com/](https://gw-car-dashboard.herokuapp.com/)  
+Now all that's left is to focus on building out your new app!  
 
 # Reference:
 

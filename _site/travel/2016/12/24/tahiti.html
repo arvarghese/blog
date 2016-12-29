@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Hosting Angular 2 on Heroku</title>
-  <meta name="description" content="Hosting an Angular 2 on Heroku!">
+  <title>Tahiti 2016</title>
+  <meta name="description" content="Tahiti by    December 24th - December 28th   Manava   Chase Sapphire Reserve   iPhone 6s  ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="avarghese4790.github.io/development/2016/11/16/ng2-and-heroku.html">
+  <link rel="canonical" href="avarghese4790.github.io/travel/2016/12/24/tahiti.html">
   <link rel="alternate" type="application/rss+xml" title="< Arun's Blog >" href="avarghese4790.github.io/feed.xml">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- <link href="favicon.ico" rel="icon" type="image/png"> -->
@@ -72,119 +72,51 @@
       <div class="wrapper">
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline"> Hosting Angular 2 on Heroku</h1>
+    <h1 class="post-title" itemprop="name headline"> Tahiti 2016</h1>
     <div class="post-meta">
     	<i class="fa fa-fw fa-user"></i> Arun Varghese
-		<i class="fa fa-fw fa-clock-o"></i> 16 Nov 2016
-		<i class="fa fa-fw fa-tags"></i> Development
+		<i class="fa fa-fw fa-clock-o"></i> 24 Dec 2016
+		<i class="fa fa-fw fa-tags"></i> Travel
     </div>
   </header>  
   <div class="post-content" itemprop="articleBody">
-    <h3 id="hosting-an-angular-2httpsangulario-on-herokuhttpsherokucom">Hosting an <a href="https://angular.io/">Angular 2</a> on <a href="https://heroku.com/">Heroku</a>!</h3>
+    <h3 id="tahiti-by-i-classfa-fa-fw-fa-planei">Tahiti by <i class="fa fa-fw fa-plane"></i></h3>
+<ul>
+  <li><i class="fa fa-fw fa-calendar"></i> December 24th - December 28th</li>
+  <li><i class="fa fa-fw fa-bed"></i> <a href="http://www.tahitivacations.net/hotels/mooreapearlbeachresort/">Manava</a></li>
+  <li><i class="fa fa-fw fa-credit-card"></i> <a href="https://www.chase.com/card-benefits/sapphirereserve/rewards">Chase Sapphire Reserve</a></li>
+  <li><i class="fa fa-fw fa-camera"></i> <a href="http://www.apple.com/shop/buy-iphone/iphone6s">iPhone 6s</a></li>
+  <li><i class="fa fa-fw fa-map-marker"></i></li>
+</ul>
+
+<p>We really didn’t know what to expect from Thailand as we’ve heard many mixed reviews about both Bangkok and Phuket. After seeing both in person though I can freely say that this experiene was incredible and we will definitely be coming back.</p>
+
+<h3 id="moorea">Mo’orea</h3>
+<p>In Progress..
+<!-- Our stay in Bangkok was relatively short, but we were able to cover quite a bit including three temples, the floating markets of 
+ --></p>
 
 <ul>
   <li>
     <blockquote>
-      <p><a href="https://github.com/gitwrecked/car-dashboard-ng2CLI">Source Code</a></p>
+      <p><a href="http://imgur.com/a/CzjgH">Tahiti Gallery</a></p>
     </blockquote>
   </li>
   <li>
     <blockquote>
-      <p><a href="https://gw-car-dashboard.herokuapp.com/">Website</a></p>
+      <p><a href="https://www.instagram.com/p/BNPNONZleQq/?taken-by=var_arun">Tahiti Highlights</a></p>
     </blockquote>
   </li>
 </ul>
 
-<p>Since I started getting into Angular 2 development, I have been looking for easy ways to hosts simple projects. Although there are plenty options available, I decided to go with Heroku, for ease of use and cheap dev options.</p>
+<p>Highlights from the trip!</p>
 
-<p>In addition to hosting I discovered a pretty neat tool that takes care of scaffolding and boilerplate code for angular projects. To create and deploy a project from scratch I just had to a couple of commands! The project I am using for the examples below is <strong>car-dashboard-ng2CLI</strong>.</p>
-
-<h4 id="prerequisites">Prerequisites</h4>
-<p>-Angular CLI installed<br />
--Heroku Toolbelt installed<br />
--Heroku Account created<br />
--Github account setup</p>
-
-<p>Steps are follows:</p>
-
-<h4 id="create-angular-2-project">Create Angular 2 project</h4>
-<div class="highlighter-rouge"><pre class="highlight"><code>ng new car-dashboard-ng2CLI
-cd car-dashboard-ng2CLI
-ng build
-ng serve
-</code></pre>
+<div class="img-container">
+	<a target="_blank" href="http://i.imgur.com/UdY6Wvj.jpg"><img class="img-travel" src="http://i.imgur.com/UdY6Wvjh.jpg" alt="helmet dive stingray" /></a>
+	<a target="_blank" href="http://i.imgur.com/4luL5FN.jpg"><img class="img-travel" src="http://i.imgur.com/4luL5FNh.jpg" alt="bungalow view" /></a>
+	<a target="_blank" href="http://i.imgur.com/9RBChrW.jpg"><img class="img-travel" src="http://i.imgur.com/9RBChrWh.jpg" alt="tour mountain view" /></a>
+	<a target="_blank" href="http://i.imgur.com/FPT3mwq.jpg"><img class="img-travel" src="http://i.imgur.com/FPT3mwqh.jpg" alt="chicken curry" /></a>
 </div>
-
-<h4 id="create-heroku-app">Create Heroku App</h4>
-<p>Login into heroku<br />
-<code class="highlighter-rouge">
-heroku login  
-</code><br />
-If you already went into Heroku and created an app there, just link the two with the following:<br />
-<code class="highlighter-rouge">
-heroku apps:info --app car-dashboard-ng2CLI 
-</code><br />
-Otherwise just create a brand new one:<br />
-<code class="highlighter-rouge">
-heroku create
-</code></p>
-
-<h4 id="connect-project-to-heroku">Connect Project to Heroku</h4>
-<p>Initialize a git repo <br />
-<code class="highlighter-rouge"> 
-git init  
-</code><br />
-Add heroku as a remote repo<br />
-<code class="highlighter-rouge"> 
-git remote add heroku https://git.heroku.com/car-dashboard-ng2CLI.git
-</code><br />
-Validate remote exists<br />
-<code class="highlighter-rouge"> 
-git remote -v  
-</code><br />
-Push the project to heroku<br />
-<code class="highlighter-rouge"> 
-git push heroku master
-</code></p>
-
-<h4 id="view-app">View App</h4>
-<p>After its pushed, you can visit Heroku to check on your app’s deployment, or you can view the logs using<br />
-<code class="highlighter-rouge">
-heroku logs  
-</code><br />
-To go directly to the URL, enter<br />
-<code class="highlighter-rouge"> 
-heroku open  
-</code></p>
-
-<p>If you want to be notified of deployment activity, you can setup a deploy hook to push notifications. Once you have an endpoint, whether it be <a href="https://slack.com/">slack</a> or some other service, just include the endpoint specified by the service as the deploy hook url. For example:<br />
-<code class="highlighter-rouge">
-heroku addons:create deployhooks:http --url https://hooks.slack.com/services/**/**/*** --app heroku-app-name-here
-</code></p>
-
-<p>And thats it! The new app can now be viewed at <strong>https://your-app-name.herokuapp.com/</strong> <br />
-Mine is at <a href="https://gw-car-dashboard.herokuapp.com/">https://gw-car-dashboard.herokuapp.com/</a><br />
-Now all that’s left is to focus on building out your new app!</p>
-
-<h1 id="reference">Reference:</h1>
-
-<ul>
-  <li>
-    <blockquote>
-      <p><a href="https://github.com/angular/angular-cli">Angular 2 CLI</a></p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-      <p><a href="http://ruten.ca/2012/02/15/heroku-cheatsheet-useful-heroku-commands-reference/">Heroku Cheatsheet</a></p>
-    </blockquote>
-  </li>
-  <li>
-    <blockquote>
-      <p><a href="https://www.angularonrails.com/deploy-angular-cli-webpack-project-heroku/">Angular 2/Heroku</a></p>
-    </blockquote>
-  </li>
-</ul>
 
 
   </div>

@@ -6,9 +6,114 @@
 </description>
     <link>avarghese4790.github.io/</link>
     <atom:link href="avarghese4790.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Nov 2016 09:58:40 -0600</pubDate>
-    <lastBuildDate>Tue, 29 Nov 2016 09:58:40 -0600</lastBuildDate>
+    <pubDate>Wed, 28 Dec 2016 20:46:39 -0600</pubDate>
+    <lastBuildDate>Wed, 28 Dec 2016 20:46:39 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Tahiti 2016</title>
+        <description>&lt;h3 id=&quot;tahiti-by-i-classfa-fa-fw-fa-planei&quot;&gt;Tahiti by &lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-calendar&quot;&gt;&lt;/i&gt; December 24th - December 28th&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-bed&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.tahitivacations.net/hotels/mooreapearlbeachresort/&quot;&gt;Manava&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-credit-card&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.chase.com/card-benefits/sapphirereserve/rewards&quot;&gt;Chase Sapphire Reserve&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-camera&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.apple.com/shop/buy-iphone/iphone6s&quot;&gt;iPhone 6s&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We really didn’t know what to expect from Thailand as we’ve heard many mixed reviews about both Bangkok and Phuket. After seeing both in person though I can freely say that this experiene was incredible and we will definitely be coming back.&lt;/p&gt;
+
+&lt;h3 id=&quot;moorea&quot;&gt;Mo’orea&lt;/h3&gt;
+&lt;p&gt;In Progress..
+&lt;!-- Our stay in Bangkok was relatively short, but we were able to cover quite a bit including three temples, the floating markets of 
+ --&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://imgur.com/a/CzjgH&quot;&gt;Tahiti Gallery&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.instagram.com/p/BNPNONZleQq/?taken-by=var_arun&quot;&gt;Tahiti Highlights&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Highlights from the trip!&lt;/p&gt;
+
+&lt;div class=&quot;img-container&quot;&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/UdY6Wvj.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/UdY6Wvjh.jpg&quot; alt=&quot;helmet dive stingray&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/4luL5FN.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/4luL5FNh.jpg&quot; alt=&quot;bungalow view&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/9RBChrW.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/9RBChrWh.jpg&quot; alt=&quot;tour mountain view&quot; /&gt;&lt;/a&gt;
+	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/FPT3mwq.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/FPT3mwqh.jpg&quot; alt=&quot;chicken curry&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Sat, 24 Dec 2016 11:00:00 -0600</pubDate>
+        <link>avarghese4790.github.io/travel/2016/12/24/tahiti.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/travel/2016/12/24/tahiti.html</guid>
+        
+        <category>resorts</category>
+        
+        <category>travel</category>
+        
+        
+        <category>travel</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating a Simple Website using Github</title>
+        <description>&lt;h3 id=&quot;creating-a-simple-website-using-githubhttpsgithubcom&quot;&gt;Creating a Simple Website using &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Checkout. git checkout –orphan latest_branch.
+Add all the files. git add -A.
+Commit the changes. git commit -am “commit message”
+Delete the branch. git branch -D master.
+Rename the current branch to master. git branch -m master.
+Finally, force update your repository. git push -f origin master.&lt;/p&gt;
+
+&lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/angular/angular-cli&quot;&gt;Angular 2 CLI&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://ruten.ca/2012/02/15/heroku-cheatsheet-useful-heroku-commands-reference/&quot;&gt;Heroku Cheatsheet&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.angularonrails.com/deploy-angular-cli-webpack-project-heroku/&quot;&gt;Angular 2/Heroku&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 02 Dec 2016 11:00:00 -0600</pubDate>
+        <link>avarghese4790.github.io/development/2016/12/02/barebones-site.html</link>
+        <guid isPermaLink="true">avarghese4790.github.io/development/2016/12/02/barebones-site.html</guid>
+        
+        <category>github</category>
+        
+        <category>html</category>
+        
+        <category>javascript</category>
+        
+        <category>gulp</category>
+        
+        <category>css</category>
+        
+        
+        <category>development</category>
+        
+      </item>
     
       <item>
         <title>Thailand 2016</title>
@@ -163,7 +268,14 @@ To go directly to the URL, enter&lt;br /&gt;
 heroku open  
 &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;And thats it! The new app should be viewable at &lt;a href=&quot;https://gw-car-dashboard.herokuapp.com/&quot;&gt;https://gw-car-dashboard.herokuapp.com/&lt;/a&gt;. Now all that’s left is to focus on building out your new app!&lt;/p&gt;
+&lt;p&gt;If you want to be notified of deployment activity, you can setup a deploy hook to push notifications. Once you have an endpoint, whether it be &lt;a href=&quot;https://slack.com/&quot;&gt;slack&lt;/a&gt; or some other service, just include the endpoint specified by the service as the deploy hook url. For example:&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+heroku addons:create deployhooks:http --url https://hooks.slack.com/services/**/**/*** --app heroku-app-name-here
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And thats it! The new app can now be viewed at &lt;strong&gt;https://your-app-name.herokuapp.com/&lt;/strong&gt; &lt;br /&gt;
+Mine is at &lt;a href=&quot;https://gw-car-dashboard.herokuapp.com/&quot;&gt;https://gw-car-dashboard.herokuapp.com/&lt;/a&gt;&lt;br /&gt;
+Now all that’s left is to focus on building out your new app!&lt;/p&gt;
 
 &lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
 
@@ -728,76 +840,6 @@ This Blog: &lt;em&gt;arvarghese/blog&lt;/em&gt; = &lt;a href=&quot;http://avargh
         
         
         <category>cars</category>
-        
-      </item>
-    
-      <item>
-        <title>Married Life</title>
-        <description>&lt;p&gt;Today, it has been exactly 2 years since I proposed, and a little over a year that I’ve been married. Today especially puts me in a reflective mood. I am starting to think back on my life, the coincidences and events that transpired in order for me to be where I am today. I can tie the course of my life back to a few key moments: highschool graduation, confession to my first crush, data structures and algorithmic analysis in college, my first job, and my proposal. Honestly if any of these happened differently, I would not be in the same place I am today.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 02 Sep 2016 12:00:00 -0500</pubDate>
-        <link>avarghese4790.github.io/life/2016/09/02/life-with-wife.html</link>
-        <guid isPermaLink="true">avarghese4790.github.io/life/2016/09/02/life-with-wife.html</guid>
-        
-        <category>marriage</category>
-        
-        
-        <category>life</category>
-        
-      </item>
-    
-      <item>
-        <title>2016-08-26 Negril</title>
-        <description>&lt;h4 id=&quot;negril-jamaica-by-i-classfa-fa-fw-fa-planei&quot;&gt;Negril, Jamaica by &lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt;&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-calendar&quot;&gt;&lt;/i&gt; July 8th - July 10th&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-bed&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.rockhouse.com/escape/&quot;&gt;Rockhouse Hotel&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; Push Cart, Rick’s Cafe, Sweetspice&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We had booked this trip a while back, got a great deal through Spirit Airlines. Following our current trend, this is also just a weekend trip, spanning Friday to Sunday. My wife discovered the hotel and instantly fell in love with it. It reminded us of the Maldives, specifically the over-water villas and crystal clear water. It is about an hour and half drive out from the Montego Bay airport, and well worth the drive too! From the moment we stepped on the resort to the last few minutes before we regretfully said goodbye to the unbelievable nice staff, it was an amazing experience. The views, food very similar to our native cuisine, and activities were all top notch. I highly recommend this place to any one looking for a luxury resort getaway while in Jamaica.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;http://imgur.com/a/go1Dc&quot;&gt;Gallery&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.instagram.com/p/BKG86mFgM10/?taken-by=var_arun&quot;&gt;Highlights Teaser&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.instagram.com/p/BJn-G4hA7jn/?taken-by=var_arun&quot;&gt;GoPro Bridge Jump&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Highlights from the trip!&lt;/p&gt;
-
-&lt;div class=&quot;img-container&quot;&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/pawE6y2.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/pawE6y2h.jpg&quot; alt=&quot;rockhouse sunset&quot; /&gt;&lt;/a&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/tDDGRQo.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/tDDGRQoh.jpg&quot; alt=&quot;cliffside villas view&quot; /&gt;&lt;/a&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/h4Yuo3z.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/h4Yuo3zh.jpg&quot; alt=&quot;ricks cafe&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-</description>
-        <pubDate>Fri, 26 Aug 2016 12:00:00 -0500</pubDate>
-        <link>avarghese4790.github.io/travel/2016/08/26/negril.html</link>
-        <guid isPermaLink="true">avarghese4790.github.io/travel/2016/08/26/negril.html</guid>
-        
-        <category>jamaica</category>
-        
-        <category>cliffside</category>
-        
-        <category>bungalows</category>
-        
-        <category>bridgejump</category>
-        
-        
-        <category>travel</category>
         
       </item>
     
