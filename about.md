@@ -16,4 +16,3 @@ Checkout my sites for more info!
 + >[Resume](http://avarghese.me/resume)
 + >[Portfolio](http://avarghese.me/portfolio) 
 + >[Travel](http://avarghese.me/travel)
-
