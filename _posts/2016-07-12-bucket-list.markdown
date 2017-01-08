@@ -11,7 +11,7 @@ clipping: Just a list of places to see and things to do that I would like to acc
 Just a list of places to see and things to do that I would like to accomplish at some point in my life. Expect this list to be constantly updated :)
 
 ## Places  
-> Australia
+> Australia  
 > [French Polynesia](/travel/2016/12/24/french-polynesia.html) ✓  
 > [Costa Rica](/travel/2016/10/07/costa-rica.html) ✓  
 > [Thailand](/travel/2016/11/19/thailand.html) ✓  
@@ -29,16 +29,20 @@ Just a list of places to see and things to do that I would like to accomplish at
 > [India](http://imgur.com/a/Y6Ww7) ✓  
 > [Abu Dhabi](http://imgur.com/a/Y6Ww7) ✓  
 
+-  
+
 ## Travel and Activities  
+> [Stay in an Overwater Bungalow](/travel/2016/12/24/french-polynesia.html) ✓  
+> [Road trip along Highway 101](http://imgur.com/a/03ibF) ✓  
+> [Spontaneous International Trip](/travel/2016/08/20/puerto-vallarta.html) ✓  
+> [Try chicago deep dish pizza](http://imgur.com/ryDmQWb) ✓  
+> [Phuket: Stay in a room with a personal infinity pool](https://www.instagram.com/p/BOo9y_mlI1m/?taken-by=var_arun) ✓    
+> [Jamaica: Cliff dive](https://www.instagram.com/p/BJn-G4hA7jn/?taken-by=var_arun) ✓  
 > [Chicago: Six flags](https://www.sixflags.com/greatamerica)  
 > [Fly a jet](http://www.flyfighterjet.com/)  
 > Hot Air Balloon  
 > [Las Vegas: Dinner in the sky](http://dinnerinthesky.com/)  
 > [Zorbing](http://www.zorbing.co.uk/)  
-> [Stay in an Overwater Bungalow](/travel/2016/12/24/french-polynesia.html) ✓  
-> [Road trip along Highway 101](http://imgur.com/a/03ibF) ✓  
-> [Spontaneous International Trip](/travel/2016/08/20/puerto-vallarta.html) ✓  
-> [Try chicago deep dish pizza](http://imgur.com/ryDmQWb) ✓  
 > Hawaii: Volcanoes/sharks  
 > Utah: Moab canyon lands  
 > New Mexico: Taos bungee jump  
@@ -49,9 +53,13 @@ Just a list of places to see and things to do that I would like to accomplish at
 > Sun city, Africa:  Highest zip  
 > Chattanooga, TN: Hang glide  
 > Kentucky: Noah's Ark  
+> [Isla Holbox: Snorkel with whale sharks](http://holboxwhalesharktours.net/)  
+
+-  
 
 ## Personal Development  
-> Build a website end to end ✓  
+> [Own a Tesla Model S](/cars/2016/09/02/tesla-delivered.html) ✓  
+> [Build a website end to end](http://avarghese.me/) ✓  
 > Do a Pistol ✓  
 > Do a planche pushup  
 > Hold a handstand  
