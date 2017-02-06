@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Creating a Bower Package</title>
+  <meta name="description" content="Creating a Bower Package            Source Code                  Demo      ">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://avarghese.me/development/2017/02/01/bower-package.html">
+  <link rel="alternate" type="application/rss+xml" title="<blog>" href="http://avarghese.me/feed.xml">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link href="favicon.ico" rel="icon" type="image/png"> -->
+  <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-74100141-2', 'auto');
+	ga('send', 'pageview');
+</script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">
+      Arun's Blog
+    </a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">
+            <i class="fa fa-fw fa-2x fa-user-circle-o"></i>
+          </a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline"> Creating a Bower Package</h1>
+    <div class="post-meta">
+    	<i class="fa fa-fw fa-user"></i> Arun Varghese
+		<i class="fa fa-fw fa-clock-o"></i> 01 Feb 2017
+		<i class="fa fa-fw fa-tags"></i> Development
+    </div>
+  </header>  
+  <div class="post-content" itemprop="articleBody">
+    <h3 id="creating-a-bower-package">Creating a Bower Package</h3>
+<ul>
+  <li>
+    <blockquote>
+      <p><a href="https://github.com/arvarghese/photo-tiles">Source Code</a></p>
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      <p><a href="http://avarghese.me/photo-tiles/">Demo</a></p>
+    </blockquote>
+  </li>
+</ul>
+
+<p>I’ve always wanted to publish some kind of library or package that people could use in their own projects. Recently I got into design discussion with one of my colleagues at work about the Macbook Photo Screensavers, specifically the one with the sliding tiles. We both wanted to try to emulate it using just CSS and <a href="http://www.w3schools.com/css/css3_flexbox.asp">flexbox</a>. Over a period of a few days though I shifted from CSS to Javascript through JQuery to handle the layout and animations. And creating a working demo, I began thinking of how to package this in such a way that my colleague could also use this as a front-end dependency in his own project. Enter <a href="https://bower.io/">bower</a>.</p>
+
+<p>Bower allows you to manage your package using your github as the source, and allows others to use your package simply by issuing the following command:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>bower install &lt;package&gt;#&lt;version&gt;
+</code></pre>
+</div>
+
+<p>If the <code class="highlighter-rouge">#&lt;version&gt;</code> is left out, bower will pull the latest version. I figured out how to remove all dependencies in my project, like <a href="https://jquery.com/">jQuery</a> and <a href="http://getbootstrap.com/">Bootstrap</a>, and use barebones CSS and javascript to generate photo tiles. I’ve listed the steps below needed to create your first bower package, the one i’ll be using as an example is my <a href="https://github.com/arvarghese/photo-tiles">Photo Tiles</a> package! The following steps can be done after you have created you have created a working github repository.</p>
+
+<h4 id="steps">Steps:</h4>
+<p>Initialize bower in you github project:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>bower init
+</code></pre>
+</div>
+
+<p>My bower.json</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"photo-tiles"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Photo Tiles, JS implementation of Mac's Photo Tiles Screensaver"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"main"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="s2">"dist/photo-tiles.js"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"dist/photo-tiles.css"</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nt">"authors"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="s2">"avarghese4790"</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nt">"license"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MIT"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"homepage"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://github.com/arvarghese/photo-tiles"</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"ignore"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="s2">"assets/"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"node_modules"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">".bowerrc"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">".gitignore"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">".npmignore"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">".travis.yml"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"bower.json"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"gulpfile.js"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"index.html"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"package.json"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"server.js"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"tsconfig.json"</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nt">"keywords"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="s2">"photos"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"tiles"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"photo-tiles"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"library"</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nt">"dependencies"</span><span class="p">:</span><span class="w"> </span><span class="p">{}</span><span class="w">
+</span><span class="p">}</span><span class="w"> 
+</span></code></pre>
+</div>
+
+<p>Add your package to the bower registry:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>bower register photo-tiles https://github.com/arvarghese/photo-tiles.git
+</code></pre>
+</div>
+
+<p>Now that your package is registered, you need to version it so when others try to pull your package they can get the correct version.
+Bower uses github to manage versions. To create a new version for your package, add a new tag in github:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>git tag 0.1.0
+<span class="gp">$ </span>git push origin 0.1.0
+</code></pre>
+</div>
+
+<p>Now all a person would have to do to download your package at a specific version is:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>bower install photo-tiles#0.1.0
+</code></pre>
+</div>
+
+<p>Don’t forget to add a <code class="highlighter-rouge">README.md</code> to the repo with usage and installation instructions!</p>
+
+<h1 id="reference">Reference:</h1>
+<ul>
+  <li>
+    <blockquote>
+      <p><a href="https://bower.io/docs/creating-packages/">Bower</a></p>
+    </blockquote>
+  </li>
+</ul>
+
+
+  </div>
+</article>
+<br>
+<hr>
+<br>
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//avarghese4790githubio.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          
+            <li>
+              <a href="https://github.com/avarghese4790">
+                <i class="fa fa-lg fa-github"></i>
+              </a>
+            </li>
+          
+          
+            <li>
+              <a href="https://www.linkedin.com/in/varghesearun">
+                <i class="fa fa-lg fa-linkedin-square"></i>
+              </a>
+            </li>
+          
+          
+            <li>
+              <a href="https://www.facebook.com/avarghese1">
+                <i class="fa fa-lg fa-facebook-square"></i>
+              </a>
+            </li>
+          
+          
+            <li>
+              <a href="https://www.instagram.com/var_arun">
+                <i class="fa fa-lg fa-instagram"></i>
+              </a>
+            </li>
+          
+          
+            <li>
+              <a href="mailto:arunv4700@gmail.com">
+                <i class="fa fa-lg fa-envelope"></i>
+              </a>
+            </li>
+          
+          <li>
+            <a href="/feed.xml">            
+              <i class="fa fa-lg fa-rss"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-2">
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>Welcome to my blog! This will mainly be used to talk about things I learn day to day as a developer, as well other things like travel, cars, life in general. Feel free to subscribe if any of this content resonates with you!
+</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <a href="#" class="scrolltop-btn scroll">
+	<i class="fa fa-2x fa-angle-double-up"></i>
+</a>
+    <script id="dsq-count-scr" src="//avarghese4790githubio.disqus.com/count.js" async></script>
+  </body>
+
+</html>

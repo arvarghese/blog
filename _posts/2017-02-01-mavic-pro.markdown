@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "My Mavic Pro"
+date:   2017-2-01 12:00:00 -0500
+author: "Arun Varghese"
+category: technology
+tags: [drone, photography]
+clipping: My new DJI Mavic Pro just came in and it is awesome!
+---
+
+### My Mavic Pro  
+When it first arrived, it thought I ordered the wrong thing because the box was so small, but it was clearly labeled as the **DJI Mavic Pro**. It came with:  
+
++ > Drone body  
++ > 5 sets of propellers  
++ > Battery  
++ > Remote 
++ > Batter/Remote Charger  
++ > Warranty/quickstart guide  
+
+Both the battery and the remote needed charging, so I plugged them in for about one hour. Afterwards it was time to take flight!  
+
++ > [Unboxing/First Flight Video]()  
+
+# Reference:
++ > [DJI](https://store.dji.com/product/mavic-pro#/?_k=t3oacf)  
+
+

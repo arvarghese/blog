@@ -6,9 +6,199 @@
 </description>
     <link>http://avarghese.me/</link>
     <atom:link href="http://avarghese.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 08 Jan 2017 13:44:43 -0600</pubDate>
-    <lastBuildDate>Sun, 08 Jan 2017 13:44:43 -0600</lastBuildDate>
+    <pubDate>Mon, 06 Feb 2017 13:05:28 -0600</pubDate>
+    <lastBuildDate>Mon, 06 Feb 2017 13:05:28 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>My Mavic Pro</title>
+        <description>&lt;h3 id=&quot;my-mavic-pro&quot;&gt;My Mavic Pro&lt;/h3&gt;
+&lt;p&gt;When it first arrived, it thought I ordered the wrong thing because the box was so small, but it was clearly labeled as the &lt;strong&gt;DJI Mavic Pro&lt;/strong&gt;. It came with:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Drone body&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;5 sets of propellers&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Battery&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Remote&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Batter/Remote Charger&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Warranty/quickstart guide&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Both the battery and the remote needed charging, so I plugged them in for about one hour. Afterwards it was time to take flight!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;&quot;&gt;Unboxing/First Flight Video&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://store.dji.com/product/mavic-pro#/?_k=t3oacf&quot;&gt;DJI&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 01 Feb 2017 11:00:00 -0600</pubDate>
+        <link>http://avarghese.me/technology/2017/02/01/mavic-pro.html</link>
+        <guid isPermaLink="true">http://avarghese.me/technology/2017/02/01/mavic-pro.html</guid>
+        
+        <category>drone</category>
+        
+        <category>photography</category>
+        
+        
+        <category>technology</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating a Bower Package</title>
+        <description>&lt;h3 id=&quot;creating-a-bower-package&quot;&gt;Creating a Bower Package&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/arvarghese/photo-tiles&quot;&gt;Source Code&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://avarghese.me/photo-tiles/&quot;&gt;Demo&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’ve always wanted to publish some kind of library or package that people could use in their own projects. Recently I got into design discussion with one of my colleagues at work about the Macbook Photo Screensavers, specifically the one with the sliding tiles. We both wanted to try to emulate it using just CSS and &lt;a href=&quot;http://www.w3schools.com/css/css3_flexbox.asp&quot;&gt;flexbox&lt;/a&gt;. Over a period of a few days though I shifted from CSS to Javascript through JQuery to handle the layout and animations. And creating a working demo, I began thinking of how to package this in such a way that my colleague could also use this as a front-end dependency in his own project. Enter &lt;a href=&quot;https://bower.io/&quot;&gt;bower&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Bower allows you to manage your package using your github as the source, and allows others to use your package simply by issuing the following command:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;bower install &amp;lt;package&amp;gt;#&amp;lt;version&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If the &lt;code class=&quot;highlighter-rouge&quot;&gt;#&amp;lt;version&amp;gt;&lt;/code&gt; is left out, bower will pull the latest version. I figured out how to remove all dependencies in my project, like &lt;a href=&quot;https://jquery.com/&quot;&gt;jQuery&lt;/a&gt; and &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt;, and use barebones CSS and javascript to generate photo tiles. I’ve listed the steps below needed to create your first bower package, the one i’ll be using as an example is my &lt;a href=&quot;https://github.com/arvarghese/photo-tiles&quot;&gt;Photo Tiles&lt;/a&gt; package! The following steps can be done after you have created you have created a working github repository.&lt;/p&gt;
+
+&lt;h4 id=&quot;steps&quot;&gt;Steps:&lt;/h4&gt;
+&lt;p&gt;Initialize bower in you github project:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;bower init
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;My bower.json&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;photo-tiles&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Photo Tiles, JS implementation of Mac&#39;s Photo Tiles Screensaver&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;main&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;dist/photo-tiles.js&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;dist/photo-tiles.css&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;authors&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;avarghese4790&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;license&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;MIT&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;homepage&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://github.com/arvarghese/photo-tiles&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;ignore&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;assets/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;node_modules&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.bowerrc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.gitignore&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.npmignore&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;.travis.yml&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;bower.json&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;gulpfile.js&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;index.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;package.json&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;server.js&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tsconfig.json&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;keywords&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;photos&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tiles&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;photo-tiles&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;library&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Add your package to the bower registry:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;bower register photo-tiles https://github.com/arvarghese/photo-tiles.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now that your package is registered, you need to version it so when others try to pull your package they can get the correct version.
+Bower uses github to manage versions. To create a new version for your package, add a new tag in github:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git tag 0.1.0
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git push origin 0.1.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now all a person would have to do to download your package at a specific version is:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;bower install photo-tiles#0.1.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Don’t forget to add a &lt;code class=&quot;highlighter-rouge&quot;&gt;README.md&lt;/code&gt; to the repo with usage and installation instructions!&lt;/p&gt;
+
+&lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://bower.io/docs/creating-packages/&quot;&gt;Bower&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 01 Feb 2017 11:00:00 -0600</pubDate>
+        <link>http://avarghese.me/development/2017/02/01/bower-package.html</link>
+        <guid isPermaLink="true">http://avarghese.me/development/2017/02/01/bower-package.html</guid>
+        
+        <category>node</category>
+        
+        <category>javascript</category>
+        
+        <category>bower</category>
+        
+        
+        <category>development</category>
+        
+      </item>
     
       <item>
         <title>French Polynesia 2016</title>
@@ -86,7 +276,18 @@
       <item>
         <title>Creating a RESTful API Using Node and Express</title>
         <description>&lt;h3 id=&quot;creating-a-restful-api-using-node-and-express&quot;&gt;Creating a RESTful API Using Node and Express&lt;/h3&gt;
-&lt;p&gt;IN PROGRESS&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/bucketeer/node-server&quot;&gt;Source Code&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://bucketeer-node-server.herokuapp.com/&quot;&gt;Website&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
 &lt;ul&gt;
@@ -686,193 +887,6 @@ This Blog: &lt;em&gt;arvarghese/blog&lt;/em&gt; = &lt;a href=&quot;http://avargh
         
         
         <category>travel</category>
-        
-      </item>
-    
-      <item>
-        <title>Big Sur Roadtrip 2016</title>
-        <description>&lt;h4 id=&quot;big-sur-california-by-i-classfa-fa-fw-fa-planei-i-classfa-fa-fw-fa-cari&quot;&gt;Big Sur, California by &lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt; &lt;i class=&quot;fa fa-fw fa-car&quot;&gt;&lt;/i&gt;&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-calendar&quot;&gt;&lt;/i&gt; July 23th - July 25th&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-bed&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://curiocollection3.hilton.com/en/hotels/california/juniper-hotel-cupertino-curio-collection-by-hilton-SJCCCQQ/index.html&quot;&gt;Juniper Hotel&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-credit-card&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.chase.com/card-benefits/sapphirereserve/rewards&quot;&gt;Chase Sapphire Reserve&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-camera&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.apple.com/shop/buy-iphone/iphone6s&quot;&gt;iPhone 6s&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; Carmel by the Sea, Nepenthe, Highway 101, Bixby Bridge, San Jose&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;http://imgur.com/a/V3P0z&quot;&gt;Full Gallery&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.instagram.com/p/BKzCqq2ghJi/?taken-by=var_arun&quot;&gt;Highlights Teaser&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;img-container&quot;&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/Q0lyf12&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/Q0lyf12h.jpg&quot; alt=&quot;bixby bridge&quot; /&gt;&lt;/a&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/syUp4HV&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/syUp4HVh.jpg&quot; alt=&quot;pebble beach&quot; /&gt;&lt;/a&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/VCDXWa5&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/VCDXWa5h.jpg&quot; alt=&quot;church&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Fri, 23 Sep 2016 12:00:00 -0500</pubDate>
-        <link>http://avarghese.me/travel/2016/09/23/big-sur-roadtrip.html</link>
-        <guid isPermaLink="true">http://avarghese.me/travel/2016/09/23/big-sur-roadtrip.html</guid>
-        
-        <category>roadtrip</category>
-        
-        <category>coastal</category>
-        
-        
-        <category>travel</category>
-        
-      </item>
-    
-      <item>
-        <title>My Tesla Model S Delivered!</title>
-        <description>&lt;p&gt;Every morning I check my Tesla account for updates on the status of my car. Two weeks ago when I checked I finally saw the status that I’ve been waiting for for TWO months:&lt;/p&gt;
-
-&lt;h3 id=&quot;your-tesla-model-s-is-delivered&quot;&gt;“Your Tesla Model S is Delivered”&lt;/h3&gt;
-
-&lt;p&gt;I went in on August 29th to pick it up, here’s a &lt;a href=&quot;https://docs.google.com/document/d/1nlZhDYtCinX_Wkb9OST-QBzervVp5yABMVBS266Q3W4/pub&quot;&gt;Good Read&lt;/a&gt; on what to pay attention to when taking delivery of a Tesla. I didn’t really pay attention to any of the walkthrough though as I was too distracted at how amazing it looked and thinking of all the different mods that I wanted to start on.&lt;/p&gt;
-
-&lt;p&gt;I previously modded my Honda Accord coupe, which in my opinion came out very well. You can view all the pictures on &lt;a href=&quot;http://imgur.com/a/a9cnM&quot;&gt;Imgur&lt;/a&gt; or checkout out my &lt;a href=&quot;http://localhost:4000/cars/2016/05/01/my-honda-accord.html&quot;&gt;previous post&lt;/a&gt; on this blog. Since I already gave that Accord to my wife, I was now thinking of doing a similar color scheme to the Tesla, just so we have matching cars! At this point I was still deciding about the colors, but I had started compiling everything I want to do to it, listed as follows in no particular order:&lt;/p&gt;
-
-&lt;h3 id=&quot;original-list-of-mods&quot;&gt;Original List of Mods&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Footwell lighting&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Carbon fiber interior accents&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Carbon fiber exterior trim and logos&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Powdercoated wheels&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Full vinyl car wrap&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Calipers painted&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;After a lot of thought and sampling, what I ended up doing was actually quite different in terms of color scheme and extent of modifications, but I am very happy with the results!&lt;/p&gt;
-
-&lt;h3 id=&quot;completed-mods&quot;&gt;Completed Mods&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Anodized Red Accents: handles, lug nuts, emblems, front air dams, rear spoiler lettering&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Satin Black Wrap: window trim, tailgate spoiler, bumper chrome trim, side markers&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Clear Bra: front bumper, side mirrors, headlights, fog lights, partial hood&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Tint: 35% front, 15% rear&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;RGBW LED footwell lighting&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;MyPlates Custom Plate: [VAR TESLA]&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;**NOTE: clear bra and tint done at &lt;a href=&quot;http://www.speedshieldusa.com/&quot;&gt;SpeedShield&lt;/a&gt;. I didn’t want to risk messing up applying expensive material, so I thought I’d leave this to the professionals.&lt;/p&gt;
-
-&lt;p&gt;At the moment I am completely satisfied with this car. Out the door it was already so amazing that I really didn’t have to do much to bring out its uniqueness. At some point in the future I plan to change out the wheels for a set of black/gunmetal/red of the same size (19’’), but for now I’m happy with the silly grin this car leaves on my face every time I take it for a spin.&lt;/p&gt;
-
-&lt;h3 id=&quot;possible-wheels&quot;&gt;Possible Wheels:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;http://www.discounttiredirect.com/direct/findWheelDetail.do?bp=5-120&amp;amp;fl=&amp;amp;yr=2016&amp;amp;pc=65826&amp;amp;counter=4&amp;amp;wd=19&amp;amp;rw=8&amp;amp;vid=034122&quot;&gt;TSW Nurburgring&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;http://www.discounttiredirect.com/direct/findWheelDetail.do?bp=5-120&amp;amp;fl=&amp;amp;yr=2016&amp;amp;pc=22134&amp;amp;counter=4&amp;amp;wd=19&amp;amp;rw=8.5&amp;amp;vid=034122&quot;&gt;TSW Bathurst&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;http://www.stancewheels.com/wheels/sc-series--tailor-made/sc1-gloss-black-with-matte-brush-red&quot;&gt;Stance SC-1&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;http://rohanawheels.com/rohana-wheel/rf2/&quot;&gt;Rohana RF-2&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;completed-pictures&quot;&gt;Completed Pictures!&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;http://imgur.com/a/OQU3b&quot;&gt;Full Gallery&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.instagram.com/p/BKTvqazgDsM/?taken-by=var_arun&quot;&gt;Summon Demonstration&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;img-container&quot;&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/9RFeM0z&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/9RFeM0zh.jpg&quot; alt=&quot;tesla front&quot; /&gt;&lt;/a&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/FPJiSll&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/FPJiSllh.jpg&quot; alt=&quot;tesla open doors&quot; /&gt;&lt;/a&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/5TSqRdx&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/5TSqRdxh.jpg&quot; alt=&quot;tesla interior dash&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Fri, 02 Sep 2016 12:00:00 -0500</pubDate>
-        <link>http://avarghese.me/cars/2016/09/02/tesla-delivered.html</link>
-        <guid isPermaLink="true">http://avarghese.me/cars/2016/09/02/tesla-delivered.html</guid>
-        
-        <category>tesla</category>
-        
-        <category>models</category>
-        
-        <category>mods</category>
-        
-        
-        <category>cars</category>
         
       </item>
     
