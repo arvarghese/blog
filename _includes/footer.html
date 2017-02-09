@@ -30,8 +30,17 @@
                 <i class="fa fa-lg fa-behance"></i>
               </a>
             </li>
+          {% endif %}          
+          {% if site.codepen_username %}
+            <li>
+              <a href="http://codepen.io//{{ site.codepen_username }}">
+                <i class="fa fa-lg fa-codepen"></i>
+              </a>
+            </li>
           {% endif %}
-          <!--{% if site.facebook_username %}
+          <br>
+          <br>          
+          {% if site.facebook_username %}
             <li>
               <a href="https://www.facebook.com/{{ site.facebook_username }}">
                 <i class="fa fa-lg fa-facebook-square"></i>
@@ -44,7 +53,7 @@
                 <i class="fa fa-lg fa-instagram"></i>
               </a>
             </li>
-          {% endif %}-->
+          {% endif %}
           {% if site.email %}
             <li>
               <a href="mailto:{{ site.email }}">

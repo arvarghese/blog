@@ -625,3 +625,8 @@ span.post-tag:after {
 
 span.post-tag:last-child:after {
   content: ""; }
+
+@media handheld, (max-width: 640px), (max-height: 400px) {
+  .contact-list,
+  .footer-col > p {
+    text-align: center; } }
