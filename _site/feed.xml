@@ -6,9 +6,43 @@
 </description>
     <link>http://avarghese.me/</link>
     <atom:link href="http://avarghese.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Feb 2017 13:05:28 -0600</pubDate>
-    <lastBuildDate>Mon, 06 Feb 2017 13:05:28 -0600</lastBuildDate>
+    <pubDate>Wed, 08 Feb 2017 23:43:23 -0600</pubDate>
+    <lastBuildDate>Wed, 08 Feb 2017 23:43:23 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>How I Became A Full Stack Developer</title>
+        <description>&lt;h3 id=&quot;how-i-became&quot;&gt;How I Became&lt;/h3&gt;
+
+&lt;p&gt;How I became a fullstack developer within 6 months&lt;/p&gt;
+
+&lt;p&gt;-Pluralsight Subscription&lt;br /&gt;
+-Made websites to promote my brand&lt;br /&gt;
+-Got into github&lt;br /&gt;
+-Solved problems for friends&lt;br /&gt;
+-Opensource&lt;br /&gt;
+-DevServers (Meteor, Heroku)&lt;br /&gt;
+-Serverless (Github)&lt;br /&gt;
+-Tool suite:
+    slack,github,travisci,houndci,heroku,visualstudiocode/sublime,node/meanstack,hangouts,mongolab,taiga&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://avarghese.me/blog/development/2016/05/24/create-free-project-framework.html
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Wed, 08 Feb 2017 11:00:00 -0600</pubDate>
+        <link>http://avarghese.me/development/2017/02/08/year-in-review.html</link>
+        <guid isPermaLink="true">http://avarghese.me/development/2017/02/08/year-in-review.html</guid>
+        
+        <category>fullstack</category>
+        
+        <category>coding</category>
+        
+        
+        <category>development</category>
+        
+      </item>
     
       <item>
         <title>My Mavic Pro</title>
@@ -833,60 +867,6 @@ This Blog: &lt;em&gt;arvarghese/blog&lt;/em&gt; = &lt;a href=&quot;http://avargh
         
         
         <category>development</category>
-        
-      </item>
-    
-      <item>
-        <title>Costa Rica 2016</title>
-        <description>&lt;h4 id=&quot;costa-rica-by-i-classfa-fa-fw-fa-planei&quot;&gt;Costa Rica by &lt;i class=&quot;fa fa-fw fa-plane&quot;&gt;&lt;/i&gt;&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-calendar&quot;&gt;&lt;/i&gt; October 7th - October 9th&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-bed&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.thespringscostarica.com/the-springs-room-descriptions.php?gclid=CjwKEAjw-Oy_BRDg4Iqok57a4kcSJADsuDK1zolwJNUo20C6PGf3875YJGAddXqgoD1RHCusf5D6jhoCjU_w_wcB&quot;&gt;Springs Resort&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-credit-card&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://www.chase.com/card-benefits/sapphirereserve/rewards&quot;&gt;Chase Sapphire Reserve&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-camera&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.apple.com/shop/buy-iphone/iphone6s&quot;&gt;iPhone 6s&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;i class=&quot;fa fa-fw fa-map-marker&quot;&gt;&lt;/i&gt; San Jose, San Ramon, Zarcero, La Fortuna, Arenal Volcano, Springs Resort&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This place reminded me alot of Puerto Rico in that there is a lush jungle landscape contrasted with rollings hills/mountains and volcanoes, in addition to the cities and barely paved roads. Overall the trip was pretty fun, from hiking to get a good view of the Arenal to eating termites out of a nest. One of the main highlights are the hot springs of Costa Rica, naturally warm water coming from the surrounding volcanoes. One recommendation is rent your own car instead of doing a tour. Though the tours are great, rental cars are cheap (~13 $/day) and let you explore on your own time, allowing you to cover more and see what Costa Rica has to offer.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;http://imgur.com/a/Mv4CT&quot;&gt;Gallery&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.instagram.com/p/BLWphDiFic9/?taken-by=var_arun&quot;&gt;Highlights Teaser&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Highlights from the trip!&lt;/p&gt;
-
-&lt;div class=&quot;img-container&quot;&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/qjAZ5nY.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/qjAZ5nYh.jpg&quot; alt=&quot;costa rica resort view&quot; /&gt;&lt;/a&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/bJxL8sB.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/bJxL8sBh.jpg&quot; alt=&quot;costa rica arenal volcano view&quot; /&gt;&lt;/a&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/bjU3Wk9.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/bjU3Wk9h.jpg&quot; alt=&quot;costa rica zarcero city view&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-</description>
-        <pubDate>Fri, 07 Oct 2016 12:00:00 -0500</pubDate>
-        <link>http://avarghese.me/travel/2016/10/07/costa-rica.html</link>
-        <guid isPermaLink="true">http://avarghese.me/travel/2016/10/07/costa-rica.html</guid>
-        
-        <category>hiking</category>
-        
-        <category>volcano</category>
-        
-        <category>hotsprings</category>
-        
-        <category>resort</category>
-        
-        <category>infinitypool</category>
-        
-        
-        <category>travel</category>
         
       </item>
     

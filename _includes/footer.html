@@ -17,7 +17,21 @@
               </a>
             </li>
           {% endif %}
-          {% if site.facebook_username %}
+          {% if site.dribbble_username %}
+            <li>
+              <a href="https://dribbble.com//{{ site.dribbble_username }}">
+                <i class="fa fa-lg fa-dribbble"></i>
+              </a>
+            </li>
+          {% endif %}
+          {% if site.behance_username %}
+            <li>
+              <a href="https://www.behance.net/{{ site.behance_username }}">
+                <i class="fa fa-lg fa-behance"></i>
+              </a>
+            </li>
+          {% endif %}
+          <!--{% if site.facebook_username %}
             <li>
               <a href="https://www.facebook.com/{{ site.facebook_username }}">
                 <i class="fa fa-lg fa-facebook-square"></i>
@@ -30,7 +44,7 @@
                 <i class="fa fa-lg fa-instagram"></i>
               </a>
             </li>
-          {% endif %}
+          {% endif %}-->
           {% if site.email %}
             <li>
               <a href="mailto:{{ site.email }}">
