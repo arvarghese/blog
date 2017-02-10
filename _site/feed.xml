@@ -6,29 +6,45 @@
 </description>
     <link>http://avarghese.me/</link>
     <atom:link href="http://avarghese.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Feb 2017 23:53:42 -0600</pubDate>
-    <lastBuildDate>Wed, 08 Feb 2017 23:53:42 -0600</lastBuildDate>
+    <pubDate>Fri, 10 Feb 2017 13:54:16 -0600</pubDate>
+    <lastBuildDate>Fri, 10 Feb 2017 13:54:16 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>How I Became A Full Stack Developer</title>
-        <description>&lt;h3 id=&quot;how-i-became&quot;&gt;How I Became&lt;/h3&gt;
+        <description>&lt;h2 id=&quot;month-progression&quot;&gt;6 Month Progression&lt;/h2&gt;
 
-&lt;p&gt;How I became a fullstack developer within 6 months&lt;/p&gt;
+&lt;p&gt;A few months ago I decided to actively persue my interest in front end development and eventually became a full stack developer. Here’s my progression!&lt;/p&gt;
 
-&lt;p&gt;-Pluralsight Subscription&lt;br /&gt;
--Made websites to promote my brand&lt;br /&gt;
--Got into github&lt;br /&gt;
--Solved problems for friends&lt;br /&gt;
--Opensource&lt;br /&gt;
--DevServers (Meteor, Heroku)&lt;br /&gt;
--Serverless (Github)&lt;br /&gt;
--Tool suite:
-    slack,github,travisci,houndci,heroku,visualstudiocode/sublime,node/meanstack,hangouts,mongolab,taiga&lt;/p&gt;
+&lt;h3 id=&quot;learning&quot;&gt;1. Learning&lt;/h3&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://avarghese.me/blog/development/2016/05/24/create-free-project-framework.html
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;Joined Pluralsight, by far my best investment.&lt;/p&gt;
+
+&lt;h3 id=&quot;projects&quot;&gt;2. Projects&lt;/h3&gt;
+
+&lt;p&gt;Started working on projects that solved specific issues. I solicited ideas from friends and family and began building apps using different frameworks. Most recently I worked with a friend to build a dashboard to oversee personal investments on a car-building project. You can view it &lt;a href=&quot;https://gw-car-dashboard.herokuapp.com/&quot;&gt;here&lt;/a&gt;. It’s written using the MEAN stack and hosted on Heroku.&lt;/p&gt;
+
+&lt;h3 id=&quot;tools&quot;&gt;3. Tools&lt;/h3&gt;
+
+&lt;p&gt;I found the right tools to use to foster a collaborative environment as well as optimize my development environment. I focused on opensource and freeware to get started. My front end project framework post can be found &lt;a href=&quot;http://avarghese.me/blog/development/2016/05/24/create-free-project-framework.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;slack,github,travisci,houndci,heroku,visualstudiocode/sublime,node/meanstack,hangouts,mongolab,taiga&lt;/p&gt;
+
+&lt;h3 id=&quot;teams&quot;&gt;4. Teams&lt;/h3&gt;
+
+&lt;p&gt;Surrounded myself with likeminded people who want to improve their coding skills. MeetUps is another great way to build a software dev network.&lt;/p&gt;
+
+&lt;h3 id=&quot;branding&quot;&gt;5. Branding&lt;/h3&gt;
+
+&lt;p&gt;Built out a suite of websites using what I learned. Helped me to increase my online footprint as well as showcase my skills.&lt;/p&gt;
+
+&lt;h3 id=&quot;blogging&quot;&gt;6. Blogging&lt;/h3&gt;
+
+&lt;p&gt;Documented my progress for reference as well as to increase my online footprint.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;That’s pretty much it!&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 08 Feb 2017 11:00:00 -0600</pubDate>
@@ -130,6 +146,11 @@
     &lt;/blockquote&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Live Demo:&lt;/p&gt;
+
+&lt;p data-height=&quot;265&quot; data-theme-id=&quot;dark&quot; data-slug-hash=&quot;zNmjEg&quot; data-default-tab=&quot;js,result&quot; data-user=&quot;avarghese&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;Photo-Tiles&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/avarghese/pen/zNmjEg/&quot;&gt;Photo-Tiles&lt;/a&gt; by Arun  (&lt;a href=&quot;http://codepen.io/avarghese&quot;&gt;@avarghese&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;I’ve always wanted to publish some kind of library or package that people could use in their own projects. Recently I got into design discussion with one of my colleagues at work about the Macbook Photo Screensavers, specifically the one with the sliding tiles. We both wanted to try to emulate it using just CSS and &lt;a href=&quot;http://www.w3schools.com/css/css3_flexbox.asp&quot;&gt;flexbox&lt;/a&gt;. Over a period of a few days though I shifted from CSS to Javascript through JQuery to handle the layout and animations. And creating a working demo, I began thinking of how to package this in such a way that my colleague could also use this as a front-end dependency in his own project. Enter &lt;a href=&quot;https://bower.io/&quot;&gt;bower&lt;/a&gt;.&lt;/p&gt;
 

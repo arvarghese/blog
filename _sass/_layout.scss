@@ -39,7 +39,7 @@
         text-shadow: $text-shadow;
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            margin: auto;
         }
     }
 
@@ -88,7 +88,7 @@
             &:not(:last-child) {
                 margin-right: 0;
             }
-            margin-left: 20px;
+            margin: auto;
         }
     }
 }

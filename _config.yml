@@ -24,3 +24,4 @@ codepen_username: avarghese
 date_format: "%Y, %B %-d"
 # Build settings
 markdown: kramdown
+exclude: ["node_modules"]

@@ -1,0 +1,40 @@
+{
+  "name": "blog",
+  "title": "blog",
+  "version": "",
+  "description": "My Personal Blog created using Jekyll",
+  "main": "server.js",
+  "engines": {
+    "node": "5.7.1",
+    "npm": "3.6.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arvarghese/blog.git"
+  },
+  "author": "arun varghese",
+  "contributors": [{
+    "name": "avarghese4790",
+    "email": "arunv4700@gmail.com"
+  }],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arvarghese/blog/issues"
+  },
+  "homepage": "https://github.com/arvarghese/blog",
+  "keywords": [
+    "blog",
+    "tiles"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "jekyll": "^3.0.0-beta1",
+    "run-sequence": "^1.2.2"
+  }
+}
