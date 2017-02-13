@@ -6,8 +6,8 @@
 </description>
     <link>http://avarghese.me/</link>
     <atom:link href="http://avarghese.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Feb 2017 13:54:16 -0600</pubDate>
-    <lastBuildDate>Fri, 10 Feb 2017 13:54:16 -0600</lastBuildDate>
+    <pubDate>Mon, 13 Feb 2017 14:28:50 -0600</pubDate>
+    <lastBuildDate>Mon, 13 Feb 2017 14:28:50 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -50,6 +50,56 @@
         <pubDate>Wed, 08 Feb 2017 11:00:00 -0600</pubDate>
         <link>http://avarghese.me/development/2017/02/08/year-in-review.html</link>
         <guid isPermaLink="true">http://avarghese.me/development/2017/02/08/year-in-review.html</guid>
+        
+        <category>fullstack</category>
+        
+        <category>coding</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>How I Became A Full Stack Developer</title>
+        <description>&lt;h2 id=&quot;month-progression&quot;&gt;6 Month Progression&lt;/h2&gt;
+
+&lt;p&gt;A few months ago I decided to actively persue my interest in front end development and eventually became a full stack developer. Here’s my progression!&lt;/p&gt;
+
+&lt;h3 id=&quot;learning&quot;&gt;1. Learning&lt;/h3&gt;
+
+&lt;p&gt;Joined Pluralsight, by far my best investment.&lt;/p&gt;
+
+&lt;h3 id=&quot;projects&quot;&gt;2. Projects&lt;/h3&gt;
+
+&lt;p&gt;Started working on projects that solved specific issues. I solicited ideas from friends and family and began building apps using different frameworks. Most recently I worked with a friend to build a dashboard to oversee personal investments on a car-building project. You can view it &lt;a href=&quot;https://gw-car-dashboard.herokuapp.com/&quot;&gt;here&lt;/a&gt;. It’s written using the MEAN stack and hosted on Heroku.&lt;/p&gt;
+
+&lt;h3 id=&quot;tools&quot;&gt;3. Tools&lt;/h3&gt;
+
+&lt;p&gt;I found the right tools to use to foster a collaborative environment as well as optimize my development environment. I focused on opensource and freeware to get started. My front end project framework post can be found &lt;a href=&quot;http://avarghese.me/blog/development/2016/05/24/create-free-project-framework.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;slack,github,travisci,houndci,heroku,visualstudiocode/sublime,node/meanstack,hangouts,mongolab,taiga&lt;/p&gt;
+
+&lt;h3 id=&quot;teams&quot;&gt;4. Teams&lt;/h3&gt;
+
+&lt;p&gt;Surrounded myself with likeminded people who wanted to improve their coding skills. MeetUps is another great way to build a software dev network. At my day job, I was especially lucky to have a great &lt;a href=&quot;https://github.com/LarryBattleWork&quot;&gt;Mentor&lt;/a&gt; that constantly pushed me to learn new things and develop tangible deliverables to showcase what I’ve learned.&lt;/p&gt;
+
+&lt;h3 id=&quot;branding&quot;&gt;5. Branding&lt;/h3&gt;
+
+&lt;p&gt;Built out a suite of websites using what I learned. Helped me to increase my online footprint as well as showcase my skills.&lt;/p&gt;
+
+&lt;h3 id=&quot;blogging&quot;&gt;6. Blogging&lt;/h3&gt;
+
+&lt;p&gt;Documented my progress for reference as well as to increase my online footprint.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;That’s pretty much it!&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 08 Feb 2017 11:00:00 -0600</pubDate>
+        <link>http://avarghese.me/development/2017/02/08/full-stack-development.html</link>
+        <guid isPermaLink="true">http://avarghese.me/development/2017/02/08/full-stack-development.html</guid>
         
         <category>fullstack</category>
         
@@ -787,104 +837,6 @@ Finally, force update your repository: &lt;code class=&quot;highlighter-rouge&qu
         <guid isPermaLink="true">http://avarghese.me/development/2016/11/01/first-ng2-project.html</guid>
         
         <category>angular2</category>
-        
-        
-        <category>development</category>
-        
-      </item>
-    
-      <item>
-        <title>Setting Up a Custom Domain</title>
-        <description>&lt;h3 id=&quot;setting-up-a-custom-domain-using-namecheaphttpswwwnamecheapcom--githubhttpsgithubcom&quot;&gt;Setting Up a Custom Domain Using &lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap&lt;/a&gt; &amp;amp;&amp;amp; &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;As you may or may not know, when you create a github account, you also get one site for your user/organization, and unlimited repository pages. Its as simple as adding an &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; to the master branch of each repository and allowing it to use Github Pages (&lt;em&gt;Settings&amp;gt;GitHub Pages&amp;gt;Source&amp;gt;Master&amp;gt;Save&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;For this example I will use my current domain, &lt;a href=&quot;http://avarghese.me/&quot;&gt;avarghese.me&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;github-config&quot;&gt;Github Config:&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Settings&amp;gt;Custom Domain&amp;gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;avarghese.me&lt;/code&gt;&amp;gt;Save&lt;/em&gt;
-&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/10Wjauk.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/10Wjaukh.jpg&quot; alt=&quot;github config&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;namecheap-config&quot;&gt;Namecheap Config:&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Dashboard&amp;gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;avarghese.me&lt;/code&gt;&amp;gt;Manage&amp;gt;Advanced DNS&lt;/em&gt;&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;A record, host=@ value=192.30.252.153&lt;/code&gt;&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;A record, host=@ value=192.30.252.153&lt;/code&gt;&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME record, host=www value=avarghese4790.github.io&lt;/code&gt;&lt;br /&gt;
-&lt;a target=&quot;_blank&quot; href=&quot;http://i.imgur.com/3MlT0ou.jpg&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/3MlT0ouh.jpg&quot; alt=&quot;namecheap config&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-The following can help debug to see if the configurations are done correctly. Both calls from the domain and your repository url should have the same A record IP.&lt;/p&gt;
-
-&lt;p&gt;Command:&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;dig avarghese.me +nostats +nocomments +nocmd&lt;/code&gt;&lt;br /&gt;
-Output:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;; &amp;lt;&amp;lt;&amp;gt;&amp;gt; DiG 9.8.3-P1 &amp;lt;&amp;lt;&amp;gt;&amp;gt; avarghese.me +nostats +nocomments +nocmd
-;; global options: +cmd
-;avarghese.me.			IN	A
-avarghese.me.		1458	IN	A	192.30.252.154
-avarghese.me.		1458	IN	A	192.30.252.153
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Command:&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;dig avarghese4790.github.io +nostats +nocomments +nocmd&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Ouput:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;; &amp;lt;&amp;lt;&amp;gt;&amp;gt; DiG 9.8.3-P1 &amp;lt;&amp;lt;&amp;gt;&amp;gt; avarghese4790.github.io +nostats +nocomments +nocmd
-;; global options: +cmd
-;avarghese4790.github.io.	IN	A
-avarghese4790.github.io. 3574	IN	CNAME	github.map.fastly.net.
-github.map.fastly.net.	2040	IN	CNAME	prod.github.map.fastlylb.net.
-prod.github.map.fastlylb.net. 12 IN	A	151.101.44.133
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h4 id=&quot;my-pages&quot;&gt;My Pages&lt;/h4&gt;
-&lt;p&gt;Organization: &lt;em&gt;arvarghese&lt;/em&gt;&lt;br /&gt;
-Landing page: &lt;em&gt;arvarghese/arvarghese.github.io&lt;/em&gt; = &lt;a href=&quot;http://avarghese.me/&quot;&gt;avarghese.me&lt;/a&gt;&lt;br /&gt;
-Resume page: &lt;em&gt;arvarghese/resume&lt;/em&gt; = &lt;a href=&quot;http://avarghese.me/resume&quot;&gt;avarghese.me/resume&lt;/a&gt;&lt;br /&gt;
-Travel page: &lt;em&gt;arvarghese/travel&lt;/em&gt; = &lt;a href=&quot;http://avarghese.me/travel&quot;&gt;avarghese.me/travel&lt;/a&gt;&lt;br /&gt;
-This Blog: &lt;em&gt;arvarghese/blog&lt;/em&gt; = &lt;a href=&quot;http://avarghese.me/blog&quot;&gt;avarghese.me/blog&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;img-container&quot;&gt;
-	&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/tHvkrGWh.jpg&quot; alt=&quot;resume site&quot; /&gt;&lt;/a&gt;  
-	&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/resume&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/PF5imjLh.jpg&quot; alt=&quot;landing page site&quot; /&gt;&lt;/a&gt;  
-	&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/travel&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/dwloXIXh.jpg&quot; alt=&quot;travel site&quot; /&gt;&lt;/a&gt;  
-	&lt;a target=&quot;_blank&quot; href=&quot;http://avarghese.me/blog&quot;&gt;&lt;img class=&quot;img-travel&quot; src=&quot;http://i.imgur.com/jwpYs2zh.jpg&quot; alt=&quot;blog site&quot; /&gt;&lt;/a&gt;  
-&lt;/div&gt;
-
-&lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain/#configuring-an-alias-or-aname-record-with-your-dns-provider&quot;&gt;Apex Domain&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-a-www-subdomain/&quot;&gt;Sub Domain&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages&quot;&gt;Namecheap and Github&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 09 Oct 2016 12:00:00 -0500</pubDate>
-        <link>http://avarghese.me/development/2016/10/09/custom-domain.html</link>
-        <guid isPermaLink="true">http://avarghese.me/development/2016/10/09/custom-domain.html</guid>
-        
-        <category>dns</category>
-        
-        <category>domain</category>
         
         
         <category>development</category>
