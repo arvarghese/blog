@@ -6,54 +6,156 @@
 </description>
     <link>http://avarghese.me/</link>
     <atom:link href="http://avarghese.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Feb 2017 14:28:50 -0600</pubDate>
-    <lastBuildDate>Mon, 13 Feb 2017 14:28:50 -0600</lastBuildDate>
+    <pubDate>Wed, 15 Feb 2017 13:21:00 -0600</pubDate>
+    <lastBuildDate>Wed, 15 Feb 2017 13:21:00 -0600</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>How I Became A Full Stack Developer</title>
-        <description>&lt;h2 id=&quot;month-progression&quot;&gt;6 Month Progression&lt;/h2&gt;
+        <title>How to Give a Good Functional Demo</title>
+        <description>&lt;h2 id=&quot;how-to-give-a-good-functional-demo&quot;&gt;How to Give a Good Functional Demo&lt;/h2&gt;
+&lt;p&gt;Over the last few months, I’ve been doing a lot more customer facing demos about new functionality and features we are adding to our applications. Overtime I’ve developed an outline as well as contingencies in case things go wrong during those demos. These are some tips and things to consider that could help improve your demos as well:&lt;/p&gt;
 
-&lt;p&gt;A few months ago I decided to actively persue my interest in front end development and eventually became a full stack developer. Here’s my progression!&lt;/p&gt;
+&lt;h4 id=&quot;outline&quot;&gt;Outline&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Intro&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Problem&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Solution&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Demo&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Value&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3 id=&quot;learning&quot;&gt;1. Learning&lt;/h3&gt;
-
-&lt;p&gt;Joined Pluralsight, by far my best investment.&lt;/p&gt;
-
-&lt;h3 id=&quot;projects&quot;&gt;2. Projects&lt;/h3&gt;
-
-&lt;p&gt;Started working on projects that solved specific issues. I solicited ideas from friends and family and began building apps using different frameworks. Most recently I worked with a friend to build a dashboard to oversee personal investments on a car-building project. You can view it &lt;a href=&quot;https://gw-car-dashboard.herokuapp.com/&quot;&gt;here&lt;/a&gt;. It’s written using the MEAN stack and hosted on Heroku.&lt;/p&gt;
-
-&lt;h3 id=&quot;tools&quot;&gt;3. Tools&lt;/h3&gt;
-
-&lt;p&gt;I found the right tools to use to foster a collaborative environment as well as optimize my development environment. I focused on opensource and freeware to get started. My front end project framework post can be found &lt;a href=&quot;http://avarghese.me/blog/development/2016/05/24/create-free-project-framework.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;slack,github,travisci,houndci,heroku,visualstudiocode/sublime,node/meanstack,hangouts,mongolab,taiga&lt;/p&gt;
-
-&lt;h3 id=&quot;teams&quot;&gt;4. Teams&lt;/h3&gt;
-
-&lt;p&gt;Surrounded myself with likeminded people who want to improve their coding skills. MeetUps is another great way to build a software dev network.&lt;/p&gt;
-
-&lt;h3 id=&quot;branding&quot;&gt;5. Branding&lt;/h3&gt;
-
-&lt;p&gt;Built out a suite of websites using what I learned. Helped me to increase my online footprint as well as showcase my skills.&lt;/p&gt;
-
-&lt;h3 id=&quot;blogging&quot;&gt;6. Blogging&lt;/h3&gt;
-
-&lt;p&gt;Documented my progress for reference as well as to increase my online footprint.&lt;/p&gt;
-
-&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-
-&lt;p&gt;That’s pretty much it!&lt;/p&gt;
+&lt;h4 id=&quot;prepare-for-environment-issues&quot;&gt;Prepare for Environment Issues&lt;/h4&gt;
 
 </description>
-        <pubDate>Wed, 08 Feb 2017 11:00:00 -0600</pubDate>
-        <link>http://avarghese.me/development/2017/02/08/year-in-review.html</link>
-        <guid isPermaLink="true">http://avarghese.me/development/2017/02/08/year-in-review.html</guid>
-        
-        <category>fullstack</category>
+        <pubDate>Wed, 15 Feb 2017 11:00:00 -0600</pubDate>
+        <link>http://avarghese.me/development/2017/02/15/functional-demo.html</link>
+        <guid isPermaLink="true">http://avarghese.me/development/2017/02/15/functional-demo.html</guid>
         
         <category>coding</category>
+        
+        <category>demo</category>
+        
+        <category>functional</category>
+        
+        
+        <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>Interviewing Technical Candidates</title>
+        <description>&lt;h2 id=&quot;how-to-give-a-good-functional-demo&quot;&gt;How to Give a Good Functional Demo&lt;/h2&gt;
+&lt;p&gt;Recently I was asked by a friend to help screen some candidates for a software developer position. I’ve never done one before so I began writing down questions that came to mind that would help me assess the candidates abilties as well as his personality. Here is the outline that came out of my thought process as well as a template for how to come up with meaningful questions:&lt;/p&gt;
+
+&lt;h4 id=&quot;outline&quot;&gt;Outline&lt;/h4&gt;
+&lt;p&gt;Intro
+- Hi, thanks for joining
+- Lets jump right in&lt;/p&gt;
+
+&lt;h3 id=&quot;environment-specific&quot;&gt;Environment Specific&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;What project frameworks/development cycles are you familiar with?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;technical-breadth--depth&quot;&gt;Technical (Breadth &amp;amp;&amp;amp; Depth)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;How many languages have you worked with?&lt;/li&gt;
+  &lt;li&gt;Years in each language&lt;/li&gt;
+  &lt;li&gt;Complexity of problems/solutions&lt;/li&gt;
+  &lt;li&gt;How big/long are projects&lt;/li&gt;
+  &lt;li&gt;Projects with different business units?&lt;/li&gt;
+  &lt;li&gt;Do you work on small/large problems?&lt;/li&gt;
+  &lt;li&gt;Longest project you’ve worked on?&lt;/li&gt;
+  &lt;li&gt;Any new technology you’ve been looking into?&lt;/li&gt;
+  &lt;li&gt;How do you keep up with new technology?&lt;/li&gt;
+  &lt;li&gt;What development cycles have you worked with? preferences?&lt;/li&gt;
+  &lt;li&gt;What are your experiences with an agile environment?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;culturalbehavioral&quot;&gt;Cultural/Behavioral&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;How do you stay active with tech? do you have a system in place to stay updated?&lt;/li&gt;
+  &lt;li&gt;Have you worked on customer facing projects?&lt;/li&gt;
+  &lt;li&gt;How do you deal with irate customers or deal with customer problems?&lt;/li&gt;
+  &lt;li&gt;Have you been involved in any innovation projects with your previous companies recently?&lt;/li&gt;
+  &lt;li&gt;Have you seen any issues/inefficiencies in any process and what did you do to help improve that?&lt;/li&gt;
+  &lt;li&gt;How can you help QA to better test new functionality&lt;/li&gt;
+  &lt;li&gt;Have you read any books recently? pleasure or business?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;resume-specific&quot;&gt;Resume Specific&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Job hopping?&lt;/li&gt;
+  &lt;li&gt;Experiences matching company?&lt;/li&gt;
+  &lt;li&gt;Reasons for looking for new jobs?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;role-specific&quot;&gt;Role Specific&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Have you ever used mongo?&lt;/li&gt;
+  &lt;li&gt;Do you have any experience with M2M architecture?&lt;/li&gt;
+  &lt;li&gt;Any experience with hardware&lt;/li&gt;
+  &lt;li&gt;How will you add value to this company?&lt;/li&gt;
+  &lt;li&gt;What experiences have you had that will help you excel in this role?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;closing&quot;&gt;Closing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;I think that covers everything I wanted to know&lt;/li&gt;
+  &lt;li&gt;Do you have any questions for me?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;types-of-questions-conversation-vs-interrogation&quot;&gt;Types of Questions (Conversation VS Interrogation)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Yes/No&lt;/li&gt;
+  &lt;li&gt;Tell me about a time..&lt;/li&gt;
+  &lt;li&gt;Tell me more..&lt;/li&gt;
+  &lt;li&gt;How did you handle/respond..&lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;have-you-dealt-with&quot;&gt;Have you dealt with..&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;question-template&quot;&gt;Question Template&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Initial question&lt;/li&gt;
+  &lt;li&gt;Purpose&lt;/li&gt;
+  &lt;li&gt;Underlying question&lt;/li&gt;
+  &lt;li&gt;Listen&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Fri, 10 Feb 2017 11:00:00 -0600</pubDate>
+        <link>http://avarghese.me/development/2017/02/10/interviewing.html</link>
+        <guid isPermaLink="true">http://avarghese.me/development/2017/02/10/interviewing.html</guid>
+        
+        <category>coding</category>
+        
+        <category>interview</category>
+        
+        <category>questions</category>
         
         
         <category>development</category>
@@ -679,164 +781,6 @@ Finally, force update your repository: &lt;code class=&quot;highlighter-rouge&qu
         <category>github</category>
         
         <category>travel</category>
-        
-        
-        <category>development</category>
-        
-      </item>
-    
-      <item>
-        <title>First Angular 2 App!</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://github.com/avarghese4790/ng2-testApp&quot;&gt;Source Code&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://resume-builder5.herokuapp.com/&quot;&gt;Website&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I’ve finally gotten around to Angular 2 development,&lt;/p&gt;
-
-&lt;h3 id=&quot;barebones-app&quot;&gt;Barebones App&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;MyApp
-├── app
-│   ├── app.component.ts
-│   ├── app.module.ts
-│   └── main.ts
-├──node_modules ...
-├──index.html
-├──package.json
-├──style.css --optional
-├──systemjs.config.js
-└──tsconfig.json
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;packagejson&quot;&gt;package.json&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;angular-quickstart&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;1.0.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;start&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tsc &amp;amp;&amp;amp; concurrently \&quot;tsc -w\&quot; \&quot;lite-server\&quot; &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;lite&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;lite-server&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;tsc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tsc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;tsc:w&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tsc -w&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;licenses&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;type&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;MIT&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;url&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://github.com/angular/angular.io/blob/master/LICENSE&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/common&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/compiler&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/core&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/forms&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/http&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/platform-browser&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/platform-browser-dynamic&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/router&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~3.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@angular/upgrade&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~2.1.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;angular-in-memory-web-api&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~0.1.13&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;core-js&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^2.4.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;reflect-metadata&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^0.1.8&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;rxjs&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;5.0.0-beta.12&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;systemjs&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;0.19.39&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;zone.js&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^0.6.25&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;devDependencies&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@types/core-js&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^0.9.34&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@types/node&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^6.0.45&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;concurrently&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^3.0.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;lite-server&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^2.2.2&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;typescript&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;^2.0.3&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;tsconfigjson&quot;&gt;tsconfig.json&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;compilerOptions&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;target&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;es5&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;module&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;commonjs&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;moduleResolution&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;node&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;sourceMap&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;emitDecoratorMetadata&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;experimentalDecorators&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;removeComments&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;noImplicitAny&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;systemsjsconfigjs&quot;&gt;systemsjs.config.js&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(function (global) {
-  System.config({
-    paths: {
-      &#39;npm:&#39;: &#39;node_modules/&#39;
-    },
-    map: {
-      app: &#39;app&#39;,
-      &#39;@angular/core&#39;: &#39;npm:@angular/core/bundles/core.umd.js&#39;,
-      &#39;@angular/common&#39;: &#39;npm:@angular/common/bundles/common.umd.js&#39;,
-      &#39;@angular/compiler&#39;: &#39;npm:@angular/compiler/bundles/compiler.umd.js&#39;,
-      &#39;@angular/platform-browser&#39;: &#39;npm:@angular/platform-browser/bundles/platform-browser.umd.js&#39;,
-      &#39;@angular/platform-browser-dynamic&#39;: &#39;npm:@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js&#39;,
-      &#39;@angular/http&#39;: &#39;npm:@angular/http/bundles/http.umd.js&#39;,
-      &#39;@angular/router&#39;: &#39;npm:@angular/router/bundles/router.umd.js&#39;,
-      &#39;@angular/forms&#39;: &#39;npm:@angular/forms/bundles/forms.umd.js&#39;,
-      &#39;@angular/upgrade&#39;: &#39;npm:@angular/upgrade/bundles/upgrade.umd.js&#39;,
-      &#39;rxjs&#39;: &#39;npm:rxjs&#39;,
-      &#39;angular-in-memory-web-api&#39;: &#39;npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js&#39;
-    },
-    packages: {
-      app: {
-        main: &#39;./main.js&#39;,
-        defaultExtension: &#39;js&#39;
-      },
-      rxjs: {
-        defaultExtension: &#39;js&#39;
-      }
-    }
-  });
-})(this);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://angular.io/docs/ts/latest/quickstart.html&quot;&gt;Angular 2 Quickstart&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://github.com/angular/quickstart/blob/master/README.md&quot;&gt;Angular 2 Quickstart Source Code&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://angular.io/docs/ts/latest/tutorial/&quot;&gt;Angular 2 Tutorial&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 01 Nov 2016 12:00:00 -0500</pubDate>
-        <link>http://avarghese.me/development/2016/11/01/first-ng2-project.html</link>
-        <guid isPermaLink="true">http://avarghese.me/development/2016/11/01/first-ng2-project.html</guid>
-        
-        <category>angular2</category>
         
         
         <category>development</category>
