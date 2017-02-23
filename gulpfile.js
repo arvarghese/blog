@@ -1,8 +1,8 @@
 var pkg = require("./package.json");
 var gulp = require("gulp");
+var child = require('child_process');
 var browserSync = require("browser-sync").create();
 var runSequence = require("run-sequence");
-var child = require('child_process');
 
 gulp.task("jekyll", function () {
   const jekyll = child.spawn("jekyll", ["build", "--watch"]);
