@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arvarghese/blog.git"
+    "url": "https://github.com/varararun/blog.git"
   },
   "author": "arun varghese",
   "contributors": [{
@@ -23,9 +23,9 @@
   }],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arvarghese/blog/issues"
+    "url": "https://github.com/varararun/blog/issues"
   },
-  "homepage": "https://github.com/arvarghese/blog",
+  "homepage": "https://github.com/varararun/blog",
   "keywords": [
     "blog",
     "tiles"
