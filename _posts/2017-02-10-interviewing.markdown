@@ -8,11 +8,12 @@ tags: [coding, interview, questions]
 clipping: Recently I was asked by a friend to help screen some candidates for a software developer position. I've never done one before so I began writing down questions that came to mind that would help me assess the candidates abilties as well as his personality...  
 ---
 
-## How to Give a Good Functional Demo  
+## How to Perform a Good Interview  
 Recently I was asked by a friend to help screen some candidates for a software developer position. I've never done one before so I began writing down questions that came to mind that would help me assess the candidates abilties as well as his personality. Here is the outline that came out of my thought process as well as a template for how to come up with meaningful questions:  
 
-#### Outline  
-Intro
+## Outline  
+
+### Intro  
 - Hi, thanks for joining
 - Lets jump right in
 

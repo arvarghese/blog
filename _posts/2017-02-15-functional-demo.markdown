@@ -8,7 +8,7 @@ tags: [coding, demo, functional]
 clipping: Over the last few months, I've been doing a lot more customer facing demos about new functionality and features we are adding to our applications...  
 ---
 
-## How to Give a Good Functional Demo  
+## Functional Demo  
 Over the last few months, I've been doing a lot more customer facing demos about new functionality and features we are adding to our applications. Overtime I've developed an outline as well as contingencies in case things go wrong during those demos. These are some tips and things to consider that could help improve your demos as well:
 
 #### Outline  
@@ -19,5 +19,6 @@ Over the last few months, I've been doing a lot more customer facing demos about
 + > Value
 
 #### Prepare for Environment Issues  
+... IN PROGRESS
 
 
