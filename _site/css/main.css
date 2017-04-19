@@ -157,6 +157,7 @@ pre {
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
+  margin-right: .5em;
   float: left;
   color: #089ee5;
   text-shadow: 0 0 rgba(0, 0, 0, 0.2); }
@@ -300,9 +301,9 @@ pre {
     /*box-shadow: $box-shadow;*/
     /*border-radius: 5px;*/
     /* &:hover {
-         box-shadow: $box-shadow-hover;
-         transform: scale(1.05);
-     }*/ }
+        box-shadow: $box-shadow-hover;
+        transform: scale(1.05);
+    }*/ }
     .post-list .post-info .post-summary {
       width: 100%; }
     .post-list .post-info .postlist-title {
