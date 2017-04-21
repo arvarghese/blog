@@ -6,9 +6,36 @@
 </description>
     <link>http://avarghese.me/</link>
     <atom:link href="http://avarghese.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Apr 2017 08:18:40 -0500</pubDate>
-    <lastBuildDate>Wed, 19 Apr 2017 08:18:40 -0500</lastBuildDate>
+    <pubDate>Fri, 21 Apr 2017 15:13:57 -0500</pubDate>
+    <lastBuildDate>Fri, 21 Apr 2017 15:13:57 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Cracking the Technical Coding Interview</title>
+        <description>&lt;h2 id=&quot;cracking-the-technical-coding-interview&quot;&gt;Cracking the Technical Coding Interview&lt;/h2&gt;
+
+&lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/&quot;&gt;1&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 21 Apr 2017 12:00:00 -0500</pubDate>
+        <link>http://avarghese.me/development/2017/04/21/cracking-coding-interview.html</link>
+        <guid isPermaLink="true">http://avarghese.me/development/2017/04/21/cracking-coding-interview.html</guid>
+        
+        <category>career</category>
+        
+        <category>interview</category>
+        
+        
+        <category>development</category>
+        
+      </item>
     
       <item>
         <title>How to Respond to Recruiters</title>
@@ -723,139 +750,6 @@ Bower uses github to manage versions. To create a new version for your package, 
         
         
         <category>travel</category>
-        
-      </item>
-    
-      <item>
-        <title>Hosting Angular 2 on Heroku</title>
-        <description>&lt;h3 id=&quot;hosting-an-angular-2httpsangulario-on-herokuhttpsherokucom&quot;&gt;Hosting an &lt;a href=&quot;https://angular.io/&quot;&gt;Angular 2&lt;/a&gt; on &lt;a href=&quot;https://heroku.com/&quot;&gt;Heroku&lt;/a&gt;!&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://github.com/gitwrecked/car-dashboard-ng2CLI&quot;&gt;Source Code&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://gw-car-dashboard.herokuapp.com/&quot;&gt;Website&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Since I started getting into Angular 2 development, I have been looking for easy ways to hosts simple projects. Although there are plenty options available, I decided to go with Heroku, for ease of use and cheap dev options.&lt;/p&gt;
-
-&lt;p&gt;In addition to hosting I discovered a pretty neat tool that takes care of scaffolding and boilerplate code for angular projects. To create and deploy a project from scratch I just had to a couple of commands! The project I am using for the examples below is &lt;strong&gt;car-dashboard-ng2CLI&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h4&gt;
-&lt;p&gt;-Angular CLI installed&lt;br /&gt;
--Heroku Toolbelt installed&lt;br /&gt;
--Heroku Account created&lt;br /&gt;
--Github account setup&lt;/p&gt;
-
-&lt;p&gt;Steps are follows:&lt;/p&gt;
-
-&lt;h4 id=&quot;create-angular-2-project&quot;&gt;Create Angular 2 project&lt;/h4&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ng new car-dashboard-ng2CLI
-cd car-dashboard-ng2CLI
-ng build
-ng serve
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h4 id=&quot;create-heroku-app&quot;&gt;Create Heroku App&lt;/h4&gt;
-&lt;p&gt;Login into heroku&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-heroku login  
-&lt;/code&gt;&lt;br /&gt;
-If you already went into Heroku and created an app there, just link the two with the following:&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-heroku apps:info --app car-dashboard-ng2CLI 
-&lt;/code&gt;&lt;br /&gt;
-Otherwise just create a brand new one:&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-heroku create
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;connect-project-to-heroku&quot;&gt;Connect Project to Heroku&lt;/h4&gt;
-&lt;p&gt;Initialize a git repo &lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt; 
-git init  
-&lt;/code&gt;&lt;br /&gt;
-Add heroku as a remote repo&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt; 
-git remote add heroku https://git.heroku.com/car-dashboard-ng2CLI.git
-&lt;/code&gt;&lt;br /&gt;
-Validate remote exists&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt; 
-git remote -v  
-&lt;/code&gt;&lt;br /&gt;
-Push the project to heroku&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt; 
-git push heroku master
-&lt;/code&gt;&lt;br /&gt;
-If you are pushing from a branch besides master:&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt; 
-git push heroku your-branch:master --force
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;view-app&quot;&gt;View App&lt;/h4&gt;
-&lt;p&gt;After its pushed, you can visit Heroku to check on your app’s deployment, or you can view the logs using&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-heroku logs  
-&lt;/code&gt;&lt;br /&gt;
-To go directly to the URL, enter&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt; 
-heroku open  
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If you want to be notified of deployment activity, you can setup a deploy hook to push notifications. Once you have an endpoint, whether it be &lt;a href=&quot;https://slack.com/&quot;&gt;slack&lt;/a&gt; or some other service, just include the endpoint specified by the service as the deploy hook url. For example:&lt;br /&gt;
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-heroku addons:create deployhooks:http --url https://hooks.slack.com/services/**/**/*** --app heroku-app-name-here
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;And thats it! The new app can now be viewed at &lt;strong&gt;https://your-app-name.herokuapp.com/&lt;/strong&gt; &lt;br /&gt;
-Mine is at &lt;a href=&quot;https://gw-car-dashboard.herokuapp.com/&quot;&gt;https://gw-car-dashboard.herokuapp.com/&lt;/a&gt;&lt;br /&gt;
-Now all that’s left is to focus on building out your new app!&lt;/p&gt;
-
-&lt;h4 id=&quot;extra---if-you-want-to-remove-all-commits-on-your-master-branch&quot;&gt;EXTRA - If you want to remove all commits on your master branch:&lt;/h4&gt;
-&lt;p&gt;Checkout: &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout --orphan master2&lt;/code&gt;&lt;br /&gt;
-Add all the files: &lt;code class=&quot;highlighter-rouge&quot;&gt;git add -A&lt;/code&gt;&lt;br /&gt;
-Commit the changes: &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -am &quot;commit message&quot;&lt;/code&gt;&lt;br /&gt;
-Delete the branch: &lt;code class=&quot;highlighter-rouge&quot;&gt;git branch -D master&lt;/code&gt;&lt;br /&gt;
-Rename the current branch to master: &lt;code class=&quot;highlighter-rouge&quot;&gt;git branch -m master&lt;/code&gt;&lt;br /&gt;
-Finally, force update your repository: &lt;code class=&quot;highlighter-rouge&quot;&gt;git push -f origin master&lt;/code&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;reference&quot;&gt;Reference:&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://github.com/angular/angular-cli&quot;&gt;Angular 2 CLI&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;http://ruten.ca/2012/02/15/heroku-cheatsheet-useful-heroku-commands-reference/&quot;&gt;Heroku Cheatsheet&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;&lt;a href=&quot;https://www.angularonrails.com/deploy-angular-cli-webpack-project-heroku/&quot;&gt;Angular 2/Heroku&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 16 Nov 2016 11:00:00 -0600</pubDate>
-        <link>http://avarghese.me/development/2016/11/16/ng2-and-heroku.html</link>
-        <guid isPermaLink="true">http://avarghese.me/development/2016/11/16/ng2-and-heroku.html</guid>
-        
-        <category>angular2</category>
-        
-        <category>heroku</category>
-        
-        
-        <category>development</category>
         
       </item>
     
