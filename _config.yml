@@ -21,6 +21,7 @@ instagram_username: var_arun
 behance_username: avarghese
 dribbble_username: avarghese
 codepen_username: avarghese
+youtube_username: vararun
 date_format: "%Y, %B %-d"
 # Build settings
 markdown: kramdown

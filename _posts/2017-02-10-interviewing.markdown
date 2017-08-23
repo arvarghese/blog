@@ -33,6 +33,15 @@ Recently I was asked by a friend to help screen some candidates for a software d
 - What development cycles have you worked with? preferences?
 - What are your experiences with an agile environment?
 
+Technical Questions (rest/OO/spring/agile)
+- Rest vs Soap, whats the difference? which one do you prefer?
+- Describe a rest url for this scenario
+- Basic HTTP methods supported by rest
+- What do you like about microservices? advantages? disadvantages?
+- Talk me through a function that you would right to reverse a string?
+- Building strings, why use stringbuilder vs concatenation?
+- Tell me about your front-end experience,  Middle tier, back end
+
 ### Cultural/Behavioral
 - How do you stay active with tech? do you have a system in place to stay updated?
 - Have you worked on customer facing projects?
@@ -50,9 +59,47 @@ Recently I was asked by a friend to help screen some candidates for a software d
 ### Role Specific
 - Have you ever used mongo?
 - Do you have any experience with M2M architecture?
-- Any experience with hardware
+- Any experience with hardware?
 - How will you add value to this company?
 - What experiences have you had that will help you excel in this role?
+
+### Behavioural
+- Tell me about a time where you mentored a junior dev
+- How closely do you work with QA, and what are your views on QA
+
+### Action oriented
+- Have you ever gone above and beyond your role requirements? tell me about an experience. Were you recognized?
+- Tell me about a time you took ownership, why did you do this, any challenges that came up?
+- Tell me about an initiative that you have started on your own
+-
+
+### Adaptibility
+- Have you ever dealt with changing priorities?
+- Tell me about a significant project change, how did it impact you?
+
+### Communication
+- in progress
+
+### Conflicts
+- Have you ever worked with difficult employees, or had disagreements with colleagues?, how did you handle it?
+
+### Goals
+- give an example of a goal that you achieved and how you did it
+
+### Decision Making
+- in progress
+
+### Problem Solving
+- Have you ever made a mistake that was pushed to prod? what steps did you take to improve the situation?
+- Have you ever dealt with any production issues? or is that handled by another team?
+- Tell me about a time you noticed a problem in either code/process/etc., how did you take the initiative to correct it?
+
+### Team Work
+- Tell me about a time where you worked with a low performing team, or a specific member, how did you handle the situation.
+
+### Pressure
+- How do you feel about working under pressure
+- Tell me about a time where you had to meet a deadline, did you work OT, etc.
 
 ### Closing
 - I think that covers everything I wanted to know
@@ -66,7 +113,13 @@ Recently I was asked by a friend to help screen some candidates for a software d
 - Tell me more..
 - How did you handle/respond..
 - Have you dealt with..
--
+- Describe a situation when you…
+- Give me an example of a time you
+- Think about an instance in which you…
+- Tell me how you approached a situation where…
+- Talk about your experience with..
+- how would you rate yourself with...
+- Why would you choose this over that... 
 
 ### Question Template
 1. Initial question
@@ -74,3 +127,7 @@ Recently I was asked by a friend to help screen some candidates for a software d
 3. Underlying question
 4. Listen
 
+
+<!--https://devskiller.com/45-behavioral-questions-to-use-during-non-technical-interview-with-developers/-->
+<!--https://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions-->
+<!--http://career.guru99.com/rest-api-interview/-->

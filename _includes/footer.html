@@ -54,6 +54,13 @@
               </a>
             </li>
           {% endif %}
+           {% if site.youtube_username %}
+            <li>
+              <a href="https://www.youtube.com/c/{{ site.youtube_username }}">
+                <i class="fa fa-lg fa-youtube"></i>
+              </a>
+            </li>
+          {% endif %}
           {% if site.email %}
             <li>
               <a href="mailto:{{ site.email }}">
@@ -62,7 +69,7 @@
             </li>
           {% endif %}
           <li>
-            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">            
+            <a href="{{ "http://avarghese.me/blog/feed.xml" | prepend: site.baseurl }}">            
               <i class="fa fa-lg fa-rss"></i>
             </a>
           </li>
