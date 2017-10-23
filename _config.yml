@@ -12,6 +12,7 @@ email: arunv4700@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to my blog! This will mainly be used to talk about things I learn day to day as a developer, as well other things like travel, cars, life in general. Feel free to subscribe if any of this content resonates with you!
 baseurl: "" # the subpath of your site, e.g. /blog
+linkurl: "http://avarghese.me/blog" # the subpath of your site, e.g. /blog
 url: http://avarghese.me # the base hostname & protocol for your site
 website: http://avarghese.me
 github_username:  vararun

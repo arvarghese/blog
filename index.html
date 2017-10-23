@@ -11,7 +11,7 @@ layout: default
   {% endfor %} -->
   <ul class="post-list">
     {% for post in site.posts %}
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+      <a class="post-link" href="{{ post.url | prepend: site.linkurl }}">
         <li class="post-info">          
           <div class="post-summary">
             <span class="postlist-title">
